@@ -2,7 +2,7 @@
 
 Ecological research, species, biome, food-web, and biosphere data strategy vault for miniBIOTA.
 
-Filesystem note: this repo currently lives at `M:\miniBIOTA\minBIOTA_Research\`.
+Filesystem note: this repo currently lives at `M:\miniBIOTA\miniBIOTA_Research\`.
 
 ## Start
 

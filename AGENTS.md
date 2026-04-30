@@ -3,7 +3,7 @@
 ## What This Repo Is
 `miniBIOTA_Research` is the ecological research, species, biome, food-web, and biosphere data strategy vault for miniBIOTA. It owns ecosystem reference docs, research interpretation, biome composition, ecological risks, species-state context, and the rules for turning observations into durable ecological knowledge.
 
-Filesystem note: this repo currently lives at `M:\miniBIOTA\minBIOTA_Research\`.
+Filesystem note: this repo currently lives at `M:\miniBIOTA\miniBIOTA_Research\`.
 
 Codex is the primary operating interface for this repo. Durable operating rules and research memory belong in Markdown in this repo, in the Brain research brief, or in Supabase when the record is structured.
 
