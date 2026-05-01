@@ -2,7 +2,7 @@
 id: instabilities_and_risks
 title: Instabilities and Risks
 domain: ecosystem_and_data
-last_updated: 2026-04-18
+last_updated: 2026-05-01
 tags: [instabilities, risks, erosion, producers, food-web, measurement]
 ---
 # Instabilities and Risks
@@ -18,6 +18,9 @@ Known ecological instabilities and measurement gaps in the miniBIOTA biosphere.
 
 ### Ostracod Population Decline — Cause Unresolved (Lake Biome)
 - Second ostracod introduction 2026-04-16 (hundreds, full acclimation). Surviving but reduced as of 2026-04-17. Two competing hypotheses: residual acclimation shock vs. active crayfish sediment predation. Population trajectory under observation.
+
+### Ghost Shrimp Larval Recruitment — Outcome Unresolved (Lake Biome)
+- Ghost shrimp have now reproduced in the lake biome, with zoea first documented on April 19, 2026. The unresolved question is whether the larvae can survive through the vulnerable stage between hatching and becoming juveniles. They remained visible for three nights and appeared to grow, but were no longer visible by May 1, 2026. Possible outcomes include predation, failed development, or detectability limits; juvenile recruitment is not confirmed.
 
 ### Sagittaria Root Consumption (Lake Biome)
 - Crayfish observed digging beneath substrate to consume sagittaria roots 2026-04-17, causing progressive leaf death. Detritivore cascade is functioning, but long-term plant loss could reduce structural cover and oxygenation in the lake biome.

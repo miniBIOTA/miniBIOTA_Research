@@ -2,7 +2,7 @@
 id: ecosystem_and_data
 title: 3. Ecosystem & Data
 domain: ecosystem_and_data
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 tags: [ecology, biome-data, species, biosphere, food-web]
 ---
 # 3. Ecosystem & Data
@@ -17,8 +17,9 @@ tags: [ecology, biome-data, species, biosphere, food-web]
 - The full species audit was completed on 2026-03-31 across all 23 records.
 - **Unknown Terrestrial Isopod** (id=173, Suborder Oniscidea) added 2026-04-21 — second terrestrial isopod species in the system, distinct from Woodlouse (id=46). Present in lowland meadow; species-level ID pending.
 - The Freshwater realm has been significantly reactivated as of April 2026. Key lake biome developments as of 2026-04-21:
+  - **Flagfish** (*Jordanella floridae*, id=24) — removed from the lake biome on April 5, 2026 and moved to an outdoor tank. One male had been the lake's only fish, but its predation on Daphnia and other microcrustaceans was keeping the middle food-web layer from forming. The removal was a deliberate management decision, not a mortality event.
   - **Daphnia sp.** (likely ambigua, id=164) introduced 2026-04-08 — present and thriving alongside copepods (Calanoida id=65, Cyclopoida id=169). Lake water clearing as of 2026-04-13. Microcrustaceans functioning as the intermediary food web layer. 7 open loops tracking lake food web outcome.
-  - **Ghost Shrimp** (*Palaemon paludosus*, id=67) — 4 confirmed individuals as of 2026-04-11. **Shrimp zoea observed 2026-04-19 — first documented larval stage in miniBIOTA, potential second generation underway. Absence of fish likely increasing larval survival odds. Story thread 21 tracking outcome.**
+  - **Ghost Shrimp** (*Palaemon paludosus*, id=67) — at least four adults were confirmed in the lake biome on April 11, 2026, though visibility limited the full count. **Zoea were first observed on April 19, 2026, confirming reproduction. They remained visible for three nights and appeared to grow, but were no longer visible by May 1, 2026. Juvenile recruitment remains unconfirmed. Story thread 21 and open loop 3 continue tracking outcome.**
   - **Ostracods** (id=69) — second introduction completed 2026-04-16 (hundreds of individuals, full acclimation protocol). Survived overnight as of 2026-04-17 but numbers noticeably reduced. Cause unclear: residual acclimation shock vs. active crayfish sediment predation. Population still present; trajectory under observation.
   - **Water beetles** (unidentified, multiple species) — approximately a dozen individuals introduced to lake biome 2026-04-16 alongside ostracod reintroduction. Species not yet identified; task open (task id=110).
   - **Mesostoma ehrenbergii** (id=167) — present in-system. Predatory threat to microcrustaceans; outcome unresolved.
@@ -73,7 +74,7 @@ tags: [ecology, biome-data, species, biosphere, food-web]
 - Unidentified aquatic amphipods (collected 2026-04-22, brackish tidal ditch) — drip-acclimating for Seagrass Meadow, species not yet confirmed. Task open.
 - Gulf marsh crab, Ladder Hornsnail, Eastern Melampus (all introduced 2026-04-22/23) — establishment unconfirmed; story threads 22–24 tracking.
 - Apple snail presence in lake still unconfirmed — continued monitoring required.
-- Shrimp zoea observed 2026-04-19 — survival to juvenile stage and second-generation outcome unresolved (story thread 21).
+- Ghost shrimp zoea were first observed on April 19, 2026, confirming reproduction. Survival to the juvenile stage and second-generation establishment remain unresolved after the May 1, 2026 follow-up observation (story thread 21, open loop 3).
 - Amber snail in lowland meadow (first confirmed 2026-04-21) — long-term persistence in drier terrestrial environment unresolved.
 - Macroalgae dominance shift in seagrass meadow is unresolved — amphipod surge and the surviving variegated sea urchin may affect the trajectory, but outcome remains unknown.
 

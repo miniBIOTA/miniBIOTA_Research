@@ -2,7 +2,7 @@
 id: biome_profiles
 title: Biome Profiles
 domain: ecosystem_and_data
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 tags: [biomes, ecology, species-composition, substrate, trophic]
 ---
 # Biome Profiles
@@ -33,12 +33,12 @@ Detailed ecological profiles for each of the six biomes in the miniBIOTA system.
 - Historical shift: Ludwigia removed, Tape Grass introduced. Current transitional algae phase present.
 
 ### Animals
-- Fish: Flagfish removed 2026-04-05 to open microcrustacean niche.
-- Crustaceans: Crayfish (established population; new hatchling wave observed 2026-04-16, indicating continued reproduction; actively consuming sagittaria roots 2026-04-17). Ghost Shrimp (*Palaemon paludosus*) — 4 confirmed individuals as of 2026-04-11. Larger Ostracods — second introduction 2026-04-16 (hundreds, full acclimation protocol); confirmed surviving overnight 2026-04-17 but population reduced; crayfish predation vs. acclimation shock unresolved. Freshwater Seed Shrimp (smaller ostracods) — present. Copepods (Calanoida id=65, Cyclopoida id=169) — active in water column, visible at 100x.
+- Fish: Flagfish (*Jordanella floridae*, id=24) removed on April 5, 2026 to open the microcrustacean niche. One male had been the lake's only fish, but its predation on Daphnia and other small water-column animals was preventing that middle food-web layer from forming.
+- Crustaceans: Crayfish (established population; new hatchling wave observed 2026-04-16, indicating continued reproduction; actively consuming sagittaria roots 2026-04-17). Ghost Shrimp (*Palaemon paludosus*) — at least four adults confirmed on April 11, 2026; zoea documented on April 19, 2026, confirming reproduction, but juvenile recruitment remains unconfirmed after the May 1, 2026 follow-up. Larger Ostracods — second introduction 2026-04-16 (hundreds, full acclimation protocol); confirmed surviving overnight 2026-04-17 but population reduced; crayfish predation vs. acclimation shock unresolved. Freshwater Seed Shrimp (smaller ostracods) — present. Copepods (Calanoida id=65, Cyclopoida id=169) — active in water column, visible at 100x.
 - Snails: Malaysian Trumpet Snail (id=79) — strong hatchling emergence 2026-04-17, reproducing. Leopard Ramshorn Snail (*Planorbella duryi*, id=165) — 6 individuals introduced 2026-04-08; freshly hatched individuals (at least 2) observed on front glass 2026-04-21, attributed to flagfish removal. Apple Snail (*Pomacea* sp., id=73) — 1 small individual persisting, unconfirmed. Freshwater Limpets, Bladder Snails.
 - Microfauna: Daphnia sp. (likely ambigua, id=164) — thriving; lake water visibly clearing as of 2026-04-13. Mesostoma ehrenbergii (id=167) — eggs hatching in-system; active predatory threat to microcrustaceans, outcome unresolved. Freshwater Amphipod (id=66) — behavioral shift 2026-04-19: now openly swimming in water column; reduced predation pressure from flagfish removal allowing expanded presence. Substrate worms.
 - New additions 2026-04-16: Water beetles — approximately a dozen individuals of multiple unidentified species; species ID pending.
-- Ghost Shrimp (*Palaemon paludosus*, id=67): zoea observed 2026-04-19 — first documented larval stage in miniBIOTA; potential second generation underway (story thread 21).
+- Ghost Shrimp (*Palaemon paludosus*, id=67): zoea were first documented on April 19, 2026, confirming reproduction in the lake biome. They remained visible for three nights and appeared to grow, but were no longer visible by May 1, 2026; potential second generation remains unresolved (story thread 21, open loop 3).
 - Bivalves: Asian Clam — extirpated, last seen 2025-11-02.
 
 ### Observations

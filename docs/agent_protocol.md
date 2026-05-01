@@ -2,7 +2,7 @@
 id: research_agent_protocol
 title: miniBIOTA Research Agent Protocol
 domain: ecosystem_and_data
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 tags: [codex, agent-protocol, research, ecosystem, species]
 ---
 # miniBIOTA Research Agent Protocol
@@ -41,6 +41,12 @@ Do not rely on chat history or private model memory as durable project truth.
 - Do not collapse story threads and open loops. Story threads are internal ecological tracking; open loops are public audience-facing questions seeded by published content.
 - When logging observations or ecological updates, maintain links to relevant species, biomes, systems, story threads, and open loops where applicable.
 - If a structured record changes public-facing website behavior or content pipeline state, coordinate with Website and Content rules before closeout.
+
+## Research Writing Voice
+- For species details, observation summaries, biome notes, risk notes, and public-facing ecological interpretation, use a concise, human, research-grounded voice.
+- Write for intelligent non-specialists without talking down to them. Keep the language warm and accessible, but avoid overly casual phrasing.
+- Prefer readable dates in prose, such as "May 1, 2026", over ISO dates like `2026-05-01`. ISO dates are still appropriate in metadata, database date fields, filenames, and code.
+- Preserve scientific caution by clearly separating what was observed, what is inferred, and what remains unresolved.
 
 ## Brain Update Rules
 Update Brain `research_brief.md` when:
