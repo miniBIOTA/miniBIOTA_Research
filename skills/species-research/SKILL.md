@@ -25,6 +25,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/species-research/reference/species-research-template.md`
+- `skills/species-research/reference/biome-profiles.md` when biome or species/biome context is relevant
 - Existing files under `research/species/`, if present and relevant
 
 ## Workflow
@@ -66,4 +67,5 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 - Do not treat suitability research as approval to introduce an organism.
 - Do not rewrite uncertain miniBIOTA observations as confirmed establishment, survival, reproduction, or ecological stability.
 - Do not reuse dated overview status language as current species status without Supabase verification.
+- Do not reuse dated biome-profile status language as current biome condition, population outcome, or species status without Supabase verification.
 - Do not make husbandry, intervention, or control decisions final.

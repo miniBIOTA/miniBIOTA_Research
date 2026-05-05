@@ -25,8 +25,8 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 ## Required Docs/Templates During Migration
 
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `docs/biogeochemical_cycles.md` when cycle context is relevant
-- `docs/instabilities_and_risks.md` when risk context is relevant
+- `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` when cycle context is relevant
+- `skills/experiment-background/reference/instabilities-and-risks.md` when risk context is relevant
 - `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md`
 - Existing files under `research/ecological-mechanisms/`, if present and relevant
 
@@ -68,3 +68,4 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - Do not convert literature background into confirmed miniBIOTA outcomes.
 - Do not treat mechanism handoff wording as final public copy.
 - Do not reuse dated overview mechanism or stability language as current miniBIOTA outcome without Supabase verification.
+- Do not convert biogeochemical reference categories from inferred, planned, or unmeasured into observed miniBIOTA facts.

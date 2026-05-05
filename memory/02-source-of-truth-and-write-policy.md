@@ -8,7 +8,7 @@ Use this order when sources disagree:
 2. `AGENTS.md` and relevant memory files.
 3. Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
 4. Supabase for structured and queryable ecological records.
-5. Local `docs/`, `research/`, `skills/`, and `skills/*/reference/`.
+5. Local `research/`, `skills/`, and `skills/*/reference/`.
 6. Brain mirrored docs and compiled exports as reference artifacts only.
 
 Chat history and private model memory are never durable source of truth.
@@ -27,9 +27,11 @@ Verify Supabase before treating any of these as current:
 - Risk records.
 - Structured ecological links.
 
-`skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` and `docs/biome_profiles.md` may contain dated current-state claims, counts, or status language such as "thriving", "established", "stable", or "current." Treat them as historical reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+`skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md`, `skills/species-research/reference/biome-profiles.md`, and `skills/experiment-background/reference/instabilities-and-risks.md` may contain dated current-state claims, counts, risk status, or status language such as "thriving", "established", "stable", "balanced", or "current." Treat them as historical reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, risk state, or current biome condition.
 
 Do not convert dated summaries from migrated Brain context into live ecological facts.
+
+`skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` is process reference. Preserve its observed, inferred, planned, and unmeasured categories; do not convert inferred mechanisms into confirmed miniBIOTA facts.
 
 ## Source Notes And Evidence Gaps
 

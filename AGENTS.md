@@ -34,8 +34,8 @@ The Research Agent should produce research briefs, not finished public content, 
 - Markdown vault as durable research and ecosystem memory.
 - Agent memory under `memory/`.
 - Task playbooks under `skills/`.
-- Future archived/superseded material under `archive/` after explicit approval.
-- Research reference docs under `docs/`.
+- Archived/superseded material under `archive/` after explicit approval.
+- Absorbed research reference docs under matching `skills/*/reference/` folders.
 - Working research notes under `research/`.
 - Reusable Markdown templates under matching `skills/*/reference/` folders.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
@@ -69,7 +69,7 @@ skills/
 archive/
 ```
 
-Phase 2 note: remaining `docs/` and `research/` files stay active only where exact source material has not yet been absorbed. Active templates live under matching `skills/*/reference/` folders. Do not move, archive, delete, or rewrite remaining docs or research files unless a later phase explicitly approves that work.
+Phase 2 note: ecological reference docs and active templates have been absorbed into matching `skills/*/reference/` folders. Archived docs are historical, not active operating sources. Working research notes under `research/` remain active where relevant.
 
 ## Startup Sequence
 
@@ -87,10 +87,10 @@ If working manually:
 4. Use the matching `skills/*/SKILL.md` playbook.
 5. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md` when shared Brain operating memory is needed.
 6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
-7. Use `docs/`, `research/`, and `skills/*/reference/` during migration or when exact reference material still lives there.
+7. Use `research/` and matching `skills/*/reference/` files when exact reference material is needed.
 8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
-For biome composition, read `docs/biome_profiles.md`. For system processes, read `docs/biogeochemical_cycles.md`. For unresolved ecological risks, read `docs/instabilities_and_risks.md`.
+For biome composition, use `skills/species-research/reference/biome-profiles.md`. For system processes, use `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md`. For unresolved ecological risks, use `skills/experiment-background/reference/instabilities-and-risks.md`.
 
 Use active `memory/`, `skills/`, and `skills/*/reference/` files for operating protocol. Archived protocol docs are historical only.
 
@@ -102,7 +102,7 @@ Use this hierarchy when sources disagree:
 2. `AGENTS.md`, `memory/`, and matching `skills/*/SKILL.md` files for Research Agent operating rules.
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
-5. Local `docs/`, `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
+5. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
 6. Brain mirrored docs and compiled exports as reference artifacts.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
@@ -170,17 +170,12 @@ research/
   open-questions/
   research-briefs/
 
-docs/
-  biome_profiles.md
-  biogeochemical_cycles.md
-  instabilities_and_risks.md
-
 archive/
 ```
 
 If a folder already exists with a similar purpose, use it rather than creating a duplicate.
 
-During migration, use `docs/` as active references only where exact source material has not yet been absorbed. Use matching `skills/*/reference/` files for active templates and absorbed exact references. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
+Use matching `skills/*/reference/` files for active templates and absorbed exact references. Archived docs are historical only.
 
 ## Skill Routing
 
@@ -234,14 +229,14 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 
 | File | Contents |
 |---|---|
-| `docs/biome_profiles.md` | Detailed ecological profiles for the six biomes |
-| `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
-| `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
 | `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context |
+| `skills/species-research/reference/biome-profiles.md` | Dated biome descriptions and species/biome context |
+| `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` | Biogeochemical process reference with observed/inferred boundaries |
+| `skills/experiment-background/reference/instabilities-and-risks.md` | Dated instability and measurement-gap context |
 
-Docs are mirrored read-only into `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\` by Brain `sync_docs.ps1`. Edit source docs here, not the Brain mirror.
+Brain mirrored docs are read-only reference artifacts. Edit active source material here, not the Brain mirror.
 
 ## Write Policy
 
@@ -287,4 +282,4 @@ Unresolved questions:
 - item or "None"
 ```
 
-If local docs changed in a way the Strategy Agent needs, update the Brain research brief before closing unless the user explicitly defers it.
+If local source or reference files changed in a way the Strategy Agent needs, update the Brain research brief before closing unless the user explicitly defers it.

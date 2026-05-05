@@ -44,6 +44,6 @@ When structured ecological records are changed in an approved task, preserve lin
 
 ## Current-State Language
 
-When Supabase could not be checked, say so and keep current-state claims conditional. Do not treat local docs as live totals when the task depends on current records.
+When Supabase could not be checked, say so and keep current-state claims conditional. Do not treat local references as live totals when the task depends on current records.
 
-Use local docs, migrated overview references, and templates as interpretation or workflow references only. Do not reuse dated counts, status language, population outcomes, active loops/threads, chronicle state, or current biome condition without live verification.
+Use migrated overview, biome, mechanism, risk references, and templates as interpretation or workflow references only. Do not reuse dated counts, status language, risk status, population outcomes, active loops/threads, chronicle state, or current biome condition without live verification.

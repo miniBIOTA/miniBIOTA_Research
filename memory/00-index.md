@@ -4,7 +4,7 @@ This folder is the working memory layer for `miniBIOTA_Research`.
 
 Phase 1 status: active memory files exist, but older `docs/`, `templates/`, and `research/` files began as active source material during migration.
 
-Phase 2 status: the uncertainty-label, research-workflow, content-handoff, and agent-protocol source docs have been absorbed into `AGENTS.md`, memory, skills, and active references. The root research templates have been copied into matching `skills/*/reference/` folders and archived. Archived copies are historical, not active operating sources.
+Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent-protocol, ecosystem overview, biome profile, biogeochemical cycle, and instability/risk source docs have been absorbed into `AGENTS.md`, memory, skills, and active references. The root research templates have been copied into matching `skills/*/reference/` folders and archived. Archived copies are historical, not active operating sources.
 
 ## Startup Routing
 
@@ -12,7 +12,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, and a
 2. Read this index.
 3. Load only the memory files needed for the active request.
 4. Use the matching `skills/*/SKILL.md` playbook.
-5. Use `docs/`, `research/`, and `skills/*/reference/` when exact reference material still lives there.
+5. Use `research/` and `skills/*/reference/` when exact reference material is needed.
 6. Use Brain `research_brief.md` for strategy-level current research state.
 7. Use Supabase read-only checks when current structured records matter.
 
@@ -53,6 +53,9 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, and a
 | `skills/content-handoff-brief/reference/research-brief-template.md` | Exact research handoff brief template |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
 | `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context; verify Supabase before reusing current-state claims |
+| `skills/species-research/reference/biome-profiles.md` | Dated biome descriptions and species/biome context; verify Supabase before reusing current-state claims |
+| `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` | Biogeochemical process reference; preserve observed/inferred/planned/unmeasured boundaries |
+| `skills/experiment-background/reference/instabilities-and-risks.md` | Dated instability and measurement-gap context; do not convert risk notes into recommended actions |
 
 ## Routing Precedence
 
@@ -66,4 +69,4 @@ Use the most specific skill that fits, and layer cross-cutting safety skills whe
 
 ## Migration Note
 
-For now, do not treat this folder as replacing all of `docs/`. Memory and skills route the work while remaining docs and research notes stay active only where their exact reference material has not yet been absorbed. Active templates live in matching `skills/*/reference/` folders.
+Memory and skills now route the work while research notes remain active under `research/`. Active templates and absorbed ecological references live in matching `skills/*/reference/` folders.

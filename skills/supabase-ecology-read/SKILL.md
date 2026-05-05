@@ -29,16 +29,18 @@ description: Use when current structured records matter, including species count
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py` when using local Python helpers
 - `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` as dated historical ecosystem/data context when useful
-- Relevant local docs only as interpretation references, not live totals
+- `skills/species-research/reference/biome-profiles.md` as dated biome and species/biome context when useful
+- `skills/experiment-background/reference/instabilities-and-risks.md` as dated risk context when useful
+- Relevant local reference files only as interpretation references, not live totals
 
 ## Workflow
 
 1. Identify which current structured records matter.
 2. Use read-only queries or tools by default.
 3. Query only the necessary tables/fields.
-4. Treat `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` and `docs/biome_profiles.md` as reference/context, not live truth.
-5. Verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
-6. Compare live records against local docs only when needed.
+4. Treat `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md`, `skills/species-research/reference/biome-profiles.md`, and `skills/experiment-background/reference/instabilities-and-risks.md` as reference/context, not live truth.
+5. Verify Supabase before reusing counts, species status, risk status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+6. Compare live records against local references only when needed.
 7. Record what was checked and any evidence gaps or unresolved current-state questions.
 8. Use `skills/claim-check/SKILL.md` before turning current-state findings into public-facing claims.
 9. Use `skills/content-handoff-brief/SKILL.md` when verified state is being handed to Content, Brand, Website, Brain, Hardware, App, Growth, or Financials.

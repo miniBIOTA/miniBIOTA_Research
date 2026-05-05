@@ -25,9 +25,9 @@ description: Use to prepare background research for a planned experiment, interv
 ## Required Docs/Templates During Migration
 
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `docs/biome_profiles.md` when biome context is relevant
-- `docs/biogeochemical_cycles.md` when process context is relevant
-- `docs/instabilities_and_risks.md` when risk context is relevant
+- `skills/species-research/reference/biome-profiles.md` when biome context is relevant
+- `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` when process context is relevant
+- `skills/experiment-background/reference/instabilities-and-risks.md` when risk context is relevant
 - Existing files under `research/experiments/`, if present and relevant
 
 ## Workflow
@@ -67,3 +67,5 @@ description: Use to prepare background research for a planned experiment, interv
 - Do not treat uncertain suitability, `Likely`, or `Possible` research conclusions as permission to act.
 - Do not convert `Do not claim publicly yet` material into public-safe experiment or suitability claims.
 - Do not treat suitability research as permission to act.
+- Do not treat risk notes as recommended interventions, organism introductions, husbandry actions, or control actions.
+- Do not reuse dated biome, risk, or population status as current state without Supabase verification.

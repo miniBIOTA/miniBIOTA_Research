@@ -68,3 +68,4 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 - Do not create final public copy unless explicitly asked.
 - Do not treat a claim-check wording suggestion as approved script, website, campaign, or publishing language.
 - Do not classify dated overview claims as current or public-ready without Supabase verification.
+- Do not classify dated biome, mechanism, or risk-reference claims as current or public-ready without Supabase verification and evidence review.

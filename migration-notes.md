@@ -171,6 +171,26 @@ Durable rules were absorbed into:
 
 No dated species counts, biome states, observations, introductions, population outcomes, story threads, open loops, or ecological status language were converted into live facts.
 
+## Phase 2 Final Reference Batch
+
+The final Phase 2 reference batch migrated the remaining active ecological reference docs into skill reference folders and archived the root docs.
+
+Moved to archive:
+
+- `archive/superseded/biome_profiles.md`
+- `archive/superseded/biogeochemical_cycles.md`
+- `archive/superseded/instabilities_and_risks.md`
+
+Active references now live at:
+
+- `skills/species-research/reference/biome-profiles.md`
+- `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md`
+- `skills/experiment-background/reference/instabilities-and-risks.md`
+
+The active references preserve biome descriptions, species/biome context, process explanations, instability/risk categories, mechanism notes, evidence gaps, and measurement caveats. Each reference now carries a migration warning so dated current-state language, risk status, population outcomes, establishment language, and inferred processes are not reused as live facts without Supabase or current measurement verification.
+
+Durable routing and caution rules were reinforced in memory and relevant skills. No reference description was converted into a live ecological fact, public-ready claim, action recommendation, organism introduction, husbandry action, control action, or structured record change.
+
 ## Non-Changes
 
 Phase 1 did not change:

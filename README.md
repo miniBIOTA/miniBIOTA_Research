@@ -39,7 +39,7 @@ Use the lightest folder that fits the work:
 | `skills/` | Active Research Agent workflow playbooks |
 | `skills/*/reference/` | Exact reference material and active research templates |
 | `archive/` | Historical or superseded material after explicit approval |
-| `docs/` | Active detailed references during migration or when exact reference still lives there |
+| `docs/` | Historical source location; active references have been absorbed into `skills/*/reference/` |
 | `research/` | Working research notes, organized by topic |
 | `research/species/` | Source-backed species research |
 | `research/ecological-mechanisms/` | Reusable mechanism explanations |
@@ -52,7 +52,7 @@ Use the lightest folder that fits the work:
 
 If an existing file already fits the work, use it instead of creating duplicates.
 
-During migration, remaining `docs/` and `research/` files stay active only where exact source material has not yet been absorbed. Active templates live under matching `skills/*/reference/` folders. Approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
+Active templates and absorbed references live under matching `skills/*/reference/` folders. Archived docs are historical only. Working research notes remain under `research/`.
 
 ## Uncertainty Labels
 
@@ -104,7 +104,7 @@ Then route the session:
 2. `memory/00-index.md`
 3. Relevant `memory/*.md` files for the request
 4. Matching `skills/*/SKILL.md` playbook
-5. `docs/`, `research/`, and `skills/*/reference/` when exact reference still lives there
+5. `research/` and `skills/*/reference/` when exact reference material is needed
 6. `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state
 7. Supabase only when current structured records matter
 
@@ -114,7 +114,7 @@ This repo reports to the Strategy Agent through:
 
 `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
 
-Detailed research docs live here. Brain mirrors them read-only into:
+Detailed research and active references live here. Brain mirrors selected docs read-only into:
 
 `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\`
 

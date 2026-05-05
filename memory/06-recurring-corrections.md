@@ -60,9 +60,9 @@ Why it matters: miniBIOTA records change quickly.
 
 ## Do Not Reuse Legacy Status Language As Current Truth
 
-Mistake: reusing status language from `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` or `docs/biome_profiles.md`, such as "thriving", "established", "stable", or "current," as if it were current.
+Mistake: reusing status language from `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md`, `skills/species-research/reference/biome-profiles.md`, or `skills/experiment-background/reference/instabilities-and-risks.md`, such as "thriving", "established", "stable", "balanced", or "current," as if it were current.
 
-Correct behavior: treat those docs as reference/context and verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+Correct behavior: treat those references as historical context and verify Supabase before reusing counts, species status, risk status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 
 Why it matters: dated ecology notes can make unresolved outcomes sound confirmed.
 
@@ -73,3 +73,11 @@ Mistake: copying dated overview summaries into a new answer, species brief, clai
 Correct behavior: use migrated overview material only as historical architecture/context unless Supabase verifies the current structured record.
 
 Why it matters: the overview includes useful ecosystem/data architecture context, but also dated current-state claims, counts, introductions, and outcome language.
+
+## Do Not Turn Risk Notes Into Action Approval
+
+Mistake: treating instability or risk context as an approved intervention, organism introduction, husbandry action, or control action.
+
+Correct behavior: use risk references to identify variables, cautions, evidence gaps, and questions. Route possible actions through `skills/experiment-background/SKILL.md` and keep Research's output as background, not approval.
+
+Why it matters: closed-system interventions can alter structured records, public interpretation, and ecological outcomes.

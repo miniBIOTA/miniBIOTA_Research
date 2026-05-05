@@ -71,4 +71,5 @@ description: Use to prepare source-aware research context for Content without wr
 - Do not erase uncertainty for narrative simplicity.
 - Do not turn handoff wording into approved script, caption, website copy, title, thumbnail, platform metadata, or publishing language.
 - Do not hand off dated overview counts, statuses, or population outcomes as current facts without Supabase verification.
+- Do not hand off dated biome-profile or risk-reference status as current facts or recommended actions without the relevant verification and approval path.
 - Do not create or resolve public open loops as structured records without explicit approval.
