@@ -8,7 +8,7 @@ Use this order when sources disagree:
 2. `AGENTS.md` and relevant memory files.
 3. Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
 4. Supabase for structured and queryable ecological records.
-5. Local `docs/`, `research/`, `templates/`, `skills/`, and `skills/*/reference/`.
+5. Local `docs/`, `research/`, `skills/`, and `skills/*/reference/`.
 6. Brain mirrored docs and compiled exports as reference artifacts only.
 
 Chat history and private model memory are never durable source of truth.

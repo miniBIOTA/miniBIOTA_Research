@@ -82,9 +82,31 @@ Phase 2 Batch 3 copied the active research templates into matching `skills/*/ref
 - `templates/ecological-mechanism-template.md` to `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md`.
 - `templates/research-brief-template.md` to `skills/content-handoff-brief/reference/research-brief-template.md`.
 
-The root `templates/` files remain in place in this batch. For active skill routing, the skill-reference copies are now the preferred template paths. The root templates appear fully superseded for skill use, but they were not archived in this batch; a later approved batch should decide whether to archive or remove root-template references.
+The root `templates/` files remained in place during Batch 3. For active skill routing, the skill-reference copies became the preferred template paths.
 
 No templates were filled with sample data, and no species, claims, organism IDs, mechanisms, or handoff briefs were created.
+
+## Phase 2 Batch 3B
+
+Phase 2 Batch 3B archived the root research templates after confirming each root template exactly matched its skill-reference copy.
+
+Archived root templates:
+
+- `archive/superseded/claim-check-template.md`
+- `archive/superseded/species-research-template.md`
+- `archive/superseded/identification-note-template.md`
+- `archive/superseded/ecological-mechanism-template.md`
+- `archive/superseded/research-brief-template.md`
+
+Active template references now live at:
+
+- `skills/claim-check/reference/claim-check-template.md`
+- `skills/species-research/reference/species-research-template.md`
+- `skills/organism-identification/reference/identification-note-template.md`
+- `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md`
+- `skills/content-handoff-brief/reference/research-brief-template.md`
+
+The root `templates/` files are no longer active operating sources.
 
 ## Non-Changes
 

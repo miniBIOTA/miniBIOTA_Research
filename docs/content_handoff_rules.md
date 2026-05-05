@@ -38,7 +38,7 @@ Research may draft public wording only when the user explicitly asks or when a b
 
 ## Default Handoff Format
 
-Create a research brief under `research/research-briefs/` using `templates/research-brief-template.md`.
+Create a research brief under `research/research-briefs/` using `skills/content-handoff-brief/reference/research-brief-template.md`.
 
 Each handoff should include:
 

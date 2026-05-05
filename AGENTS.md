@@ -37,7 +37,7 @@ The Research Agent should produce research briefs, not finished public content, 
 - Future archived/superseded material under `archive/` after explicit approval.
 - Research reference docs under `docs/`.
 - Working research notes under `research/`.
-- Reusable Markdown templates under `templates/`.
+- Reusable Markdown templates under matching `skills/*/reference/` folders.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
 - Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, domain history, and structured ecological records.
 
@@ -69,7 +69,7 @@ skills/
 archive/
 ```
 
-Phase 1 note: `docs/`, `templates/`, and `research/` remain active source material during migration. Do not move, archive, delete, or rewrite them unless a later phase explicitly approves that work.
+Phase 2 note: remaining `docs/` and `research/` files stay active only where exact source material has not yet been absorbed. Active templates live under matching `skills/*/reference/` folders. Do not move, archive, delete, or rewrite remaining docs or research files unless a later phase explicitly approves that work.
 
 ## Startup Sequence
 
@@ -87,7 +87,7 @@ If working manually:
 4. Use the matching `skills/*/SKILL.md` playbook.
 5. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md` when shared Brain operating memory is needed.
 6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
-7. Use `docs/`, `templates/`, and `research/` during migration or when exact reference material still lives there.
+7. Use `docs/`, `research/`, and `skills/*/reference/` during migration or when exact reference material still lives there.
 8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
 For biome composition, read `docs/biome_profiles.md`. For system processes, read `docs/biogeochemical_cycles.md`. For unresolved ecological risks, read `docs/instabilities_and_risks.md`.
@@ -102,7 +102,7 @@ Use this hierarchy when sources disagree:
 2. `AGENTS.md`, `memory/`, and matching `skills/*/SKILL.md` files for Research Agent operating rules.
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
-5. Local `docs/`, `research/`, `templates/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
+5. Local `docs/`, `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
 6. Brain mirrored docs and compiled exports as reference artifacts.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
@@ -170,13 +170,6 @@ research/
   open-questions/
   research-briefs/
 
-templates/
-  species-research-template.md
-  ecological-mechanism-template.md
-  claim-check-template.md
-  research-brief-template.md
-  identification-note-template.md
-
 docs/
   agent_protocol.md
   content_handoff_rules.md
@@ -186,7 +179,7 @@ archive/
 
 If a folder already exists with a similar purpose, use it rather than creating a duplicate.
 
-During migration, use `docs/` and `templates/` as active references only where exact source material has not yet been absorbed. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
+During migration, use `docs/` as active references only where exact source material has not yet been absorbed. Use matching `skills/*/reference/` files for active templates and absorbed exact references. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
 
 ## Skill Routing
 

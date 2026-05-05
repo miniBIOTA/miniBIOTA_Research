@@ -2,9 +2,9 @@
 
 This folder is the working memory layer for `miniBIOTA_Research`.
 
-Phase 1 status: active memory files exist, but older `docs/` and `templates/` are still active source material during migration. Do not archive or move them until a later approved phase.
+Phase 1 status: active memory files exist, but older `docs/`, `templates/`, and `research/` files began as active source material during migration.
 
-Phase 2 status: the uncertainty-label and research-workflow source docs have been absorbed into memory, skills, and active references. Their archived copies are historical, not active operating sources.
+Phase 2 status: the uncertainty-label and research-workflow source docs have been absorbed into memory, skills, and active references. The root research templates have been copied into matching `skills/*/reference/` folders and archived. Archived copies are historical, not active operating sources.
 
 ## Startup Routing
 
@@ -12,7 +12,7 @@ Phase 2 status: the uncertainty-label and research-workflow source docs have bee
 2. Read this index.
 3. Load only the memory files needed for the active request.
 4. Use the matching `skills/*/SKILL.md` playbook.
-5. Use `docs/`, `templates/`, and `research/` when exact reference material still lives there.
+5. Use `docs/`, `research/`, and `skills/*/reference/` when exact reference material still lives there.
 6. Use Brain `research_brief.md` for strategy-level current research state.
 7. Use Supabase read-only checks when current structured records matter.
 
@@ -64,4 +64,4 @@ Use the most specific skill that fits, and layer cross-cutting safety skills whe
 
 ## Migration Note
 
-For now, do not treat this folder as replacing all of `docs/`. Memory and skills route the work while remaining docs and templates stay active only where their exact reference material has not yet been absorbed.
+For now, do not treat this folder as replacing all of `docs/`. Memory and skills route the work while remaining docs and research notes stay active only where their exact reference material has not yet been absorbed. Active templates live in matching `skills/*/reference/` folders.

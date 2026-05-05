@@ -2,7 +2,7 @@
 
 This folder holds historical or superseded Research Agent material after explicit approval.
 
-Archived files are not active operating sources. Use `AGENTS.md`, `memory/`, `skills/`, active `skills/*/reference/`, `docs/`, `templates/`, `research/`, Brain brief, and Supabase according to the source hierarchy.
+Archived files are not active operating sources. Use `AGENTS.md`, `memory/`, `skills/`, active `skills/*/reference/`, `docs/`, `research/`, Brain brief, and Supabase according to the source hierarchy.
 
 ## Folders
 
@@ -16,3 +16,8 @@ Archived files are not active operating sources. Use `AGENTS.md`, `memory/`, `sk
 |---|---|
 | `superseded/uncertainty_labels.md` | `memory/02-source-of-truth-and-write-policy.md`, `memory/03-current-priorities-and-watchouts.md`, `memory/06-recurring-corrections.md`, and `skills/claim-check/reference/uncertainty-labels.md` |
 | `superseded/research_workflow.md` | `memory/01-agent-role-and-boundaries.md`, `memory/02-source-of-truth-and-write-policy.md`, `memory/03-current-priorities-and-watchouts.md`, `memory/04-cross-domain-handoffs.md`, `memory/05-supabase-and-structured-record-rules.md`, `memory/06-recurring-corrections.md`, and active `skills/*/SKILL.md` files |
+| `superseded/claim-check-template.md` | `skills/claim-check/reference/claim-check-template.md` |
+| `superseded/species-research-template.md` | `skills/species-research/reference/species-research-template.md` |
+| `superseded/identification-note-template.md` | `skills/organism-identification/reference/identification-note-template.md` |
+| `superseded/ecological-mechanism-template.md` | `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` |
+| `superseded/research-brief-template.md` | `skills/content-handoff-brief/reference/research-brief-template.md` |

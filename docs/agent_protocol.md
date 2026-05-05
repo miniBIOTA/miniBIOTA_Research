@@ -42,7 +42,7 @@ Use this order:
 2. Repo `AGENTS.md` and this protocol.
 3. Brain `research_brief.md`.
 4. Supabase structured ecological records.
-5. Local `docs/`, `research/`, and `templates/` files.
+5. Local `docs/`, `research/`, and `skills/*/reference/` files.
 6. Brain mirrors and compiled exports.
 
 Do not rely on chat history or private model memory as durable project truth.
@@ -63,13 +63,13 @@ Do not rely on chat history or private model memory as durable project truth.
 
 ## Research Outputs
 
-Use the closest template in `templates/`:
+Use the closest template in the matching `skills/*/reference/` folder:
 
-- `species-research-template.md` for species and organism background.
-- `identification-note-template.md` for uncertain IDs.
-- `ecological-mechanism-template.md` for reusable process explanations.
-- `claim-check-template.md` for verifying a claim before public use.
-- `research-brief-template.md` for handoff to Content, Brain, Website, or another agent.
+- `skills/species-research/reference/species-research-template.md` for species and organism background.
+- `skills/organism-identification/reference/identification-note-template.md` for uncertain IDs.
+- `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` for reusable process explanations.
+- `skills/claim-check/reference/claim-check-template.md` for verifying a claim before public use.
+- `skills/content-handoff-brief/reference/research-brief-template.md` for handoff to Content, Brain, Website, or another agent.
 
 Place working notes under `research/`:
 
@@ -94,7 +94,7 @@ If an existing doc already fits the need, update it instead of creating a duplic
 
 ## Claim Checks
 
-Before a claim becomes public content, use `skills/claim-check/SKILL.md` and `templates/claim-check-template.md` when creating a durable claim-check note.
+Before a claim becomes public content, use `skills/claim-check/SKILL.md` and `skills/claim-check/reference/claim-check-template.md` when creating a durable claim-check note.
 
 At minimum, record:
 

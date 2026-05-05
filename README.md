@@ -37,7 +37,7 @@ Use the lightest folder that fits the work:
 | `AGENTS.md` | Hard operating rules and repo entry point |
 | `memory/` | Durable research boundaries, source-of-truth rules, watchouts, handoff rules, structured-record rules, and recurring corrections |
 | `skills/` | Active Research Agent workflow playbooks |
-| `skills/*/reference/` | Exact reference material when later migration phases move detailed references into skills |
+| `skills/*/reference/` | Exact reference material and active research templates |
 | `archive/` | Historical or superseded material after explicit approval |
 | `docs/` | Active detailed references during migration or when exact reference still lives there |
 | `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` during migration |
@@ -50,11 +50,10 @@ Use the lightest folder that fits the work:
 | `research/source-library/` | Source notes, citations, and useful references |
 | `research/open-questions/` | Unresolved research questions and evidence gaps |
 | `research/research-briefs/` | Handoff briefs for Content, Brain, Website, and other agents |
-| `templates/` | Simple Markdown templates for recurring research outputs |
 
 If an existing file already fits the work, use it instead of creating duplicates.
 
-During migration, remaining `docs/`, `templates/`, and `research/` files stay active only where exact source material has not yet been absorbed. Approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
+During migration, remaining `docs/` and `research/` files stay active only where exact source material has not yet been absorbed. Active templates live under matching `skills/*/reference/` folders. Approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
 
 ## Uncertainty Labels
 
@@ -74,7 +73,7 @@ Preserve uncertainty. Do not upgrade a claim just because it would make a cleane
 ## Creating New Research
 
 1. Choose the right folder under `research/`.
-2. Start from the closest template in `templates/`.
+2. Start from the closest template in the matching `skills/*/reference/` folder.
 3. Separate general scientific literature from miniBIOTA observations.
 4. Add sources as you go. Do not invent citations.
 5. Mark uncertainty explicitly.
@@ -82,7 +81,7 @@ Preserve uncertainty. Do not upgrade a claim just because it would make a cleane
 
 ## Creating A Content Handoff Brief
 
-Use `templates/research-brief-template.md`. Each brief should include:
+Use `skills/content-handoff-brief/reference/research-brief-template.md`. Each brief should include:
 
 - Plain-language summary.
 - Strongest verified points.
@@ -104,7 +103,7 @@ Then route the session:
 2. `memory/00-index.md`
 3. Relevant `memory/*.md` files for the request
 4. Matching `skills/*/SKILL.md` playbook
-5. `docs/`, `templates/`, and `research/` only when still active during migration or when exact reference still lives there
+5. `docs/`, `research/`, and `skills/*/reference/` when exact reference still lives there
 6. `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state
 7. Supabase only when current structured records matter
 
