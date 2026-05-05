@@ -46,6 +46,11 @@ Phase 2 status: the uncertainty-label and research-workflow source docs have bee
 | Reference | Use |
 |---|---|
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels, public-claim readiness rules, separation requirements, and overclaiming example |
+| `skills/claim-check/reference/claim-check-template.md` | Exact durable claim-check template |
+| `skills/species-research/reference/species-research-template.md` | Exact species research template |
+| `skills/organism-identification/reference/identification-note-template.md` | Exact organism identification note template |
+| `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` | Exact ecological mechanism template |
+| `skills/content-handoff-brief/reference/research-brief-template.md` | Exact research handoff brief template |
 
 ## Routing Precedence
 

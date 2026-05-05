@@ -72,6 +72,20 @@ Active workflow guidance now lives in:
 
 The migrated rules preserve question definition, current-record checking when current miniBIOTA state matters, local source checking, reliable source review, separation of observation/literature/inference/planned work/speculation, uncertainty labeling, source notes, open questions, evidence gaps, and public-claim review before public use.
 
+## Phase 2 Batch 3
+
+Phase 2 Batch 3 copied the active research templates into matching `skills/*/reference/` folders as exact reference material:
+
+- `templates/claim-check-template.md` to `skills/claim-check/reference/claim-check-template.md`.
+- `templates/species-research-template.md` to `skills/species-research/reference/species-research-template.md`.
+- `templates/identification-note-template.md` to `skills/organism-identification/reference/identification-note-template.md`.
+- `templates/ecological-mechanism-template.md` to `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md`.
+- `templates/research-brief-template.md` to `skills/content-handoff-brief/reference/research-brief-template.md`.
+
+The root `templates/` files remain in place in this batch. For active skill routing, the skill-reference copies are now the preferred template paths. The root templates appear fully superseded for skill use, but they were not archived in this batch; a later approved batch should decide whether to archive or remove root-template references.
+
+No templates were filled with sample data, and no species, claims, organism IDs, mechanisms, or handoff briefs were created.
+
 ## Non-Changes
 
 Phase 1 did not change:

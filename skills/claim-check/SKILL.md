@@ -26,7 +26,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 
 - `docs/content_handoff_rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `templates/claim-check-template.md`
+- `skills/claim-check/reference/claim-check-template.md`
 - Existing files under `research/claim-checks/`, if present and relevant
 
 ## Workflow
@@ -55,7 +55,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 ## Write/Approval Rules
 
 - Tell the user what files will change before editing.
-- Use `templates/claim-check-template.md` for durable claim checks during migration.
+- Use `skills/claim-check/reference/claim-check-template.md` for durable claim checks during migration.
 - Do not write to Supabase unless explicitly approved.
 
 ## Do Not Do

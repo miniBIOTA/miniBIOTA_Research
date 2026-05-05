@@ -25,7 +25,7 @@ description: Use to prepare source-aware research context for Content without wr
 
 - `docs/content_handoff_rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `templates/research-brief-template.md`
+- `skills/content-handoff-brief/reference/research-brief-template.md`
 - Existing files under `research/research-briefs/`, if present and relevant
 
 ## Workflow
@@ -56,7 +56,7 @@ description: Use to prepare source-aware research context for Content without wr
 ## Write/Approval Rules
 
 - Tell the user what files will change before editing.
-- Use `templates/research-brief-template.md` for durable briefs during migration.
+- Use `skills/content-handoff-brief/reference/research-brief-template.md` for durable briefs during migration.
 - Do not update Brain or Content repos unless explicitly requested and approved.
 
 ## Do Not Do

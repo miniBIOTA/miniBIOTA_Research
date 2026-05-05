@@ -24,7 +24,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 ## Required Docs/Templates During Migration
 
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `templates/species-research-template.md`
+- `skills/species-research/reference/species-research-template.md`
 - Existing files under `research/species/`, if present and relevant
 
 ## Workflow
@@ -54,7 +54,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 ## Write/Approval Rules
 
 - Tell the user what files will change before editing.
-- Use `templates/species-research-template.md` for new species files during migration.
+- Use `skills/species-research/reference/species-research-template.md` for new species files during migration.
 - Do not change Supabase records unless explicitly approved.
 - Do not create test data.
 

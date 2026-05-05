@@ -27,7 +27,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `docs/biogeochemical_cycles.md` when cycle context is relevant
 - `docs/instabilities_and_risks.md` when risk context is relevant
-- `templates/ecological-mechanism-template.md`
+- `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md`
 - Existing files under `research/ecological-mechanisms/`, if present and relevant
 
 ## Workflow
@@ -54,7 +54,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 ## Write/Approval Rules
 
 - Tell the user what files will change before editing.
-- Use `templates/ecological-mechanism-template.md` for new mechanism files during migration.
+- Use `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` for new mechanism files during migration.
 - Do not change risk records or structured ecological records unless explicitly approved.
 
 ## Do Not Do

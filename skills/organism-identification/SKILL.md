@@ -24,7 +24,7 @@ description: Use when identifying an organism from observations, photos, video, 
 ## Required Docs/Templates During Migration
 
 - `skills/claim-check/reference/uncertainty-labels.md`
-- `templates/identification-note-template.md`
+- `skills/organism-identification/reference/identification-note-template.md`
 - Existing files under `research/identification-notes/`, if present and relevant
 
 ## Workflow
@@ -54,7 +54,7 @@ description: Use when identifying an organism from observations, photos, video, 
 ## Write/Approval Rules
 
 - Tell the user what files will change before editing.
-- Use `templates/identification-note-template.md` for new ID notes during migration.
+- Use `skills/organism-identification/reference/identification-note-template.md` for new ID notes during migration.
 - Do not update species records or structured records unless explicitly approved.
 
 ## Do Not Do
