@@ -44,6 +44,7 @@ description: Use to prepare source-aware research context for Content without wr
 12. List phrases to avoid.
 13. Preserve open research questions.
 14. Make clear that suggested wording is not final public copy, script language, platform metadata, or publishing approval.
+15. Mark any migrated overview context as dated unless Supabase has verified the current state.
 
 ## Expected Output
 
@@ -69,4 +70,5 @@ description: Use to prepare source-aware research context for Content without wr
 - Do not include `Do not claim publicly yet` material as public-safe wording.
 - Do not erase uncertainty for narrative simplicity.
 - Do not turn handoff wording into approved script, caption, website copy, title, thumbnail, platform metadata, or publishing language.
+- Do not hand off dated overview counts, statuses, or population outcomes as current facts without Supabase verification.
 - Do not create or resolve public open loops as structured records without explicit approval.

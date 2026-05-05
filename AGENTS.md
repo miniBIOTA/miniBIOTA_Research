@@ -171,7 +171,6 @@ research/
   research-briefs/
 
 docs/
-  ecosystem_and_data_overview.md
   biome_profiles.md
   biogeochemical_cycles.md
   instabilities_and_risks.md
@@ -235,12 +234,12 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 
 | File | Contents |
 |---|---|
-| `docs/ecosystem_and_data_overview.md` | Original Brain Ecosystem & Data overview, retained as migrated context |
 | `docs/biome_profiles.md` | Detailed ecological profiles for the six biomes |
 | `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
 | `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
+| `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context |
 
 Docs are mirrored read-only into `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\` by Brain `sync_docs.ps1`. Edit source docs here, not the Brain mirror.
 

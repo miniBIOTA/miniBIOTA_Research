@@ -27,7 +27,9 @@ Verify Supabase before treating any of these as current:
 - Risk records.
 - Structured ecological links.
 
-`docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` may contain dated current-state claims, counts, or status language such as "thriving" or "established." Treat them as reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+`skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` and `docs/biome_profiles.md` may contain dated current-state claims, counts, or status language such as "thriving", "established", "stable", or "current." Treat them as historical reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+
+Do not convert dated summaries from migrated Brain context into live ecological facts.
 
 ## Source Notes And Evidence Gaps
 

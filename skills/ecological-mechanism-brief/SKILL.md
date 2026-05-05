@@ -67,3 +67,4 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - Do not approve interventions or system changes.
 - Do not convert literature background into confirmed miniBIOTA outcomes.
 - Do not treat mechanism handoff wording as final public copy.
+- Do not reuse dated overview mechanism or stability language as current miniBIOTA outcome without Supabase verification.

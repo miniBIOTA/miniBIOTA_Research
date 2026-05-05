@@ -8,6 +8,8 @@ Do not pass public-facing language forward without claim-checking claims that de
 
 Research may include short suggested content-safe wording inside a brief, but that wording is not a final script, caption, website page, title, thumbnail, platform package, publishing decision, or public commitment.
 
+When handoff context comes from migrated ecosystem overview material, mark it as dated context unless live Supabase verification has confirmed the current state.
+
 ## Brain
 
 Brain receives manager-facing research state through:

@@ -52,6 +52,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, and a
 | `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` | Exact ecological mechanism template |
 | `skills/content-handoff-brief/reference/research-brief-template.md` | Exact research handoff brief template |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
+| `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context; verify Supabase before reusing current-state claims |
 
 ## Routing Precedence
 

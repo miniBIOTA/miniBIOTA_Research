@@ -72,5 +72,6 @@ Always keep these categories separate:
 - Inferred mechanisms.
 - Planned work.
 - Speculation or hypotheses.
+- Historical or migrated context that may describe outdated ecosystem state.
 
 Do not convert an observation, hypothesis, or literature background point into a confirmed miniBIOTA claim without evidence.

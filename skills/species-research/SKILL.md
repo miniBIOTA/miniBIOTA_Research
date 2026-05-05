@@ -65,4 +65,5 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 - Do not soften `Do not claim publicly yet`; it is a strong public-facing stop condition.
 - Do not treat suitability research as approval to introduce an organism.
 - Do not rewrite uncertain miniBIOTA observations as confirmed establishment, survival, reproduction, or ecological stability.
+- Do not reuse dated overview status language as current species status without Supabase verification.
 - Do not make husbandry, intervention, or control decisions final.

@@ -60,8 +60,16 @@ Why it matters: miniBIOTA records change quickly.
 
 ## Do Not Reuse Legacy Status Language As Current Truth
 
-Mistake: reusing status language from `docs/ecosystem_and_data_overview.md` or `docs/biome_profiles.md`, such as "thriving" or "established," as if it were current.
+Mistake: reusing status language from `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` or `docs/biome_profiles.md`, such as "thriving", "established", "stable", or "current," as if it were current.
 
 Correct behavior: treat those docs as reference/context and verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 
 Why it matters: dated ecology notes can make unresolved outcomes sound confirmed.
+
+## Do Not Turn Migrated Brain Context Into Live Ecology
+
+Mistake: copying dated overview summaries into a new answer, species brief, claim check, or handoff as though they prove current ecosystem state.
+
+Correct behavior: use migrated overview material only as historical architecture/context unless Supabase verifies the current structured record.
+
+Why it matters: the overview includes useful ecosystem/data architecture context, but also dated current-state claims, counts, introductions, and outcome language.

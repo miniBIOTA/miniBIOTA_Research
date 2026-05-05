@@ -146,6 +146,31 @@ Active protocol guidance now lives in:
 
 The migrated rules preserve Research Agent role and boundaries, startup procedure, source-of-truth order, no chat/private memory as durable truth, evidence-first operation, uncertainty routing, no invented IDs/citations/outcomes/mortality/stability/causal claims, current-state Supabase verification, Brain research brief relationship, cross-domain handoffs, closeout format, and write/approval rules.
 
+## Phase 2 Batch 6
+
+Phase 2 Batch 6 audited and migrated the legacy ecosystem/data overview as dated context.
+
+The old doc was fully absorbed and moved to:
+
+`archive/superseded/ecosystem_and_data_overview.md`
+
+Exact historical context is preserved at:
+
+`skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md`
+
+The active reference includes an explicit migration warning: counts, statuses, "current" language, "thriving", "established", "stable", population outcomes, active loops/threads, species status, chronicle state, and biome condition are historical context only unless Supabase verifies current structured state.
+
+Durable rules were absorbed into:
+
+- `memory/02-source-of-truth-and-write-policy.md` for dated-context and current-state verification boundaries.
+- `memory/03-current-priorities-and-watchouts.md` for warnings against treating dated ecosystem summaries as live outcomes.
+- `memory/05-supabase-and-structured-record-rules.md` for structured-record and link-integrity context.
+- `memory/06-recurring-corrections.md` for avoiding reuse of legacy status language as current truth.
+- `skills/supabase-ecology-read/SKILL.md` for active read-only current-state verification.
+- `skills/species-research/SKILL.md`, `skills/ecological-mechanism-brief/SKILL.md`, `skills/content-handoff-brief/SKILL.md`, and `skills/claim-check/SKILL.md` for cross-workflow warnings.
+
+No dated species counts, biome states, observations, introductions, population outcomes, story threads, open loops, or ecological status language were converted into live facts.
+
 ## Non-Changes
 
 Phase 1 did not change:

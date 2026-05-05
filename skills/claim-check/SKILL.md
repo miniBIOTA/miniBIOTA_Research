@@ -67,3 +67,4 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 - Do not turn unresolved observations into confirmed ecology.
 - Do not create final public copy unless explicitly asked.
 - Do not treat a claim-check wording suggestion as approved script, website, campaign, or publishing language.
+- Do not classify dated overview claims as current or public-ready without Supabase verification.
