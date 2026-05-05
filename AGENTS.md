@@ -32,11 +32,44 @@ The Research Agent should produce research briefs, not finished public content, 
 ## Tech Stack
 
 - Markdown vault as durable research and ecosystem memory.
+- Agent memory under `memory/`.
+- Task playbooks under `skills/`.
+- Future archived/superseded material under `archive/` after explicit approval.
 - Research reference docs under `docs/`.
 - Working research notes under `research/`.
 - Reusable Markdown templates under `templates/`.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
 - Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, domain history, and structured ecological records.
+
+## Agent Architecture
+
+This repo is migrating to the clean domain-agent architecture used by other miniBIOTA repos:
+
+```text
+memory/
+  00-index.md
+  01-agent-role-and-boundaries.md
+  02-source-of-truth-and-write-policy.md
+  03-current-priorities-and-watchouts.md
+  04-cross-domain-handoffs.md
+  05-supabase-and-structured-record-rules.md
+  06-recurring-corrections.md
+  inbox.md
+
+skills/
+  species-research/SKILL.md
+  organism-identification/SKILL.md
+  claim-check/SKILL.md
+  ecological-mechanism-brief/SKILL.md
+  content-handoff-brief/SKILL.md
+  experiment-background/SKILL.md
+  supabase-ecology-read/SKILL.md
+  session-closeout/SKILL.md
+
+archive/
+```
+
+Phase 1 note: `docs/`, `templates/`, and `research/` remain active source material during migration. Do not move, archive, delete, or rewrite them unless a later phase explicitly approves that work.
 
 ## Startup Sequence
 
@@ -49,23 +82,27 @@ powershell -ExecutionPolicy Bypass -File "_system/codex_session_start.ps1"
 If working manually:
 
 1. Read `AGENTS.md`.
-2. Read `docs/agent_protocol.md`.
-3. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`.
-4. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
-5. Load the lightest local research doc or template that can safely answer the request.
-6. For current ecology, species counts, observations, threads, loops, or population claims, verify Supabase before answering in depth.
+2. Read `memory/00-index.md`.
+3. Load the relevant memory file(s) for the request.
+4. Use the matching `skills/*/SKILL.md` playbook.
+5. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md` when shared Brain operating memory is needed.
+6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
+7. Use `docs/`, `templates/`, and `research/` during migration or when exact reference material still lives there.
+8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
 For biome composition, read `docs/biome_profiles.md`. For system processes, read `docs/biogeochemical_cycles.md`. For unresolved ecological risks, read `docs/instabilities_and_risks.md`.
+
+Use `docs/agent_protocol.md` as legacy active protocol during migration, but prefer the new `memory/` and `skills/` routing when the same rule exists in both places.
 
 ## Source Of Truth
 
 Use this hierarchy when sources disagree:
 
 1. User direction in the current session.
-2. `AGENTS.md` and `docs/agent_protocol.md` for Research Agent operating rules.
+2. `AGENTS.md`, `memory/`, and matching `skills/*/SKILL.md` files for Research Agent operating rules.
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
-5. Local `docs/`, `research/`, and `templates/` files for detailed research and ecosystem interpretation.
+5. Local `docs/`, `research/`, `templates/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
 6. Brain mirrored docs and compiled exports as reference artifacts.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
@@ -94,6 +131,7 @@ The Research Agent is responsible for:
 - Preserve uncertainty instead of forcing certainty.
 - Mark claims with the labels in `docs/uncertainty_labels.md`.
 - Use `Do not claim publicly yet` when a claim is too weak, unresolved, or risky for public use.
+- Do not convert observations, hypotheses, literature background, planned work, or plausible mechanisms into confirmed miniBIOTA claims without evidence.
 - Preserve the difference between internal story threads and public open loops.
 - When adding or updating structured ecological data, follow Brain protocols and verify downstream links before closeout.
 
@@ -102,6 +140,26 @@ The Research Agent is responsible for:
 Recommended working structure:
 
 ```text
+memory/
+  00-index.md
+  01-agent-role-and-boundaries.md
+  02-source-of-truth-and-write-policy.md
+  03-current-priorities-and-watchouts.md
+  04-cross-domain-handoffs.md
+  05-supabase-and-structured-record-rules.md
+  06-recurring-corrections.md
+  inbox.md
+
+skills/
+  species-research/SKILL.md
+  organism-identification/SKILL.md
+  claim-check/SKILL.md
+  ecological-mechanism-brief/SKILL.md
+  content-handoff-brief/SKILL.md
+  experiment-background/SKILL.md
+  supabase-ecology-read/SKILL.md
+  session-closeout/SKILL.md
+
 research/
   species/
   ecological-mechanisms/
@@ -124,9 +182,28 @@ docs/
   research_workflow.md
   content_handoff_rules.md
   uncertainty_labels.md
+
+archive/
 ```
 
 If a folder already exists with a similar purpose, use it rather than creating a duplicate.
+
+During migration, use `docs/` and `templates/` as active references. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
+
+## Skill Routing
+
+Use the matching skill before doing task-specific work:
+
+| Request type | Skill |
+|---|---|
+| Species, range, taxonomy, role, life history, suitability | `skills/species-research/SKILL.md` |
+| Organism ID from observation, photo, video, microscopy, or field note | `skills/organism-identification/SKILL.md` |
+| Scientific/public claim review | `skills/claim-check/SKILL.md` |
+| Nutrient cycling, oxygen dynamics, pH/alkalinity, trophic mechanisms, decomposition, blooms, instability | `skills/ecological-mechanism-brief/SKILL.md` |
+| Research handoff for Content | `skills/content-handoff-brief/SKILL.md` |
+| Background for experiment, intervention, introduction, husbandry action, or system change | `skills/experiment-background/SKILL.md` |
+| Current structured ecology, counts, observations, threads, loops, chronicles, biomes, risks | `skills/supabase-ecology-read/SKILL.md` |
+| Session closeout | `skills/session-closeout/SKILL.md` |
 
 ## Content Handoff Rules
 
