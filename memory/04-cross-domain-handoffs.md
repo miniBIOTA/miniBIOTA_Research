@@ -2,6 +2,10 @@
 
 Research supports other miniBIOTA agents by providing evidence, uncertainty, and safe wording.
 
+Use `skills/content-handoff-brief/SKILL.md` or the matching domain skill when research feeds Content, Brand, Website, Brain, Hardware, App, Growth, or Financials. Handoffs should include a plain-language summary, strongest verified points, uncertainty notes, source-backed claims, suggested safe wording, phrases to avoid, and open questions.
+
+Do not pass public-facing language forward without claim-checking claims that depend on science, current miniBIOTA state, sponsor/support language, campaign language, or ecological outcomes.
+
 ## Brain
 
 Brain receives manager-facing research state through:
@@ -39,6 +43,8 @@ Hardware priorities may depend on measurement gaps and ecological risk tracking,
 ## Brand And Growth
 
 Public campaign, sponsorship, course, and Kickstarter claims must remain grounded in documented outcomes and ecological feasibility.
+
+When research supports Brand or Growth, separate verified facts, internal research interpretation, aspirational positioning, and public-safe wording.
 
 ## Financials
 

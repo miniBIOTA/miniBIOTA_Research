@@ -179,7 +179,6 @@ templates/
 
 docs/
   agent_protocol.md
-  research_workflow.md
   content_handoff_rules.md
 
 archive/
@@ -187,7 +186,7 @@ archive/
 
 If a folder already exists with a similar purpose, use it rather than creating a duplicate.
 
-During migration, use `docs/` and `templates/` as active references. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
+During migration, use `docs/` and `templates/` as active references only where exact source material has not yet been absorbed. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, detailed references into `skills/*/reference/`, and superseded material into `archive/`.
 
 ## Skill Routing
 
@@ -246,7 +245,6 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
 | `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
 | `docs/agent_protocol.md` | Codex operating protocol for Research sessions |
-| `docs/research_workflow.md` | Species, mechanism, claim-check, and research-brief workflows |
 | `docs/content_handoff_rules.md` | Rules for sending research to `miniBIOTA_Content` |
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 

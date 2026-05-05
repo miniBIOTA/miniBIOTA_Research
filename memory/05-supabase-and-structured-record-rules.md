@@ -16,6 +16,8 @@ Use read-only checks before answering in depth about:
 - Risk records.
 - Observation-thread or observation-loop links.
 
+If a research question, claim check, mechanism explanation, species note, experiment background, or handoff depends on current miniBIOTA state, run the current-state check before presenting the claim as current.
+
 ## Read-Only Default
 
 Research sessions default to read-only structured checks unless the user explicitly asks for and approves writes.
@@ -39,3 +41,5 @@ Do not create an open loop for a new observation. New ecological developments ma
 ## Current-State Language
 
 When Supabase could not be checked, say so and keep current-state claims conditional. Do not treat local docs as live totals when the task depends on current records.
+
+Use local docs and templates as interpretation or workflow references only. Do not reuse dated counts, status language, population outcomes, active loops/threads, chronicle state, or current biome condition without live verification.

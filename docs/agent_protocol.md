@@ -94,7 +94,7 @@ If an existing doc already fits the need, update it instead of creating a duplic
 
 ## Claim Checks
 
-Before a claim becomes public content, use the workflow in `docs/research_workflow.md` or `templates/claim-check-template.md`.
+Before a claim becomes public content, use `skills/claim-check/SKILL.md` and `templates/claim-check-template.md` when creating a durable claim-check note.
 
 At minimum, record:
 

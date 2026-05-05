@@ -24,7 +24,6 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 
 ## Required Docs/Templates During Migration
 
-- `docs/research_workflow.md`
 - `docs/content_handoff_rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/claim-check-template.md`
@@ -45,6 +44,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 
 ## Expected Output
 
+- Observation, research question, current claim, evidence found, source notes, confidence level, recommended public wording, warnings or qualifiers, and "Do not say" guidance.
 - Claim verdict with confidence label.
 - Evidence summary and source notes.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.

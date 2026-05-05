@@ -10,6 +10,8 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 - Preserve identification gaps instead of forcing species-level certainty.
 - Preserve the distinction between internal story threads and public open loops.
 - Preserve the distinction between research briefs and finished public content.
+- Define the research question before gathering sources or drafting handoff language.
+- Record citation/source notes, open questions, and evidence gaps in durable research outputs.
 - Keep source-backed claims weaker than or equal to the evidence.
 
 ## Watchouts
@@ -25,6 +27,8 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 ## Public-Claim Caution
 
 Use `Do not claim publicly yet` when a claim is weak, unresolved, risky, unsupported, or likely to be misunderstood.
+
+Run public-facing scientific, ecological, website, script, brand, campaign, sponsorship, or growth claims through `skills/claim-check/SKILL.md` before treating wording as public-ready.
 
 Do not claim miniBIOTA ecological stability, self-sustaining population establishment, mortality conclusions, causal mechanisms, or species-level identifications unless the evidence supports that level of confidence.
 

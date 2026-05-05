@@ -38,11 +38,13 @@ description: Use when current structured records matter, including species count
 4. Treat `docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` as reference/context, not live truth.
 5. Verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 6. Compare live records against local docs only when needed.
-7. Use `skills/claim-check/SKILL.md` before turning current-state findings into public-facing claims.
-8. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
-9. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
-10. Report what was verified and what could not be verified.
-11. Keep any current-state answer tied to the check performed.
+7. Record what was checked and any evidence gaps or unresolved current-state questions.
+8. Use `skills/claim-check/SKILL.md` before turning current-state findings into public-facing claims.
+9. Use `skills/content-handoff-brief/SKILL.md` when verified state is being handed to Content, Brand, Website, Brain, Hardware, App, Growth, or Financials.
+10. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+11. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
+12. Report what was verified and what could not be verified.
+13. Keep any current-state answer tied to the check performed.
 
 ## Expected Output
 

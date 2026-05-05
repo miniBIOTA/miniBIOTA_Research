@@ -23,7 +23,6 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 
 ## Required Docs/Templates During Migration
 
-- `docs/research_workflow.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/species-research-template.md`
 - Existing files under `research/species/`, if present and relevant
@@ -37,14 +36,16 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 5. Use `skills/experiment-background/SKILL.md` before organism introductions, husbandry changes, interventions, system changes, or action recommendations.
 6. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 7. Research taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges, ecological role, and closed-system risks.
-8. Record source notes. Do not invent citations.
-9. Assign an uncertainty label from `skills/claim-check/reference/uncertainty-labels.md`.
-10. Use `skills/claim-check/SKILL.md` before making public-facing claims.
-11. Include what is confirmed, inferred, unknown, and not safe to say publicly.
+8. Record interactions with known miniBIOTA organisms when evidence supports them.
+9. Record source notes. Do not invent citations.
+10. Assign an uncertainty label from `skills/claim-check/reference/uncertainty-labels.md`.
+11. Use `skills/claim-check/SKILL.md` before making public-facing claims.
+12. Include what is confirmed, inferred, unknown, and not safe to say publicly.
 
 ## Expected Output
 
 - Species research note, brief, or answer that preserves uncertainty.
+- Common name, scientific name, identification confidence, taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges when available, ecological role, possible miniBIOTA role, closed-system risks, and known interactions when useful.
 - Clear source notes.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Content-safe summary only when useful.

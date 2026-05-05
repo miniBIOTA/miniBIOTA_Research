@@ -29,20 +29,21 @@ description: Use to close Research sessions with changed files, verification, no
 
 1. Identify changed files.
 2. Read every new or changed documentation file end to end.
-3. Run `git diff --name-only`.
-4. Run `git status --short --branch`.
-5. Confirm whether Supabase records changed.
-6. Confirm whether structured records changed.
-7. Confirm whether app behavior or public site behavior changed.
-8. Confirm whether Brain mirrored docs or Brain research brief changed.
-9. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
-10. Confirm whether uncertain observations were rewritten as confirmed ecology.
-11. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
-12. Confirm whether test data was created.
-13. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
-14. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
-15. State unresolved questions.
-16. State whether Brain research brief or other domain follow-up is needed.
+3. Confirm source notes, open questions, evidence gaps, and current-state verification were preserved where the session created or migrated research workflow material.
+4. Run `git diff --name-only`.
+5. Run `git status --short --branch`.
+6. Confirm whether Supabase records changed.
+7. Confirm whether structured records changed.
+8. Confirm whether app behavior or public site behavior changed.
+9. Confirm whether Brain mirrored docs or Brain research brief changed.
+10. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
+11. Confirm whether uncertain observations were rewritten as confirmed ecology.
+12. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
+13. Confirm whether test data was created.
+14. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
+15. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
+16. State unresolved questions.
+17. State whether Brain research brief or other domain follow-up is needed.
 
 ## Expected Output
 

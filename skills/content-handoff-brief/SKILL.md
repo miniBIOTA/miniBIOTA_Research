@@ -24,14 +24,13 @@ description: Use to prepare source-aware research context for Content without wr
 ## Required Docs/Templates During Migration
 
 - `docs/content_handoff_rules.md`
-- `docs/research_workflow.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/research-brief-template.md`
 - Existing files under `research/research-briefs/`, if present and relevant
 
 ## Workflow
 
-1. Identify the downstream Content need and audience.
+1. Identify the downstream agent need and audience.
 2. Use `skills/supabase-ecology-read/SKILL.md` when the brief depends on current miniBIOTA state.
 3. Use `skills/claim-check/SKILL.md` before public-facing claims.
 4. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
@@ -48,6 +47,7 @@ description: Use to prepare source-aware research context for Content without wr
 ## Expected Output
 
 - Research brief for Content or another downstream agent.
+- Plain-language summary, strongest verified points, uncertainty notes, source-backed claims, suggested content-safe wording, phrases to avoid, and open research questions.
 - No final script unless explicitly requested.
 - Conservative public-safe wording.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.

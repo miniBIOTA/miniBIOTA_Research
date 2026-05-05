@@ -52,6 +52,26 @@ Active references now point to `skills/claim-check/reference/uncertainty-labels.
 - The required separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - `Do not claim publicly yet` as a strong public-facing stop condition.
 
+## Phase 2 Batch 2
+
+Phase 2 Batch 2 absorbed the research-workflow source doc into active memory and skill playbooks.
+
+The old doc was fully absorbed and moved to:
+
+`archive/superseded/research_workflow.md`
+
+Active workflow guidance now lives in:
+
+- `memory/01-agent-role-and-boundaries.md` for the default research workflow and evidence boundary.
+- `memory/02-source-of-truth-and-write-policy.md` for current-state, source-note, uncertainty, and evidence-gap rules.
+- `memory/03-current-priorities-and-watchouts.md` for workflow caution zones and public-claim routing.
+- `memory/04-cross-domain-handoffs.md` for Content, Brand, Website, Brain, Hardware, App, Growth, and Financials handoff rules.
+- `memory/05-supabase-and-structured-record-rules.md` for current-record verification.
+- `memory/06-recurring-corrections.md` for recurring workflow mistakes.
+- Active `skills/*/SKILL.md` files for task-specific workflows.
+
+The migrated rules preserve question definition, current-record checking when current miniBIOTA state matters, local source checking, reliable source review, separation of observation/literature/inference/planned work/speculation, uncertainty labeling, source notes, open questions, evidence gaps, and public-claim review before public use.
+
 ## Non-Changes
 
 Phase 1 did not change:

@@ -29,6 +29,12 @@ Verify Supabase before treating any of these as current:
 
 `docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` may contain dated current-state claims, counts, or status language such as "thriving" or "established." Treat them as reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 
+## Source Notes And Evidence Gaps
+
+Research outputs should record source notes as they go. Do not invent citations, imply a source supports more than it does, or let a general literature source stand in for a miniBIOTA-specific outcome.
+
+When evidence is incomplete, preserve the gap as an open question. Do not fill it with narrative logic, expected outcomes, or dated reference material.
+
 ## Uncertainty Labels
 
 Use these labels in species research, identification notes, mechanism explanations, claim checks, experiment background, and research briefs:

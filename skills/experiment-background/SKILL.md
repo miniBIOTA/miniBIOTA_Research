@@ -24,7 +24,6 @@ description: Use to prepare background research for a planned experiment, interv
 
 ## Required Docs/Templates During Migration
 
-- `docs/research_workflow.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `docs/biome_profiles.md` when biome context is relevant
 - `docs/biogeochemical_cycles.md` when process context is relevant
@@ -49,6 +48,7 @@ description: Use to prepare background research for a planned experiment, interv
 ## Expected Output
 
 - Experiment background note or answer.
+- Experiment question, background mechanism, relevant species or biome context, expected signals, measurement needs, closed-system risks, ethical or ecological cautions, sources, and open questions.
 - Risks, variables, measurements, and open questions.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Clear boundary that no final action is approved.

@@ -26,6 +26,14 @@ Correct behavior: keep the confidence label matched to the evidence.
 
 Why it matters: public-facing claims and downstream records depend on conservative scientific boundaries.
 
+## Do Not Skip The Research Question
+
+Mistake: collecting sources, drafting public-safe wording, or writing handoff notes before defining the actual research question.
+
+Correct behavior: state the question first, then gather sources, separate evidence categories, assign confidence, and record open questions.
+
+Why it matters: unclear questions make it easier to overclaim, miss current-state checks, or turn a hypothesis into a conclusion.
+
 ## Do Not Treat Internal Research Labels As Public Permission
 
 Mistake: treating `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` as ready public language.

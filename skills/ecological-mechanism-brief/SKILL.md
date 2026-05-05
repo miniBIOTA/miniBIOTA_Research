@@ -24,7 +24,6 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 
 ## Required Docs/Templates During Migration
 
-- `docs/research_workflow.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `docs/biogeochemical_cycles.md` when cycle context is relevant
 - `docs/instabilities_and_risks.md` when risk context is relevant
@@ -47,6 +46,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 ## Expected Output
 
 - Mechanism explanation or durable mechanism note.
+- Mechanism scope when relevant, such as carbonate buffering, oxygen cycling, detritus breakdown, filter feeding, nutrient lockup, grazing pressure, succession, condensation and rain cycles, closed-atmosphere gas balance, plant competition, or low oxygen behavior.
 - Clear separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Measurement gaps and open questions.
 - Content-safe wording and "Do not say" boundaries when needed.

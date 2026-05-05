@@ -23,7 +23,6 @@ description: Use when identifying an organism from observations, photos, video, 
 
 ## Required Docs/Templates During Migration
 
-- `docs/research_workflow.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/identification-note-template.md`
 - Existing files under `research/identification-notes/`, if present and relevant
@@ -46,6 +45,7 @@ description: Use when identifying an organism from observations, photos, video, 
 
 - Candidate ID or identification note.
 - Confidence label and evidence notes.
+- Observation context, visual evidence, behavioral evidence, size, habitat, timing, candidate identifications, and distinguishing features.
 - Alternatives and unresolved ambiguity.
 - What evidence is needed next.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.

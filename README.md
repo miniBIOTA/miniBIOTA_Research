@@ -40,7 +40,6 @@ Use the lightest folder that fits the work:
 | `skills/*/reference/` | Exact reference material when later migration phases move detailed references into skills |
 | `archive/` | Historical or superseded material after explicit approval |
 | `docs/` | Active detailed references during migration or when exact reference still lives there |
-| `docs/research_workflow.md` | Repeatable research, species, mechanism, and claim-check workflows during migration |
 | `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` during migration |
 | `research/` | Working research notes, organized by topic |
 | `research/species/` | Source-backed species research |
@@ -55,7 +54,7 @@ Use the lightest folder that fits the work:
 
 If an existing file already fits the work, use it instead of creating duplicates.
 
-During Phase 1 migration, `docs/`, `templates/`, and `research/` remain active. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
+During migration, remaining `docs/`, `templates/`, and `research/` files stay active only where exact source material has not yet been absorbed. Approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
 
 ## Uncertainty Labels
 
