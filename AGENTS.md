@@ -38,7 +38,7 @@ The Research Agent should produce research briefs, not finished public content, 
 - Absorbed research reference docs under matching `skills/*/reference/` folders.
 - Working research notes under `research/`.
 - Reusable Markdown templates under matching `skills/*/reference/` folders.
-- Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
+- Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`.
 - Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, domain history, and structured ecological records.
 
 ## Agent Architecture
@@ -86,7 +86,7 @@ If working manually:
 3. Load the relevant memory file(s) for the request.
 4. Use the matching `skills/*/SKILL.md` playbook.
 5. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md` when shared Brain operating memory is needed.
-6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
+6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md` for strategy-level current research state.
 7. Use `research/` and matching `skills/*/reference/` files when exact reference material is needed.
 8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
@@ -212,7 +212,7 @@ Do not hand Content a stronger claim than the evidence supports. When the public
 
 This repo reports to the Strategy Agent through:
 
-`M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
+`M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
 
 Update that brief at session end when any of these changed:
 

@@ -6,7 +6,7 @@ Use this order when sources disagree:
 
 1. User direction in the active session.
 2. `AGENTS.md` and relevant memory files.
-3. Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state.
+3. Brain `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md` for strategy-level current research state.
 4. Supabase for structured and queryable ecological records.
 5. Local `research/`, `skills/`, and `skills/*/reference/`.
 6. Brain mirrored docs and compiled exports as reference artifacts only.

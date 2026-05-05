@@ -26,7 +26,7 @@ description: Use when current structured records matter, including species count
 ## Required References / Context
 
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`
-- Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
+- Brain `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py` when using local Python helpers
 - `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` as dated historical ecosystem/data context when useful
 - `skills/species-research/reference/biome-profiles.md` as dated biome and species/biome context when useful

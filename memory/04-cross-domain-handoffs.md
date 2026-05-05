@@ -16,7 +16,7 @@ Biogeochemical cycle reference can support mechanism explanation, but preserve o
 
 Brain receives manager-facing research state through:
 
-`M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
+`M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
 
 Update that brief only when manager-facing state changes and the user has not explicitly deferred it.
 
