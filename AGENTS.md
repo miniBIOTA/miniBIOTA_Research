@@ -1,19 +1,45 @@
 # miniBIOTA Research - Codex Agent Entry Point
 
 ## What This Repo Is
-`miniBIOTA_Research` is the ecological research, species, biome, food-web, and biosphere data strategy vault for miniBIOTA. It owns ecosystem reference docs, research interpretation, biome composition, ecological risks, species-state context, and the rules for turning observations into durable ecological knowledge.
+
+`miniBIOTA_Research` is the upstream scientific knowledge system for miniBIOTA. It exists to turn miniBIOTA observations into scientifically grounded knowledge: source-backed species research, organism identification support, ecological mechanism explanations, claim checks, uncertainty tracking, experiment background, citation notes, and research briefs for downstream agents.
+
+This repo is the evidence layer behind `miniBIOTA_Content`, `miniBIOTA_Brain`, the website, species cards, scripts, field notes, and future experiments.
 
 Filesystem note: this repo currently lives at `M:\miniBIOTA\miniBIOTA_Research\`.
 
 Codex is the primary operating interface for this repo. Durable operating rules and research memory belong in Markdown in this repo, in the Brain research brief, or in Supabase when the record is structured.
 
+## Core Boundary With Content
+
+`miniBIOTA_Content` owns public-facing output:
+
+- Final YouTube scripts.
+- Titles, thumbnails, captions, social posts, platform metadata, and content calendars.
+- Episode planning, story structure, polished website copy, and finished public species cards.
+
+`miniBIOTA_Research` owns scientific grounding:
+
+- Species research and organism identification support.
+- Ecological mechanisms and closed-system risk analysis.
+- Claim verification and source/citation tracking.
+- Uncertainty labels, evidence gaps, and open research questions.
+- Experiment background research.
+- Research briefs for Content, Brain, Website, species cards, scripts, field notes, and future experiments.
+
+The Research Agent should produce research briefs, not finished public content, unless the user explicitly requests final public-facing language.
+
 ## Tech Stack
+
 - Markdown vault as durable research and ecosystem memory.
 - Research reference docs under `docs/`.
+- Working research notes under `research/`.
+- Reusable Markdown templates under `templates/`.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
 - Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, domain history, and structured ecological records.
 
 ## Startup Sequence
+
 For a full Codex bootstrap, run:
 
 ```powershell
@@ -26,46 +52,117 @@ If working manually:
 2. Read `docs/agent_protocol.md`.
 3. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`.
 4. Read `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`.
-5. Load the lightest local research doc that can safely answer the request.
+5. Load the lightest local research doc or template that can safely answer the request.
 6. For current ecology, species counts, observations, threads, loops, or population claims, verify Supabase before answering in depth.
 
 For biome composition, read `docs/biome_profiles.md`. For system processes, read `docs/biogeochemical_cycles.md`. For unresolved ecological risks, read `docs/instabilities_and_risks.md`.
 
 ## Source Of Truth
+
 Use this hierarchy when sources disagree:
 
 1. User direction in the current session.
 2. `AGENTS.md` and `docs/agent_protocol.md` for Research Agent operating rules.
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
-5. Local `docs/` files for detailed research and ecosystem interpretation.
+5. Local `docs/`, `research/`, and `templates/` files for detailed research and ecosystem interpretation.
 6. Brain mirrored docs and compiled exports as reference artifacts.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
 
+## Research Agent Role
+
+The Research Agent is responsible for:
+
+- Species research, including taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges, ecological role, and closed-system risk.
+- Organism identification support, with confidence levels and evidence notes.
+- Ecological mechanism explanations, clearly separating general science from miniBIOTA observations.
+- Claim verification before claims become scripts, cards, website copy, captions, or other public content.
+- Source and citation tracking.
+- Uncertainty labels and evidence-gap tracking.
+- Experiment background research and risk analysis for closed-system organisms.
+- Research briefs for the Content Agent and other downstream agents.
+
 ## Research Operating Rules
-- Keep observed, inferred, planned, and speculative ecology clearly separated.
+
+- Stay research-first. Prepare accurate, qualified, source-supported material that other agents can safely use.
+- Keep observed miniBIOTA behavior, inferred mechanisms, planned work, and speculation clearly separated.
+- Clearly separate general scientific literature from miniBIOTA-specific observations.
 - Verify current species counts, observation totals, active threads, open loops, and population state against Supabase before treating them as current.
-- Do not invent species identifications, population outcomes, mortality conclusions, causal explanations, or ecological stability claims from memory.
+- Do not invent species identifications, population outcomes, mortality conclusions, causal explanations, ecological stability claims, or citations.
 - Use conservative scientific language when evidence is incomplete.
+- Preserve uncertainty instead of forcing certainty.
+- Mark claims with the labels in `docs/uncertainty_labels.md`.
+- Use `Do not claim publicly yet` when a claim is too weak, unresolved, or risky for public use.
 - Preserve the difference between internal story threads and public open loops.
 - When adding or updating structured ecological data, follow Brain protocols and verify downstream links before closeout.
 
+## Repository Structure
+
+Recommended working structure:
+
+```text
+research/
+  species/
+  ecological-mechanisms/
+  experiments/
+  identification-notes/
+  claim-checks/
+  source-library/
+  open-questions/
+  research-briefs/
+
+templates/
+  species-research-template.md
+  ecological-mechanism-template.md
+  claim-check-template.md
+  research-brief-template.md
+  identification-note-template.md
+
+docs/
+  agent_protocol.md
+  research_workflow.md
+  content_handoff_rules.md
+  uncertainty_labels.md
+```
+
+If a folder already exists with a similar purpose, use it rather than creating a duplicate.
+
+## Content Handoff Rules
+
+Research hands off evidence, not finished content, unless explicitly asked.
+
+Every Content handoff brief should include:
+
+- Plain-language summary.
+- Strongest verified points.
+- Uncertainty notes.
+- Source-backed claims.
+- Suggested content-safe wording.
+- Phrases to avoid.
+- Open research questions.
+
+Do not hand Content a stronger claim than the evidence supports. When the public-safe version is weaker, say so plainly.
+
 ## Brain Relationship
+
 This repo reports to the Strategy Agent through:
 
 `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
 
 Update that brief at session end when any of these changed:
+
 - Current ecosystem state, species/database counts, or biome summaries.
 - Active ecological priorities, risks, or unresolved research questions.
 - Recent species, observation, thread, loop, or chronicle milestones.
 - Known data-quality issues, identification gaps, or measurement gaps.
 - Cross-domain dependencies for Content, Website, Hardware, App, Brand, Growth, Financials, or Company Operations.
+- Research operating structure or handoff rules that the Strategy Agent needs to know.
 
 Do not push every observation detail into the Brain brief. Keep detailed research work in this repo and structured records in Supabase.
 
 ## Docs
+
 | File | Contents |
 |---|---|
 | `docs/ecosystem_and_data_overview.md` | Original Brain Ecosystem & Data overview, retained as migrated context |
@@ -73,10 +170,14 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
 | `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
 | `docs/agent_protocol.md` | Codex operating protocol for Research sessions |
+| `docs/research_workflow.md` | Species, mechanism, claim-check, and research-brief workflows |
+| `docs/content_handoff_rules.md` | Rules for sending research to `miniBIOTA_Content` |
+| `docs/uncertainty_labels.md` | Standard uncertainty labels and public-claim rules |
 
 Docs are mirrored read-only into `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\` by Brain `sync_docs.ps1`. Edit source docs here, not the Brain mirror.
 
 ## Write Policy
+
 Respect `MINIBIOTA_WRITE_MODE` from Brain when available:
 
 | Mode | Behavior |
@@ -88,17 +189,21 @@ Respect `MINIBIOTA_WRITE_MODE` from Brain when available:
 For this repo, tell the user what files you intend to change before editing. Preserve user changes and keep edits scoped to the active request.
 
 ## Verification
+
 For documentation-only sessions:
+
 - Read every new or changed doc end to end.
 - Run `git diff --name-only` or equivalent.
 - Confirm no app behavior, database records, or public site behavior changed.
 
 For live research/data sessions:
+
 - Run or verify the relevant Supabase queries before acting on current ecology.
 - Confirm species, observation, thread, loop, and chronicle links affected by the work.
 - Report any live checks that could not run because of sandbox, auth, or network restrictions.
 
 ## Session Closeout Report
+
 Close every session with:
 
 ```markdown
