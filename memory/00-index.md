@@ -39,6 +39,16 @@ Phase 1 status: active memory files exist, but older `docs/` and `templates/` ar
 | `skills/supabase-ecology-read/SKILL.md` | Read-only checks of current structured ecological records |
 | `skills/session-closeout/SKILL.md` | Research session closeout and non-change verification |
 
+## Routing Precedence
+
+Use the most specific skill that fits, and layer cross-cutting safety skills when needed.
+
+- Any current structured state should also route through `skills/supabase-ecology-read/SKILL.md`.
+- Any public-facing claim inside another workflow should also route through `skills/claim-check/SKILL.md`.
+- Possible introductions, interventions, husbandry changes, or system changes should route through `skills/experiment-background/SKILL.md` before suitability language becomes action-oriented.
+- Uncertain organism IDs should route through `skills/organism-identification/SKILL.md` before species-level conclusions.
+- Content-facing research should route through `skills/content-handoff-brief/SKILL.md` after claim and uncertainty review when needed.
+
 ## Migration Note
 
 For now, do not treat this folder as replacing all of `docs/`. During Phase 1, memory and skills route the work while existing docs and templates remain active references.

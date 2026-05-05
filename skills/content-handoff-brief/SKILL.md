@@ -32,20 +32,25 @@ description: Use to prepare source-aware research context for Content without wr
 ## Workflow
 
 1. Identify the downstream Content need and audience.
-2. Verify current structured records if the brief depends on live ecology.
-3. Summarize the plain-language research context.
-4. List strongest verified points.
-5. Preserve uncertainty notes and evidence gaps.
-6. Provide source-backed claims and source notes.
-7. Suggest cautious content-safe wording.
-8. List phrases to avoid.
-9. Preserve open research questions.
+2. Use `skills/supabase-ecology-read/SKILL.md` when the brief depends on current miniBIOTA state.
+3. Use `skills/claim-check/SKILL.md` before public-facing claims.
+4. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+5. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations appear in the brief.
+6. Summarize the plain-language research context.
+7. List strongest verified points.
+8. Preserve uncertainty notes and evidence gaps.
+9. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+10. Provide source-backed claims and source notes.
+11. Suggest cautious content-safe wording.
+12. List phrases to avoid.
+13. Preserve open research questions.
 
 ## Expected Output
 
 - Research brief for Content or another downstream agent.
 - No final script unless explicitly requested.
 - Conservative public-safe wording.
+- Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Clear do-not-say guidance.
 
 ## Write/Approval Rules

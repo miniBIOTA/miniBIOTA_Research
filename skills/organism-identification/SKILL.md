@@ -31,12 +31,16 @@ description: Use when identifying an organism from observations, photos, video, 
 ## Workflow
 
 1. Gather observation context: date, biome, media, size, behavior, habitat, life stage, and known collection source.
-2. Check existing miniBIOTA notes and structured records if the organism may already be tracked.
+2. Check existing miniBIOTA notes and use `skills/supabase-ecology-read/SKILL.md` when current structured records matter.
 3. Identify candidates at the safest supported taxonomic level.
 4. Record evidence for, evidence against, and realistic alternatives.
 5. State what would distinguish the candidates.
 6. Use uncertainty labels, especially `Needs microscopy` and `Needs expert confirmation` when appropriate.
-7. Provide public-safe wording that stays broad when species-level ID is not justified.
+7. Use `skills/species-research/SKILL.md` only after the taxonomic level is clear enough for species research.
+8. Use `skills/claim-check/SKILL.md` before public-facing ID claims.
+9. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
+10. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+11. Provide public-safe wording that stays broad when species-level ID is not justified.
 
 ## Expected Output
 
@@ -44,6 +48,7 @@ description: Use when identifying an organism from observations, photos, video, 
 - Confidence label and evidence notes.
 - Alternatives and unresolved ambiguity.
 - What evidence is needed next.
+- Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Public-safe wording and "Do not say" guidance.
 
 ## Write/Approval Rules

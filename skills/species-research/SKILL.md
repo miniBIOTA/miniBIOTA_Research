@@ -32,17 +32,21 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 
 1. Define the species or organism question and the requested output.
 2. Check existing local research notes before creating duplicate work.
-3. If the answer depends on current miniBIOTA state, use `skills/supabase-ecology-read/SKILL.md`.
-4. Separate general literature facts from miniBIOTA observations.
-5. Research taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges, ecological role, and closed-system risks.
-6. Record source notes. Do not invent citations.
-7. Assign an uncertainty label from `docs/uncertainty_labels.md`.
-8. Include what is confirmed, inferred, unknown, and not safe to say publicly.
+3. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+4. If the answer depends on current miniBIOTA state, use `skills/supabase-ecology-read/SKILL.md`.
+5. Use `skills/experiment-background/SKILL.md` before organism introductions, husbandry changes, interventions, system changes, or action recommendations.
+6. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+7. Research taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges, ecological role, and closed-system risks.
+8. Record source notes. Do not invent citations.
+9. Assign an uncertainty label from `docs/uncertainty_labels.md`.
+10. Use `skills/claim-check/SKILL.md` before making public-facing claims.
+11. Include what is confirmed, inferred, unknown, and not safe to say publicly.
 
 ## Expected Output
 
 - Species research note, brief, or answer that preserves uncertainty.
 - Clear source notes.
+- Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Content-safe summary only when useful.
 - Open questions and evidence gaps.
 

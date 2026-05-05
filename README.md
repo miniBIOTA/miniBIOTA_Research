@@ -34,10 +34,15 @@ Use the lightest folder that fits the work:
 
 | Path | Purpose |
 |---|---|
-| `docs/` | Operating rules and stable reference docs |
-| `docs/research_workflow.md` | Repeatable research, species, mechanism, and claim-check workflows |
-| `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` |
-| `docs/uncertainty_labels.md` | Standard confidence and uncertainty labels |
+| `AGENTS.md` | Hard operating rules and repo entry point |
+| `memory/` | Durable research boundaries, source-of-truth rules, watchouts, handoff rules, structured-record rules, and recurring corrections |
+| `skills/` | Active Research Agent workflow playbooks |
+| `skills/*/reference/` | Exact reference material when later migration phases move detailed references into skills |
+| `archive/` | Historical or superseded material after explicit approval |
+| `docs/` | Active detailed references during migration or when exact reference still lives there |
+| `docs/research_workflow.md` | Repeatable research, species, mechanism, and claim-check workflows during migration |
+| `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` during migration |
+| `docs/uncertainty_labels.md` | Standard confidence and uncertainty labels during migration |
 | `research/` | Working research notes, organized by topic |
 | `research/species/` | Source-backed species research |
 | `research/ecological-mechanisms/` | Reusable mechanism explanations |
@@ -50,6 +55,8 @@ Use the lightest folder that fits the work:
 | `templates/` | Simple Markdown templates for recurring research outputs |
 
 If an existing file already fits the work, use it instead of creating duplicates.
+
+During Phase 1 migration, `docs/`, `templates/`, and `research/` remain active. Later approved phases may absorb durable rules into `memory/`, workflow instructions into `skills/`, exact references into `skills/*/reference/`, and superseded material into `archive/`.
 
 ## Uncertainty Labels
 
@@ -93,12 +100,15 @@ Use `templates/research-brief-template.md`. Each brief should include:
 powershell -ExecutionPolicy Bypass -File "_system/codex_session_start.ps1"
 ```
 
-Then read:
+Then route the session:
 
 1. `AGENTS.md`
-2. `docs/agent_protocol.md`
-3. `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`
-4. `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
+2. `memory/00-index.md`
+3. Relevant `memory/*.md` files for the request
+4. Matching `skills/*/SKILL.md` playbook
+5. `docs/`, `templates/`, and `research/` only when still active during migration or when exact reference still lives there
+6. `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md` for strategy-level current research state
+7. Supabase only when current structured records matter
 
 ## Brain Relationship
 

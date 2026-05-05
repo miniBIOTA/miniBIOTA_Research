@@ -35,14 +35,20 @@ description: Use when current structured records matter, including species count
 1. Identify which current structured records matter.
 2. Use read-only queries or tools by default.
 3. Query only the necessary tables/fields.
-4. Compare live records against local docs only when needed.
-5. Report what was verified and what could not be verified.
-6. Keep any current-state answer tied to the check performed.
+4. Treat `docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` as reference/context, not live truth.
+5. Verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+6. Compare live records against local docs only when needed.
+7. Use `skills/claim-check/SKILL.md` before turning current-state findings into public-facing claims.
+8. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+9. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
+10. Report what was verified and what could not be verified.
+11. Keep any current-state answer tied to the check performed.
 
 ## Expected Output
 
 - Read-only verification summary.
 - Current counts or records when requested.
+- Clear separation of live structured records from local reference/context docs.
 - Clear caveat if live access failed or was not run.
 - No writes, no test data.
 

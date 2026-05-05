@@ -16,6 +16,8 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 
 - Ecology docs can drift quickly because observations and Supabase records are updated often.
 - Some biome profile details may lag live structured records.
+- `docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` may contain dated counts, current-state claims, or status language such as "thriving" or "established." Treat them as reference/context, not live truth.
+- Verify current state in Supabase before reusing species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 - Several organism identifications are unresolved or pending.
 - Measurement gaps remain for CO2, O2, methane, salinity drift, pH, and dissolved oxygen.
 - Macroalgae dominance, Mesostoma predation, ostracod population decline, ghost shrimp juvenile recruitment, and sea urchin establishment are active uncertainty areas unless live records say otherwise.

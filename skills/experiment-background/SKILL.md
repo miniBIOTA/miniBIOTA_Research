@@ -35,17 +35,22 @@ description: Use to prepare background research for a planned experiment, interv
 
 1. Define the proposed experiment, intervention, introduction, or system change.
 2. State clearly that Research is providing background context, not approval.
-3. Check relevant current structured records if live ecology affects risk.
-4. Summarize general scientific background and miniBIOTA-specific evidence separately.
-5. Identify expected signals, variables, measurement needs, and possible confounders.
-6. Identify closed-system risks and ethical/ecological cautions.
-7. Preserve open questions and decision points.
-8. Recommend what evidence would be needed before action, without approving the action.
+3. Use this skill before organism introductions, husbandry changes, interventions, system changes, or action recommendations.
+4. Use `skills/supabase-ecology-read/SKILL.md` when live ecology affects risk.
+5. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+6. Use `skills/claim-check/SKILL.md` before public-facing experiment, intervention, or suitability claims.
+7. Summarize general scientific background and miniBIOTA-specific evidence separately.
+8. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+9. Identify expected signals, variables, measurement needs, and possible confounders.
+10. Identify closed-system risks and ethical/ecological cautions.
+11. Preserve open questions and decision points.
+12. Recommend what evidence would be needed before action, without approving the action.
 
 ## Expected Output
 
 - Experiment background note or answer.
 - Risks, variables, measurements, and open questions.
+- Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Clear boundary that no final action is approved.
 
 ## Write/Approval Rules

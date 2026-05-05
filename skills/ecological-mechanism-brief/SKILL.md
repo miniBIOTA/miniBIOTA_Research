@@ -35,16 +35,19 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 
 1. Define the mechanism and the research question.
 2. Separate general scientific mechanism from miniBIOTA-specific observation.
-3. Check current structured records if the mechanism explanation depends on current ecology.
-4. Identify what is observed, inferred, plausible, unknown, and not measured.
-5. Include closed-system relevance and possible stabilizing or destabilizing effects.
-6. Assign uncertainty labels where claims vary in confidence.
-7. Provide content-safe wording only if useful.
+3. Use `skills/supabase-ecology-read/SKILL.md` when the mechanism explanation depends on current miniBIOTA state.
+4. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+5. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
+6. Identify what is observed, inferred, plausible, unknown, planned, speculative, and not measured.
+7. Include closed-system relevance and possible stabilizing or destabilizing effects.
+8. Assign uncertainty labels where claims vary in confidence.
+9. Use `skills/claim-check/SKILL.md` before public-facing mechanism claims.
+10. Provide content-safe wording only if useful.
 
 ## Expected Output
 
 - Mechanism explanation or durable mechanism note.
-- Clear separation of general science and miniBIOTA evidence.
+- Clear separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Measurement gaps and open questions.
 - Content-safe wording and "Do not say" boundaries when needed.
 

@@ -34,17 +34,20 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 
 1. Quote or restate the claim being checked.
 2. Identify whether the claim depends on live miniBIOTA records.
-3. Check Supabase read-only when current structured state matters.
-4. Separate miniBIOTA observations from general literature and inference.
-5. Gather reliable source notes.
-6. Assign one confidence label: `Confirmed`, `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, `Needs expert confirmation`, or `Do not claim publicly yet`.
-7. Provide recommended public wording that is weaker than or equal to the evidence.
-8. List warnings, qualifiers, and phrases to avoid.
+3. Use `skills/supabase-ecology-read/SKILL.md` when current structured state matters.
+4. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
+5. Use `skills/experiment-background/SKILL.md` before claims become introductions, husbandry changes, interventions, system changes, or action recommendations.
+6. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+7. Gather reliable source notes.
+8. Assign one confidence label: `Confirmed`, `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, `Needs expert confirmation`, or `Do not claim publicly yet`.
+9. Provide recommended public wording that is weaker than or equal to the evidence.
+10. List warnings, qualifiers, and phrases to avoid.
 
 ## Expected Output
 
 - Claim verdict with confidence label.
 - Evidence summary and source notes.
+- Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Public-safe wording.
 - "Do not say" list.
 - Open questions or evidence gaps.

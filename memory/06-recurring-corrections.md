@@ -33,3 +33,11 @@ Mistake: using local overview counts as current species, observation, or thread 
 Correct behavior: verify Supabase when current structured state matters.
 
 Why it matters: miniBIOTA records change quickly.
+
+## Do Not Reuse Legacy Status Language As Current Truth
+
+Mistake: reusing status language from `docs/ecosystem_and_data_overview.md` or `docs/biome_profiles.md`, such as "thriving" or "established," as if it were current.
+
+Correct behavior: treat those docs as reference/context and verify Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
+
+Why it matters: dated ecology notes can make unresolved outcomes sound confirmed.
