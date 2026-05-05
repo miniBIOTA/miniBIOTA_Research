@@ -124,7 +124,7 @@ Each brief for `miniBIOTA_Content` should include:
 - Phrases to avoid.
 - Open research questions.
 
-See `docs/content_handoff_rules.md`.
+See `skills/content-handoff-brief/reference/content-handoff-rules.md`.
 
 ## Brain Update Rules
 

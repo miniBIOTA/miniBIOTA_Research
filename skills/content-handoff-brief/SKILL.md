@@ -23,7 +23,7 @@ description: Use to prepare source-aware research context for Content without wr
 
 ## Required Docs/Templates During Migration
 
-- `docs/content_handoff_rules.md`
+- `skills/content-handoff-brief/reference/content-handoff-rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/content-handoff-brief/reference/research-brief-template.md`
 - Existing files under `research/research-briefs/`, if present and relevant
@@ -43,6 +43,7 @@ description: Use to prepare source-aware research context for Content without wr
 11. Suggest cautious content-safe wording.
 12. List phrases to avoid.
 13. Preserve open research questions.
+14. Make clear that suggested wording is not final public copy, script language, platform metadata, or publishing approval.
 
 ## Expected Output
 
@@ -52,6 +53,7 @@ description: Use to prepare source-aware research context for Content without wr
 - Conservative public-safe wording.
 - Explicit separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Clear do-not-say guidance.
+- Clear note when `Do not claim publicly yet` is the safest handoff outcome.
 
 ## Write/Approval Rules
 
@@ -66,4 +68,5 @@ description: Use to prepare source-aware research context for Content without wr
 - Do not treat `Likely` or `Possible` as confirmed in Content, Brand, Website, Growth, or other downstream handoffs.
 - Do not include `Do not claim publicly yet` material as public-safe wording.
 - Do not erase uncertainty for narrative simplicity.
+- Do not turn handoff wording into approved script, caption, website copy, title, thumbnail, platform metadata, or publishing language.
 - Do not create or resolve public open loops as structured records without explicit approval.

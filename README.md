@@ -40,7 +40,6 @@ Use the lightest folder that fits the work:
 | `skills/*/reference/` | Exact reference material and active research templates |
 | `archive/` | Historical or superseded material after explicit approval |
 | `docs/` | Active detailed references during migration or when exact reference still lives there |
-| `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` during migration |
 | `research/` | Working research notes, organized by topic |
 | `research/species/` | Source-backed species research |
 | `research/ecological-mechanisms/` | Reusable mechanism explanations |
@@ -90,6 +89,8 @@ Use `skills/content-handoff-brief/reference/research-brief-template.md`. Each br
 - Suggested content-safe wording.
 - Phrases to avoid.
 - Open research questions.
+
+Use `skills/content-handoff-brief/reference/content-handoff-rules.md` for the exact Research-to-Content handoff rules.
 
 ## Start
 

@@ -108,6 +108,25 @@ Active template references now live at:
 
 The root `templates/` files are no longer active operating sources.
 
+## Phase 2 Batch 4
+
+Phase 2 Batch 4 absorbed the Research-to-Content handoff source doc into memory, skills, and `skills/content-handoff-brief/reference/content-handoff-rules.md`.
+
+The old doc was fully absorbed and moved to:
+
+`archive/superseded/content_handoff_rules.md`
+
+Active handoff guidance now lives in:
+
+- `memory/04-cross-domain-handoffs.md` for Research/Content division of labor, handoff checklist, downstream domain boundaries, and public-copy ownership.
+- `memory/02-source-of-truth-and-write-policy.md` for source expectations, evidence gaps, and proof-claim boundaries.
+- `memory/03-current-priorities-and-watchouts.md` for public-claim caution and `Do not claim publicly yet` as a valid handoff outcome.
+- `memory/06-recurring-corrections.md` for avoiding the mistake of treating handoff wording as final public copy.
+- `skills/content-handoff-brief/SKILL.md` for the active handoff workflow.
+- `skills/content-handoff-brief/reference/content-handoff-rules.md` for the exact migrated handoff rules.
+
+The migrated rules preserve Research/Content ownership boundaries, source and citation expectations, uncertainty and public-readiness guidance, Supabase verification when current structured records matter, and the rule that Research does not create final scripts, captions, website copy, titles, thumbnails, platform metadata, publishing language, or approved public copy by default.
+
 ## Non-Changes
 
 Phase 1 did not change:

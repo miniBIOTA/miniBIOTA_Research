@@ -42,6 +42,14 @@ Correct behavior: use the label's public guidance. `Do not claim publicly yet` i
 
 Why it matters: research can preserve uncertainty internally, but Content, Brand, Website, and Growth handoffs need public-safe wording that does not overclaim.
 
+## Do Not Treat Handoff Wording As Final Public Copy
+
+Mistake: treating suggested content-safe wording in a research brief as an approved script, caption, title, thumbnail, website page, platform package, or publishing decision.
+
+Correct behavior: Research provides evidence, context, sources, uncertainty, caution, phrases to avoid, and optional safe wording. Content and the relevant downstream domain own final public output.
+
+Why it matters: suggested wording can help another agent, but it still needs the proper public-claim and publishing workflow before use.
+
 ## Do Not Treat Migrated Docs As Live Data Without Checks
 
 Mistake: using local overview counts as current species, observation, or thread totals.

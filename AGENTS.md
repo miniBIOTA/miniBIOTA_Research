@@ -172,7 +172,6 @@ research/
 
 docs/
   agent_protocol.md
-  content_handoff_rules.md
 
 archive/
 ```
@@ -238,8 +237,8 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
 | `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
 | `docs/agent_protocol.md` | Codex operating protocol for Research sessions |
-| `docs/content_handoff_rules.md` | Rules for sending research to `miniBIOTA_Content` |
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
+| `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
 
 Docs are mirrored read-only into `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\` by Brain `sync_docs.ps1`. Edit source docs here, not the Brain mirror.
 

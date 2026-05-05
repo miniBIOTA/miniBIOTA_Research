@@ -51,6 +51,7 @@ Phase 2 status: the uncertainty-label and research-workflow source docs have bee
 | `skills/organism-identification/reference/identification-note-template.md` | Exact organism identification note template |
 | `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` | Exact ecological mechanism template |
 | `skills/content-handoff-brief/reference/research-brief-template.md` | Exact research handoff brief template |
+| `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
 
 ## Routing Precedence
 

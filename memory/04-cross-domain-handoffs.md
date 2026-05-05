@@ -6,6 +6,8 @@ Use `skills/content-handoff-brief/SKILL.md` or the matching domain skill when re
 
 Do not pass public-facing language forward without claim-checking claims that depend on science, current miniBIOTA state, sponsor/support language, campaign language, or ecological outcomes.
 
+Research may include short suggested content-safe wording inside a brief, but that wording is not a final script, caption, website page, title, thumbnail, platform package, publishing decision, or public commitment.
+
 ## Brain
 
 Brain receives manager-facing research state through:
@@ -28,6 +30,18 @@ Research supplies:
 
 Content owns final scripts, captions, social posts, public story structure, polished copy, and platform metadata.
 
+Content also owns titles, thumbnails, content calendars, episode planning, and finished public species cards. Research should not take ownership of those outputs unless the user explicitly asks for public-facing drafting.
+
+Before sending research to Content, confirm:
+
+- Current miniBIOTA state was verified when the claim depends on live records.
+- Observed, inferred, and speculative points are separated.
+- Uncertainty labels are present.
+- The strongest claims have source notes.
+- Public-safe wording is weaker than or equal to the evidence.
+- Unsafe or overstrong phrases are listed.
+- Open questions are preserved.
+
 ## Website
 
 Website pages depend on accurate structured records and conservative public claims. Research may provide wording guidance and evidence boundaries, but structured website-facing changes must coordinate with Website and Content rules.
@@ -45,6 +59,8 @@ Hardware priorities may depend on measurement gaps and ecological risk tracking,
 Public campaign, sponsorship, course, and Kickstarter claims must remain grounded in documented outcomes and ecological feasibility.
 
 When research supports Brand or Growth, separate verified facts, internal research interpretation, aspirational positioning, and public-safe wording.
+
+Brand, Website, and Growth may use Research context, but public-facing language still requires claim-safety review when it includes scientific, ecological, current-state, campaign, sponsor, partner, pricing, launch, or legal-sensitive claims.
 
 ## Financials
 

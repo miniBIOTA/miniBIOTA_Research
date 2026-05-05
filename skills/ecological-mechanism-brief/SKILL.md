@@ -42,6 +42,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 8. Assign uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md` where claims vary in confidence.
 9. Use `skills/claim-check/SKILL.md` before public-facing mechanism claims.
 10. Provide content-safe wording only if useful.
+11. Use `skills/content-handoff-brief/SKILL.md` when the mechanism explanation is being handed to Content, Website, Brand, Growth, Brain, Hardware, App, or Financials.
 
 ## Expected Output
 
@@ -50,6 +51,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - Clear separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 - Measurement gaps and open questions.
 - Content-safe wording and "Do not say" boundaries when needed.
+- Handoff boundary when the explanation is intended for a downstream public-facing workflow.
 
 ## Write/Approval Rules
 
@@ -64,3 +66,4 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - Do not imply causation from correlation.
 - Do not approve interventions or system changes.
 - Do not convert literature background into confirmed miniBIOTA outcomes.
+- Do not treat mechanism handoff wording as final public copy.

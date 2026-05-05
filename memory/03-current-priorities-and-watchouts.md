@@ -13,6 +13,7 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 - Define the research question before gathering sources or drafting handoff language.
 - Record citation/source notes, open questions, and evidence gaps in durable research outputs.
 - Keep source-backed claims weaker than or equal to the evidence.
+- Keep suggested content-safe wording clearly separate from final public copy owned by Content, Website, Brand, or Growth.
 
 ## Watchouts
 
@@ -33,6 +34,8 @@ Run public-facing scientific, ecological, website, script, brand, campaign, spon
 Do not claim miniBIOTA ecological stability, self-sustaining population establishment, mortality conclusions, causal mechanisms, or species-level identifications unless the evidence supports that level of confidence.
 
 Preserve uncertainty in Content, Brand, Website, Growth, and other downstream handoffs. Internal research can track `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material, but public wording must not present those claims as confirmed facts.
+
+Use `Do not claim publicly yet` as a valid handoff outcome when the safest downstream guidance is to avoid the claim.
 
 Always separate:
 

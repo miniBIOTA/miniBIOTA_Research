@@ -24,7 +24,6 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 
 ## Required Docs/Templates During Migration
 
-- `docs/content_handoff_rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/claim-check/reference/claim-check-template.md`
 - Existing files under `research/claim-checks/`, if present and relevant
@@ -41,6 +40,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 8. Assign one confidence label from `skills/claim-check/reference/uncertainty-labels.md`: `Confirmed`, `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, `Needs expert confirmation`, or `Do not claim publicly yet`.
 9. Provide recommended public wording that is weaker than or equal to the evidence.
 10. List warnings, qualifiers, and phrases to avoid.
+11. If the claim feeds Content, Website, Brand, Growth, or public campaign language, route the result through the relevant handoff workflow before treating it as public-ready.
 
 ## Expected Output
 
@@ -66,3 +66,4 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 - Do not imply a source confirms a miniBIOTA-specific outcome unless it directly does.
 - Do not turn unresolved observations into confirmed ecology.
 - Do not create final public copy unless explicitly asked.
+- Do not treat a claim-check wording suggestion as approved script, website, campaign, or publishing language.

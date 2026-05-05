@@ -35,6 +35,8 @@ Research outputs should record source notes as they go. Do not invent citations,
 
 When evidence is incomplete, preserve the gap as an open question. Do not fill it with narrative logic, expected outcomes, or dated reference material.
 
+If a source supports a general mechanism but not the miniBIOTA-specific case, make that distinction explicit. Do not convert observations or literature background into public proof claims.
+
 ## Uncertainty Labels
 
 Use these labels in species research, identification notes, mechanism explanations, claim checks, experiment background, and research briefs:
@@ -75,3 +77,4 @@ For this repo, always tell the user what files you intend to change before editi
 - Do not update Brain `research_brief.md` unless manager-facing state changed and the user has not deferred it.
 - Do not strengthen uncertain observations into confirmed ecology.
 - Do not invent citations, organism IDs, population outcomes, causal explanations, or stability claims.
+- Do not treat suggested content-safe wording as approved public copy, final script language, platform metadata, or publishing language.
