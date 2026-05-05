@@ -25,7 +25,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 ## Required Docs/Templates During Migration
 
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `docs/biogeochemical_cycles.md` when cycle context is relevant
 - `docs/instabilities_and_risks.md` when risk context is relevant
 - `templates/ecological-mechanism-template.md`
@@ -40,7 +40,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 5. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
 6. Identify what is observed, inferred, plausible, unknown, planned, speculative, and not measured.
 7. Include closed-system relevance and possible stabilizing or destabilizing effects.
-8. Assign uncertainty labels where claims vary in confidence.
+8. Assign uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md` where claims vary in confidence.
 9. Use `skills/claim-check/SKILL.md` before public-facing mechanism claims.
 10. Provide content-safe wording only if useful.
 
@@ -60,6 +60,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 ## Do Not Do
 
 - Do not present inferred mechanisms as directly measured.
+- Do not treat `Likely`, `Possible`, or plausible mechanism language as confirmed miniBIOTA fact.
 - Do not imply causation from correlation.
 - Do not approve interventions or system changes.
 - Do not convert literature background into confirmed miniBIOTA outcomes.

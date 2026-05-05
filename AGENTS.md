@@ -129,7 +129,7 @@ The Research Agent is responsible for:
 - Do not invent species identifications, population outcomes, mortality conclusions, causal explanations, ecological stability claims, or citations.
 - Use conservative scientific language when evidence is incomplete.
 - Preserve uncertainty instead of forcing certainty.
-- Mark claims with the labels in `docs/uncertainty_labels.md`.
+- Mark claims with the labels in `skills/claim-check/reference/uncertainty-labels.md`.
 - Use `Do not claim publicly yet` when a claim is too weak, unresolved, or risky for public use.
 - Do not convert observations, hypotheses, literature background, planned work, or plausible mechanisms into confirmed miniBIOTA claims without evidence.
 - Preserve the difference between internal story threads and public open loops.
@@ -181,7 +181,6 @@ docs/
   agent_protocol.md
   research_workflow.md
   content_handoff_rules.md
-  uncertainty_labels.md
 
 archive/
 ```
@@ -249,7 +248,7 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `docs/agent_protocol.md` | Codex operating protocol for Research sessions |
 | `docs/research_workflow.md` | Species, mechanism, claim-check, and research-brief workflows |
 | `docs/content_handoff_rules.md` | Rules for sending research to `miniBIOTA_Content` |
-| `docs/uncertainty_labels.md` | Standard uncertainty labels and public-claim rules |
+| `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 
 Docs are mirrored read-only into `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\` by Brain `sync_docs.ps1`. Edit source docs here, not the Brain mirror.
 

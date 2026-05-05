@@ -24,7 +24,7 @@ description: Use when identifying an organism from observations, photos, video, 
 ## Required Docs/Templates During Migration
 
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/identification-note-template.md`
 - Existing files under `research/identification-notes/`, if present and relevant
 
@@ -35,7 +35,7 @@ description: Use when identifying an organism from observations, photos, video, 
 3. Identify candidates at the safest supported taxonomic level.
 4. Record evidence for, evidence against, and realistic alternatives.
 5. State what would distinguish the candidates.
-6. Use uncertainty labels, especially `Needs microscopy` and `Needs expert confirmation` when appropriate.
+6. Use uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md`, especially `Needs microscopy` and `Needs expert confirmation` when appropriate.
 7. Use `skills/species-research/SKILL.md` only after the taxonomic level is clear enough for species research.
 8. Use `skills/claim-check/SKILL.md` before public-facing ID claims.
 9. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
@@ -60,6 +60,7 @@ description: Use when identifying an organism from observations, photos, video, 
 ## Do Not Do
 
 - Do not over-confirm organism ID.
+- Do not treat `Likely`, `Possible`, `Needs microscopy`, or `Needs expert confirmation` as species-level confirmation.
 - Do not use a species name publicly when only genus, family, order, or descriptive ID is supported.
 - Do not infer population state from a single visual ID.
 - Do not approve introductions, husbandry actions, or control interventions.

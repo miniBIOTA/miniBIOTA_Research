@@ -39,8 +39,10 @@ description: Use to close Research sessions with changed files, verification, no
 10. Confirm whether uncertain observations were rewritten as confirmed ecology.
 11. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
 12. Confirm whether test data was created.
-13. State unresolved questions.
-14. State whether Brain research brief or other domain follow-up is needed.
+13. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
+14. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
+15. State unresolved questions.
+16. State whether Brain research brief or other domain follow-up is needed.
 
 ## Expected Output
 
@@ -70,4 +72,5 @@ Unresolved questions:
 
 - Do not hide failed verification.
 - Do not claim structured records were unchanged if a write occurred.
+- Do not report uncertainty-labeled material as public-ready unless the relevant claim check supports it.
 - Do not skip the non-change confirmations requested by the user.

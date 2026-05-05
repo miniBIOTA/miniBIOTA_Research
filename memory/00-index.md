@@ -39,6 +39,12 @@ Phase 1 status: active memory files exist, but older `docs/` and `templates/` ar
 | `skills/supabase-ecology-read/SKILL.md` | Read-only checks of current structured ecological records |
 | `skills/session-closeout/SKILL.md` | Research session closeout and non-change verification |
 
+## Active References
+
+| Reference | Use |
+|---|---|
+| `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels, public-claim readiness rules, separation requirements, and overclaiming example |
+
 ## Routing Precedence
 
 Use the most specific skill that fits, and layer cross-cutting safety skills when needed.

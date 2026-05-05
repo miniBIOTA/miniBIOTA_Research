@@ -25,7 +25,7 @@ description: Use to prepare background research for a planned experiment, interv
 ## Required Docs/Templates During Migration
 
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `docs/biome_profiles.md` when biome context is relevant
 - `docs/biogeochemical_cycles.md` when process context is relevant
 - `docs/instabilities_and_risks.md` when risk context is relevant
@@ -64,4 +64,6 @@ description: Use to prepare background research for a planned experiment, interv
 - Do not approve organism introductions.
 - Do not approve husbandry actions, control interventions, or system changes as final actions.
 - Do not present predicted outcomes as observed outcomes.
+- Do not treat uncertain suitability, `Likely`, or `Possible` research conclusions as permission to act.
+- Do not convert `Do not claim publicly yet` material into public-safe experiment or suitability claims.
 - Do not treat suitability research as permission to act.

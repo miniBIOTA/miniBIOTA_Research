@@ -34,7 +34,23 @@ Follow-up clarifications were added:
 - `README.md` now reflects the new Research Agent architecture.
 - Legacy current-state docs require Supabase verification before reuse.
 
-The first likely migration target is `docs/uncertainty_labels.md`, because it is the cross-cutting safety contract for research claims, organism IDs, public wording, and downstream handoffs.
+The first likely migration target was the uncertainty-label source doc, because it is the cross-cutting safety contract for research claims, organism IDs, public wording, and downstream handoffs.
+
+## Phase 2 Batch 1
+
+Phase 2 Batch 1 absorbed the uncertainty-label source doc into active memory, skills, and `skills/claim-check/reference/uncertainty-labels.md`.
+
+The old doc was fully absorbed and moved to:
+
+`archive/superseded/uncertainty_labels.md`
+
+Active references now point to `skills/claim-check/reference/uncertainty-labels.md`. The migrated rules preserve:
+
+- All standard uncertainty labels.
+- Label definitions and public-readiness guidance.
+- The difference between internal research use and public content readiness.
+- The required separation of observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
+- `Do not claim publicly yet` as a strong public-facing stop condition.
 
 ## Non-Changes
 

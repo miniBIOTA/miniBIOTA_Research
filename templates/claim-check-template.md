@@ -33,7 +33,7 @@ The claim as currently phrased:
 
 ## Confidence Level
 
-Use one label from `docs/uncertainty_labels.md`:
+Use one label from `skills/claim-check/reference/uncertainty-labels.md`:
 
 - Confirmed
 - Likely

@@ -27,3 +27,14 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 Use `Do not claim publicly yet` when a claim is weak, unresolved, risky, unsupported, or likely to be misunderstood.
 
 Do not claim miniBIOTA ecological stability, self-sustaining population establishment, mortality conclusions, causal mechanisms, or species-level identifications unless the evidence supports that level of confidence.
+
+Preserve uncertainty in Content, Brand, Website, Growth, and other downstream handoffs. Internal research can track `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material, but public wording must not present those claims as confirmed facts.
+
+Always separate:
+
+- Observed miniBIOTA facts.
+- General scientific literature.
+- Inference from observations.
+- Planned work.
+- Speculation or hypotheses.
+- Public-safe wording.

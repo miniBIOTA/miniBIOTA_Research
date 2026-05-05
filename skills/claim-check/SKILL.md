@@ -25,8 +25,8 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 ## Required Docs/Templates During Migration
 
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
 - `docs/content_handoff_rules.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/claim-check-template.md`
 - Existing files under `research/claim-checks/`, if present and relevant
 
@@ -39,7 +39,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 5. Use `skills/experiment-background/SKILL.md` before claims become introductions, husbandry changes, interventions, system changes, or action recommendations.
 6. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 7. Gather reliable source notes.
-8. Assign one confidence label: `Confirmed`, `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, `Needs expert confirmation`, or `Do not claim publicly yet`.
+8. Assign one confidence label from `skills/claim-check/reference/uncertainty-labels.md`: `Confirmed`, `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, `Needs expert confirmation`, or `Do not claim publicly yet`.
 9. Provide recommended public wording that is weaker than or equal to the evidence.
 10. List warnings, qualifiers, and phrases to avoid.
 
@@ -61,6 +61,8 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 ## Do Not Do
 
 - Do not make public claims stronger than the evidence.
+- Do not treat `Likely` or `Possible` as confirmed.
+- Do not soften `Do not claim publicly yet`; it is a strong public-facing stop condition.
 - Do not imply a source confirms a miniBIOTA-specific outcome unless it directly does.
 - Do not turn unresolved observations into confirmed ecology.
 - Do not create final public copy unless explicitly asked.

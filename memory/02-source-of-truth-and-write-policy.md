@@ -29,6 +29,25 @@ Verify Supabase before treating any of these as current:
 
 `docs/ecosystem_and_data_overview.md` and `docs/biome_profiles.md` may contain dated current-state claims, counts, or status language such as "thriving" or "established." Treat them as reference/context, not live truth. Verify current state in Supabase before reusing counts, species status, population outcomes, active loops/threads, chronicle state, or current biome condition.
 
+## Uncertainty Labels
+
+Use these labels in species research, identification notes, mechanism explanations, claim checks, experiment background, and research briefs:
+
+| Label | Use When | Public Content Guidance |
+|---|---|---|
+| `Confirmed` | Direct miniBIOTA evidence, reliable documentation, or strong source-backed identification supports the claim. | Can be used publicly with normal caution. |
+| `Likely` | Evidence points strongly in one direction, but a final check, clearer image, measurement, or source is missing. | Public wording should include softeners such as "likely" or "appears to." |
+| `Possible` | The claim is plausible and partially supported, but alternatives remain realistic. | Public wording should frame it as a possibility, not a conclusion. |
+| `Speculative` | The idea is a hypothesis or interpretation with limited evidence. | Do not present as fact. Use only if the speculative nature is explicit. |
+| `Unknown` | Evidence is missing, contradictory, or not yet reviewed. | Do not make a public claim beyond saying it is unknown. |
+| `Needs microscopy` | Visual or behavioral evidence is not enough; microscopy is needed for confidence. | Do not present species-level identification publicly. |
+| `Needs expert confirmation` | The ID or claim needs review by a specialist or authoritative source. | Use broader taxonomic or descriptive wording until confirmed. |
+| `Do not claim publicly yet` | The claim is too uncertain, risky, unsupported, or easily misunderstood for public use. | Keep out of scripts, captions, website copy, polished species cards, and public campaign language. |
+
+Keep `Do not claim publicly yet` as a strong public-facing stop condition. Material with that label may be useful internally as a research question, hypothesis, or evidence gap, but it is not ready for public content.
+
+Do not turn `Likely` into `Confirmed` or `Possible` into `Likely` for narrative clarity.
+
 ## Write Policy
 
 Respect `MINIBIOTA_WRITE_MODE` from Brain when available.

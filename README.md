@@ -42,7 +42,6 @@ Use the lightest folder that fits the work:
 | `docs/` | Active detailed references during migration or when exact reference still lives there |
 | `docs/research_workflow.md` | Repeatable research, species, mechanism, and claim-check workflows during migration |
 | `docs/content_handoff_rules.md` | Rules for handing research to `miniBIOTA_Content` during migration |
-| `docs/uncertainty_labels.md` | Standard confidence and uncertainty labels during migration |
 | `research/` | Working research notes, organized by topic |
 | `research/species/` | Source-backed species research |
 | `research/ecological-mechanisms/` | Reusable mechanism explanations |
@@ -60,7 +59,7 @@ During Phase 1 migration, `docs/`, `templates/`, and `research/` remain active. 
 
 ## Uncertainty Labels
 
-Use the standard labels from `docs/uncertainty_labels.md`:
+Use the standard labels from `skills/claim-check/reference/uncertainty-labels.md`:
 
 - `Confirmed`
 - `Likely`

@@ -25,7 +25,7 @@ description: Use to prepare source-aware research context for Content without wr
 
 - `docs/content_handoff_rules.md`
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/research-brief-template.md`
 - Existing files under `research/research-briefs/`, if present and relevant
 
@@ -63,5 +63,7 @@ description: Use to prepare source-aware research context for Content without wr
 
 - Do not write final public content by default.
 - Do not hand Content a stronger claim than the evidence supports.
+- Do not treat `Likely` or `Possible` as confirmed in Content, Brand, Website, Growth, or other downstream handoffs.
+- Do not include `Do not claim publicly yet` material as public-safe wording.
 - Do not erase uncertainty for narrative simplicity.
 - Do not create or resolve public open loops as structured records without explicit approval.

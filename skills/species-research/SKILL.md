@@ -24,7 +24,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 ## Required Docs/Templates During Migration
 
 - `docs/research_workflow.md`
-- `docs/uncertainty_labels.md`
+- `skills/claim-check/reference/uncertainty-labels.md`
 - `templates/species-research-template.md`
 - Existing files under `research/species/`, if present and relevant
 
@@ -38,7 +38,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 6. Separate observed miniBIOTA facts, general literature, inference, planned work, speculation, and public-safe wording.
 7. Research taxonomy, native range, Florida relevance, habitat, diet, reproduction, tolerance ranges, ecological role, and closed-system risks.
 8. Record source notes. Do not invent citations.
-9. Assign an uncertainty label from `docs/uncertainty_labels.md`.
+9. Assign an uncertainty label from `skills/claim-check/reference/uncertainty-labels.md`.
 10. Use `skills/claim-check/SKILL.md` before making public-facing claims.
 11. Include what is confirmed, inferred, unknown, and not safe to say publicly.
 
@@ -60,6 +60,8 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 ## Do Not Do
 
 - Do not confirm species-level ID without evidence.
+- Do not treat `Likely` or `Possible` as confirmed.
+- Do not soften `Do not claim publicly yet`; it is a strong public-facing stop condition.
 - Do not treat suitability research as approval to introduce an organism.
 - Do not rewrite uncertain miniBIOTA observations as confirmed establishment, survival, reproduction, or ecological stability.
 - Do not make husbandry, intervention, or control decisions final.

@@ -26,6 +26,14 @@ Correct behavior: keep the confidence label matched to the evidence.
 
 Why it matters: public-facing claims and downstream records depend on conservative scientific boundaries.
 
+## Do Not Treat Internal Research Labels As Public Permission
+
+Mistake: treating `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` as ready public language.
+
+Correct behavior: use the label's public guidance. `Do not claim publicly yet` is a stop condition for public content, not a soft caution.
+
+Why it matters: research can preserve uncertainty internally, but Content, Brand, Website, and Growth handoffs need public-safe wording that does not overclaim.
+
 ## Do Not Treat Migrated Docs As Live Data Without Checks
 
 Mistake: using local overview counts as current species, observation, or thread totals.

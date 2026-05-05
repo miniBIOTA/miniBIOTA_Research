@@ -55,7 +55,7 @@ Do not rely on chat history or private model memory as durable project truth.
 - Do not identify organisms beyond documented evidence.
 - Do not invent citations or imply a source supports more than it actually supports.
 - Preserve uncertainty instead of forcing certainty.
-- Use `docs/uncertainty_labels.md` for confidence language.
+- Use `skills/claim-check/reference/uncertainty-labels.md` for confidence language.
 - Use `Do not claim publicly yet` when a claim is not ready for public use.
 - Do not collapse story threads and open loops. Story threads are internal ecological tracking; open loops are public audience-facing questions seeded by published content.
 - When logging observations or ecological updates, maintain links to relevant species, biomes, systems, story threads, and open loops where applicable.

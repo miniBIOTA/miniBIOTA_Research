@@ -16,7 +16,7 @@ Use the lightest workflow that answers the question. Research should become dura
 3. Check local docs and existing research notes.
 4. Review reliable sources.
 5. Separate miniBIOTA observations from general scientific literature.
-6. Assign uncertainty labels from `docs/uncertainty_labels.md`.
+6. Assign uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md`.
 7. Record source notes and open questions.
 8. If the result feeds Content, create a brief in `research/research-briefs/`.
 
