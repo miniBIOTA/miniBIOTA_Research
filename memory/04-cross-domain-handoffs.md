@@ -16,6 +16,10 @@ Brain receives manager-facing research state through:
 
 Update that brief only when manager-facing state changes and the user has not explicitly deferred it.
 
+Manager-facing state includes current ecosystem state or species/observation counts, materially changed biome summaries, risks, priorities, unresolved research questions, confirmed ecological milestones, research operating structure, handoff rules, and cross-domain dependencies.
+
+Do not mirror every observation into the brief. Keep detailed research in this repo and structured records in Supabase.
+
 ## Content
 
 Research supplies:

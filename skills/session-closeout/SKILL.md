@@ -22,7 +22,6 @@ description: Use to close Research sessions with changed files, verification, no
 ## Required Docs/Templates During Migration
 
 - `AGENTS.md`
-- `docs/agent_protocol.md`
 - `_system/codex_session_close.ps1` as helper context only
 
 ## Workflow
@@ -43,8 +42,10 @@ description: Use to close Research sessions with changed files, verification, no
 14. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
 15. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
 16. Confirm whether any suggested handoff wording was kept separate from final public copy, scripts, captions, titles, thumbnails, platform metadata, and publishing language.
-17. State unresolved questions.
-18. State whether Brain research brief or other domain follow-up is needed.
+17. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
+18. State unresolved questions.
+19. State whether Brain research brief or other domain follow-up is needed.
+20. If local docs changed in a way that requires Brain mirror sync, report that follow-up instead of running sync scripts unless explicitly requested.
 
 ## Expected Output
 
@@ -69,6 +70,7 @@ Unresolved questions:
 - Do not perform closeout writes unless explicitly requested.
 - Do not update Brain during restricted phases.
 - Do not run sync scripts unless explicitly requested and in scope.
+- Do not commit, push, or sync unless explicitly requested and in scope.
 
 ## Do Not Do
 

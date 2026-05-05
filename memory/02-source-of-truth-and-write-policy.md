@@ -78,3 +78,4 @@ For this repo, always tell the user what files you intend to change before editi
 - Do not strengthen uncertain observations into confirmed ecology.
 - Do not invent citations, organism IDs, population outcomes, causal explanations, or stability claims.
 - Do not treat suggested content-safe wording as approved public copy, final script language, platform metadata, or publishing language.
+- If a structured record would change public-facing website behavior or content pipeline state, coordinate with Website and Content rules before closeout.

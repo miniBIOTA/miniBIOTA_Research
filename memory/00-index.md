@@ -4,7 +4,7 @@ This folder is the working memory layer for `miniBIOTA_Research`.
 
 Phase 1 status: active memory files exist, but older `docs/`, `templates/`, and `research/` files began as active source material during migration.
 
-Phase 2 status: the uncertainty-label and research-workflow source docs have been absorbed into memory, skills, and active references. The root research templates have been copied into matching `skills/*/reference/` folders and archived. Archived copies are historical, not active operating sources.
+Phase 2 status: the uncertainty-label, research-workflow, content-handoff, and agent-protocol source docs have been absorbed into `AGENTS.md`, memory, skills, and active references. The root research templates have been copied into matching `skills/*/reference/` folders and archived. Archived copies are historical, not active operating sources.
 
 ## Startup Routing
 

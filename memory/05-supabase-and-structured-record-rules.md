@@ -28,6 +28,7 @@ Do not:
 - Create test data.
 - Use dummy writes to inspect return values.
 - Change species, biome, chronicle, observation, risk, food-web, or research-note records without explicit approval.
+- Change structured records that affect public-facing website behavior or content pipeline state without coordinating the relevant Website and Content rules.
 
 ## Story Threads And Open Loops
 
@@ -37,6 +38,8 @@ Keep the distinction sharp:
 - Open loops are public audience-facing questions seeded by published content.
 
 Do not create an open loop for a new observation. New ecological developments may suggest a story thread, but structured writes require explicit approval.
+
+When structured ecological records are changed in an approved task, preserve links to relevant species, biomes, systems, story threads, open loops, observations, chronicles, and media where applicable. Verify affected links before closeout.
 
 ## Current-State Language
 

@@ -92,7 +92,7 @@ If working manually:
 
 For biome composition, read `docs/biome_profiles.md`. For system processes, read `docs/biogeochemical_cycles.md`. For unresolved ecological risks, read `docs/instabilities_and_risks.md`.
 
-Use `docs/agent_protocol.md` as legacy active protocol during migration, but prefer the new `memory/` and `skills/` routing when the same rule exists in both places.
+Use active `memory/`, `skills/`, and `skills/*/reference/` files for operating protocol. Archived protocol docs are historical only.
 
 ## Source Of Truth
 
@@ -171,7 +171,10 @@ research/
   research-briefs/
 
 docs/
-  agent_protocol.md
+  ecosystem_and_data_overview.md
+  biome_profiles.md
+  biogeochemical_cycles.md
+  instabilities_and_risks.md
 
 archive/
 ```
@@ -236,7 +239,6 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `docs/biome_profiles.md` | Detailed ecological profiles for the six biomes |
 | `docs/biogeochemical_cycles.md` | Water, nitrogen, carbon, calcium, salinity, and nutrient-cycle reference |
 | `docs/instabilities_and_risks.md` | Current ecological instability and measurement-gap reference |
-| `docs/agent_protocol.md` | Codex operating protocol for Research sessions |
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
 

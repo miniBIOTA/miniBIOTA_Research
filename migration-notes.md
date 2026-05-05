@@ -127,6 +127,25 @@ Active handoff guidance now lives in:
 
 The migrated rules preserve Research/Content ownership boundaries, source and citation expectations, uncertainty and public-readiness guidance, Supabase verification when current structured records matter, and the rule that Research does not create final scripts, captions, website copy, titles, thumbnails, platform metadata, publishing language, or approved public copy by default.
 
+## Phase 2 Batch 5
+
+Phase 2 Batch 5 absorbed the legacy Research Agent protocol into `AGENTS.md`, memory, and active skills.
+
+The old protocol was fully absorbed and moved to:
+
+`archive/superseded/agent_protocol.md`
+
+Active protocol guidance now lives in:
+
+- `AGENTS.md` for the Research Agent entry point, startup sequence, source hierarchy, hard operating rules, skill routing, Brain relationship, write policy, and verification expectations.
+- `memory/01-agent-role-and-boundaries.md` for role, boundaries, research outputs, default workflow, evidence categories, and research writing voice.
+- `memory/02-source-of-truth-and-write-policy.md` for source hierarchy, no chat/private memory as durable truth, evidence gaps, write policy, public-copy boundaries, and structured/public behavior coordination.
+- `memory/04-cross-domain-handoffs.md` for Brain update criteria, downstream dependencies, and Content/Website/Brand/Growth handoff boundaries.
+- `memory/05-supabase-and-structured-record-rules.md` for current-state verification, structured-record link integrity, and story thread/open loop separation.
+- `skills/session-closeout/SKILL.md` for closeout checklist, verification, non-change confirmations, Brain/domain follow-up, and sync/commit boundaries.
+
+The migrated rules preserve Research Agent role and boundaries, startup procedure, source-of-truth order, no chat/private memory as durable truth, evidence-first operation, uncertainty routing, no invented IDs/citations/outcomes/mortality/stability/causal claims, current-state Supabase verification, Brain research brief relationship, cross-domain handoffs, closeout format, and write/approval rules.
+
 ## Non-Changes
 
 Phase 1 did not change:
