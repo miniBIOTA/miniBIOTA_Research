@@ -19,7 +19,7 @@ description: Use to close Research sessions with changed files, verification, no
 - `memory/04-cross-domain-handoffs.md`
 - `memory/05-supabase-and-structured-record-rules.md`
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `AGENTS.md`
 - `_system/codex_session_close.ps1` as helper context only
@@ -45,7 +45,7 @@ description: Use to close Research sessions with changed files, verification, no
 17. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
 18. State unresolved questions.
 19. State whether Brain research brief or other domain follow-up is needed.
-20. If local docs changed in a way that requires Brain mirror sync, report that follow-up instead of running sync scripts unless explicitly requested.
+20. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report that follow-up instead of running sync scripts unless explicitly requested.
 
 ## Expected Output
 

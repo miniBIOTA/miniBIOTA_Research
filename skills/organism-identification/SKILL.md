@@ -21,7 +21,7 @@ description: Use when identifying an organism from observations, photos, video, 
 - `memory/03-current-priorities-and-watchouts.md`
 - `memory/05-supabase-and-structured-record-rules.md` when current records matter
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/organism-identification/reference/identification-note-template.md`

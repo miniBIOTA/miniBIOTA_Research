@@ -22,7 +22,7 @@ description: Use to prepare background research for a planned experiment, interv
 - `memory/03-current-priorities-and-watchouts.md`
 - `memory/05-supabase-and-structured-record-rules.md` when current records matter
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/species-research/reference/biome-profiles.md` when biome context is relevant

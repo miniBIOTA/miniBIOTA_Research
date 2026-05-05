@@ -21,7 +21,7 @@ description: Use to prepare source-aware research context for Content without wr
 - `memory/04-cross-domain-handoffs.md`
 - `memory/05-supabase-and-structured-record-rules.md` when current records matter
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/content-handoff-brief/reference/content-handoff-rules.md`
 - `skills/claim-check/reference/uncertainty-labels.md`

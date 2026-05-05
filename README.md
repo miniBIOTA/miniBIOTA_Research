@@ -114,9 +114,7 @@ This repo reports to the Strategy Agent through:
 
 `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`
 
-Detailed research and active references live here. Brain mirrors selected docs read-only into:
-
-`M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\docs\`
+Detailed research and active references live here. Any Brain-side mirrors are read-only reference artifacts, not active Research sources.
 
 ## GitHub
 

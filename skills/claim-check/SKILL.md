@@ -22,7 +22,7 @@ description: Use to review scientific, ecological, public-facing, website, scrip
 - `memory/04-cross-domain-handoffs.md`
 - `memory/05-supabase-and-structured-record-rules.md` when current records matter
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/claim-check/reference/claim-check-template.md`

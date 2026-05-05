@@ -34,13 +34,14 @@ Research hands off evidence, not final content. A good Research output says what
 Use the lightest workflow that safely answers the question. Research should become durable enough for future agents to trust, but not so elaborate that the vault becomes hard to maintain.
 
 1. Define the research question.
-2. Check relevant miniBIOTA observations or Supabase records if the answer depends on current state.
-3. Check local docs, skill-reference templates, and existing research notes.
-4. Review reliable sources.
-5. Separate miniBIOTA observations from general scientific literature.
-6. Assign uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md`.
-7. Record source notes, open questions, and evidence gaps.
-8. If the result feeds Content, Brand, Website, Brain, Hardware, App, Growth, or Financials, use the relevant handoff skill and keep public wording weaker than or equal to the evidence.
+2. Check relevant memory and the matching skill playbook.
+3. Check relevant `skills/*/reference/` files and existing research working notes when the task depends on them.
+4. Check Supabase when current structured state matters.
+5. Review reliable sources.
+6. Separate miniBIOTA observations from general scientific literature.
+7. Assign uncertainty labels from `skills/claim-check/reference/uncertainty-labels.md`.
+8. Record source notes, open questions, and evidence gaps.
+9. If the result feeds Content, Brand, Website, Brain, Hardware, App, Growth, or Financials, use the relevant handoff skill and keep public wording weaker than or equal to the evidence.
 
 ## Research Outputs
 
@@ -52,7 +53,7 @@ Use the closest template in the matching `skills/*/reference/` folder:
 - `skills/claim-check/reference/claim-check-template.md` for verifying a claim before public use.
 - `skills/content-handoff-brief/reference/research-brief-template.md` for handoff to Content, Brain, Website, or another agent.
 
-Place working notes under the matching `research/` folder. If an existing doc or note already fits the need, update it instead of creating a duplicate.
+Place working notes under the matching `research/` folder. If an existing working note already fits the need, update it instead of creating a duplicate.
 
 ## Research Writing Voice
 

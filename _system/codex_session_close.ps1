@@ -12,13 +12,6 @@ Write-Host "Research repo status:"
 git status --short --branch
 Pop-Location
 
-if (Test-Path "$brainRoot\_system\sync_docs.ps1") {
-    Write-Host ""
-    Write-Host "Brain sync helper exists: $brainRoot\_system\sync_docs.ps1"
-    Write-Host "Run from Brain when local docs changed:"
-    Write-Host "powershell -ExecutionPolicy Bypass -File `"_system\sync_docs.ps1`""
-}
-
 if (Test-Path "$brainRoot\3. Ecosystem & Data\research_brief.md") {
     Write-Host "Research brief exists: $brainRoot\3. Ecosystem & Data\research_brief.md"
 } else {
@@ -27,7 +20,8 @@ if (Test-Path "$brainRoot\3. Ecosystem & Data\research_brief.md") {
 
 Write-Host ""
 Write-Host "Closeout reminder:"
-Write-Host "- Read changed docs end to end."
-Write-Host "- Update Brain research_brief.md when manager-facing state changed."
-Write-Host "- Verify Supabase for current ecology and structured record changes."
+Write-Host "- Read changed files end to end, including memory, skills, references, archive notes, and research files."
+Write-Host "- Update Brain research_brief.md only when manager-facing research state changed and the user has not forbidden it."
+Write-Host "- Confirm no Supabase records, structured records, ecological claims, or ecosystem actions changed unless explicitly approved."
+Write-Host "- Verify Supabase only when current ecology or structured record state matters."
 Write-Host "- Commit and push completed work."

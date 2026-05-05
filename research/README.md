@@ -1,6 +1,6 @@
 # Research Notes
 
-Use this folder for working research notes that are more specific than the stable docs in `docs/`.
+Use this folder for working research notes. Stable reusable workflows live in `skills/`, exact reusable references and templates live in `skills/*/reference/`, and archived docs/templates are historical only.
 
 Recommended structure:
 

@@ -22,7 +22,7 @@ description: Use to explain ecological mechanisms such as nutrient cycling, oxyg
 - `memory/02-source-of-truth-and-write-policy.md`
 - `memory/03-current-priorities-and-watchouts.md`
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` when cycle context is relevant

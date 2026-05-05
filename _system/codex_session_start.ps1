@@ -38,4 +38,10 @@ try {
     Write-Host "Git status check failed: $($_.Exception.Message)"
 }
 
-Write-Host "Startup complete. Read AGENTS.md, docs/agent_protocol.md, Brain agent_memory.md, and Brain research_brief.md before work."
+Write-Host "Startup complete. Route work through:"
+Write-Host "- AGENTS.md"
+Write-Host "- memory/00-index.md and relevant memory files"
+Write-Host "- matching skills/*/SKILL.md playbooks"
+Write-Host "- relevant skills/*/reference/ files"
+Write-Host "- Brain research_brief.md only when strategy-level current state matters"
+Write-Host "- Supabase only when current structured records matter"

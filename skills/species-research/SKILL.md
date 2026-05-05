@@ -21,7 +21,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 - `memory/03-current-priorities-and-watchouts.md`
 - `memory/05-supabase-and-structured-record-rules.md` when current records matter
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/species-research/reference/species-research-template.md`

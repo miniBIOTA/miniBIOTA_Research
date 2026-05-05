@@ -2,7 +2,7 @@
 
 This folder holds historical or superseded Research Agent material after explicit approval.
 
-Archived files are not active operating sources. Use `AGENTS.md`, `memory/`, `skills/`, active `skills/*/reference/`, `docs/`, `research/`, Brain brief, and Supabase according to the source hierarchy.
+Archived files are historical only, not active operating sources. Durable rules live in `memory/`, active workflows live in `skills/`, and exact reusable references/templates live in `skills/*/reference/`. Use `research/` for working notes, the Brain research brief for strategy-level current state, and Supabase when current structured records matter.
 
 ## Folders
 

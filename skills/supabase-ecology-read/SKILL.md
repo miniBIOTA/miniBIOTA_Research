@@ -23,7 +23,7 @@ description: Use when current structured records matter, including species count
 - `memory/05-supabase-and-structured-record-rules.md`
 - `memory/06-recurring-corrections.md`
 
-## Required Docs/Templates During Migration
+## Required References / Context
 
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`
 - Brain `M:\miniBIOTA\miniBIOTA_Brain\3. Ecosystem & Data\research_brief.md`

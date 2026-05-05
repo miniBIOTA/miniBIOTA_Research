@@ -191,6 +191,21 @@ The active references preserve biome descriptions, species/biome context, proces
 
 Durable routing and caution rules were reinforced in memory and relevant skills. No reference description was converted into a live ecological fact, public-ready claim, action recommendation, organism introduction, husbandry action, control action, or structured record change.
 
+## Final Structure Cleanup
+
+The final structure cleanup removed stale migration-era wording after Research docs and templates were absorbed and archived.
+
+- `docs/` and `templates/` have no active Research sources.
+- Durable Research rules route through `AGENTS.md` and `memory/`.
+- Repeatable workflows route through `skills/*/SKILL.md`.
+- Exact reusable references and templates live under `skills/*/reference/`.
+- Archived docs/templates in `archive/superseded/` are historical only.
+- Working notes remain under `research/`.
+- Brain research brief is used only for strategy-level current research state.
+- Supabase is used when current structured records matter.
+
+Next step: update the Team tab to reflect the final Research Agent structure.
+
 ## Non-Changes
 
 Phase 1 did not change:
