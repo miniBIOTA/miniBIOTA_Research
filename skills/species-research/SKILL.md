@@ -45,11 +45,13 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 
 ## Species Record Field Guidance
 
+- Use Supabase as the durable species-card source of truth for routine species records. Do not create one Markdown file per species unless the task needs a source-heavy research brief, unresolved identification argument, experiment rationale, or complex claim audit.
 - Treat `species_description` as a short hero blurb for the website/app: one punchy, public-facing sentence under the species title, not a full research summary or observation history.
 - Put observation history, mortality, population state, establishment uncertainty, suspected causes, active interventions, and miniBIOTA-specific caveats into their matching structured fields.
 - Keep introduced count separate from current estimated population. If two organisms were introduced but one is confirmed dead, `current_estimated_population` should reflect the current confirmed population, not the original introduction count.
 - Use confidence-controlled language for causes and outcomes. For example, use "likely," "suspected," or "leading suspected cause" when dissolved oxygen, salinity, predation, disease, or parameter mismatch has not been directly measured or confirmed.
 - Put temporary husbandry or system-support context, such as aeration, flow changes, or planned hardware adjustments, in fields such as `flow_aeration_preference`, `environmental_tolerances_notes`, or `population_dynamics_notes` when it explains current survival constraints.
+- When writing database fields, write from the record's point of view. Avoid phrases like "existing notes indicate" or "records say"; this is the record. Use phrases like "Published literature describes" when outside sources fill gaps.
 - Draft species-record updates in reviewable field groups when filling many fields: hero description first, then current state/population fields, then biology/ecology fields. Show each group for approval before writing when the user asks to inspect changes first.
 
 ## Expected Output

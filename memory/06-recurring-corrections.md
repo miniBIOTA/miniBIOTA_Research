@@ -89,3 +89,11 @@ Mistake: filling `species_description` with a full species profile, observation 
 Correct behavior: `species_description` is a short hero-section blurb for the website/app, usually one punchy sentence under the big species name. Put detailed natural history, observations, population state, mortality, suspected causes, and active system supports in the matching structured species fields.
 
 Why it matters: long descriptions create a wall of text in the public UI and make species pages less scannable. Field-specific details remain useful only when they live in the fields designed for them.
+
+## Do Not Treat Species Cards As External Notes
+
+Mistake: writing Supabase species fields as if they are commentary about separate records, with phrases such as "existing notes indicate" or "the records say."
+
+Correct behavior: write database fields as the durable species record itself. Use direct language for miniBIOTA facts and clearly say "Published literature describes" or similar when outside sources fill gaps.
+
+Why it matters: species cards are the canonical database record, not a summary of another note layer. Routine species cards should stay in Supabase; Markdown species briefs are reserved for source-heavy research, unresolved IDs, experiment rationale, or complex claim audits.
