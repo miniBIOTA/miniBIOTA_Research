@@ -24,6 +24,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 | `02-source-of-truth-and-write-policy.md` | Source hierarchy, write policy, and evidence boundaries |
 | `03-current-priorities-and-watchouts.md` | Current research priorities and known caution zones |
 | `04-cross-domain-handoffs.md` | How Research supports Content, Website, App, Hardware, Brand, Growth, Financials, and Brain |
+| `05-database-access.md` | Research database access boundaries, owned/read/write tables, and Brain reporting expectations |
 | `05-supabase-and-structured-record-rules.md` | When structured ecological records must be checked and how to keep reads/writes bounded |
 | `06-recurring-corrections.md` | Known mistakes to avoid |
 | `inbox.md` | Temporary parking lot for unresolved memory items pending placement |
