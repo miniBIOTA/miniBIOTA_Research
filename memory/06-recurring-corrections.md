@@ -81,3 +81,11 @@ Mistake: treating instability or risk context as an approved intervention, organ
 Correct behavior: use risk references to identify variables, cautions, evidence gaps, and questions. Route possible actions through `skills/experiment-background/SKILL.md` and keep Research's output as background, not approval.
 
 Why it matters: closed-system interventions can alter structured records, public interpretation, and ecological outcomes.
+
+## Do Not Use Species Description As A Research Brief
+
+Mistake: filling `species_description` with a full species profile, observation timeline, or uncertainty discussion.
+
+Correct behavior: `species_description` is a short hero-section blurb for the website/app, usually one punchy sentence under the big species name. Put detailed natural history, observations, population state, mortality, suspected causes, and active system supports in the matching structured species fields.
+
+Why it matters: long descriptions create a wall of text in the public UI and make species pages less scannable. Field-specific details remain useful only when they live in the fields designed for them.

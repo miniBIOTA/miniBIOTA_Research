@@ -43,6 +43,15 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 11. Use `skills/claim-check/SKILL.md` before making public-facing claims.
 12. Include what is confirmed, inferred, unknown, and not safe to say publicly.
 
+## Species Record Field Guidance
+
+- Treat `species_description` as a short hero blurb for the website/app: one punchy, public-facing sentence under the species title, not a full research summary or observation history.
+- Put observation history, mortality, population state, establishment uncertainty, suspected causes, active interventions, and miniBIOTA-specific caveats into their matching structured fields.
+- Keep introduced count separate from current estimated population. If two organisms were introduced but one is confirmed dead, `current_estimated_population` should reflect the current confirmed population, not the original introduction count.
+- Use confidence-controlled language for causes and outcomes. For example, use "likely," "suspected," or "leading suspected cause" when dissolved oxygen, salinity, predation, disease, or parameter mismatch has not been directly measured or confirmed.
+- Put temporary husbandry or system-support context, such as aeration, flow changes, or planned hardware adjustments, in fields such as `flow_aeration_preference`, `environmental_tolerances_notes`, or `population_dynamics_notes` when it explains current survival constraints.
+- Draft species-record updates in reviewable field groups when filling many fields: hero description first, then current state/population fields, then biology/ecology fields. Show each group for approval before writing when the user asks to inspect changes first.
+
 ## Expected Output
 
 - Species research note, brief, or answer that preserves uncertainty.
