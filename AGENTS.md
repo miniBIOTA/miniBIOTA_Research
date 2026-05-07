@@ -103,7 +103,7 @@ Use this hierarchy when sources disagree:
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
 5. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
-6. Brain mirrored docs and compiled exports as reference artifacts.
+6. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
 
@@ -237,7 +237,7 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 | `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` | Biogeochemical process reference with observed/inferred boundaries |
 | `skills/experiment-background/reference/instabilities-and-risks.md` | Dated instability and measurement-gap context |
 
-Brain mirrored docs are read-only reference artifacts. Edit active source material here, not the Brain mirror.
+Brain no longer keeps an active Research docs mirror. Edit active source material here; treat compiled Brain exports and archived/mirrored docs as reference artifacts only.
 
 ## Write Policy
 

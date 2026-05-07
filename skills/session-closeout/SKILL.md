@@ -34,7 +34,7 @@ description: Use to close Research sessions with changed files, verification, no
 6. Confirm whether Supabase records changed.
 7. Confirm whether structured records changed.
 8. Confirm whether app behavior or public site behavior changed.
-9. Confirm whether Brain mirrored docs or Brain research brief changed.
+9. Confirm whether retired Brain docs mirrors, compiled Brain exports, or Brain research brief changed.
 10. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
 11. Confirm whether uncertain observations were rewritten as confirmed ecology.
 12. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
@@ -45,7 +45,7 @@ description: Use to close Research sessions with changed files, verification, no
 17. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
 18. State unresolved questions.
 19. State whether Brain research brief or other domain follow-up is needed.
-20. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report that follow-up instead of running sync scripts unless explicitly requested.
+20. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report the Brain brief or domain follow-up needed. Do not run sync scripts for retired docs mirrors.
 
 ## Expected Output
 
@@ -69,7 +69,7 @@ Unresolved questions:
 
 - Do not perform closeout writes unless explicitly requested.
 - Do not update Brain during restricted phases.
-- Do not run sync scripts unless explicitly requested and in scope.
+- Do not run sync scripts for retired docs mirrors.
 - Do not commit, push, or sync unless explicitly requested and in scope.
 
 ## Do Not Do
