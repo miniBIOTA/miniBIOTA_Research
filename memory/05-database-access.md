@@ -15,8 +15,8 @@ The Research Agent uses Supabase to verify current ecological state. Reads are t
 | Category | Tables |
 |---|---|
 | Owned | `species`, `biomes`, `biosphere_profile`, `observations`, ecological link tables, science-facing `chronicles` |
-| Read-only | `content_pipeline`, `story_threads`, `open_loops`, `telemetry_snapshot`, `tasks`, `domain_history` when needed for ecological interpretation |
-| Controlled write | `species`, `biomes`, `biosphere_profile`, `observations`, `observation_thread_links`, `observation_loop_links`, `chronicles`, `chronicles_staging`, `domain_history` through scoped helpers |
+| Read-only | `content_pipeline`, `story_threads`, `open_loops`, `telemetry_snapshot` and `tasks` when needed for ecological interpretation |
+| Controlled write | `species`, `biomes`, `biosphere_profile`, `observations`, `observation_thread_links`, `observation_loop_links`, `chronicles`, `chronicles_staging` through scoped helpers |
 | Admin/migration | Schema/admin actions only with explicit user approval |
 
 ## Approval Boundary

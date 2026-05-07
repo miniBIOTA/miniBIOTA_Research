@@ -39,7 +39,7 @@ The Research Agent should produce research briefs, not finished public content, 
 - Working research notes under `research/`.
 - Reusable Markdown templates under matching `skills/*/reference/` folders.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`.
-- Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, domain history, and structured ecological records.
+- Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, chronicle staging, and structured ecological records.
 
 ## Agent Architecture
 
