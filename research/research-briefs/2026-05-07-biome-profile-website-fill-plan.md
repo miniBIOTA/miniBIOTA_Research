@@ -24,6 +24,45 @@ What can the website safely display for each biome now, and what should remain i
   - `open_loops`
   - `chronicles`
   - `content_pipeline`
+- After user approval, wrote the first low-risk biome profile batch to Supabase `biomes` records on May 7, 2026 and verified all six updated rows.
+
+## Database Write Status
+
+Completed on May 7, 2026 after explicit user approval.
+
+Updated Supabase table: `biomes`
+
+Updated rows:
+
+- `1` Freshwater Lake
+- `2` Lakeshore
+- `3` Lowland Meadow
+- `4` Mangrove Forest
+- `5` Marine Shore
+- `6` Seagrass Meadow
+
+Updated fields:
+
+- `habitat_typology`
+- `interface_tag`
+- `hero_description`
+- `habitat_theme_goal`
+- `substrate_profile`
+- `primary_producers`
+- `nutrient_export_system`
+- `cleanup_crew_profile`
+- `current_stability_status`
+- `primary_maintenance_focus`
+- `ecological_notes`
+- `species_diversity_notes`
+- `maintenance_notes`
+
+Not updated in this batch:
+
+- Measurement fields.
+- `last_observed`.
+- Species/biome relationship links.
+- Observation, story thread, open loop, chronicle, or content pipeline records.
 
 ## Conflict Rule
 
@@ -378,9 +417,9 @@ Do not claim publicly yet:
 - The meadow is stable.
 - Turtle grass, manatee grass, or green feather algae are established long-term.
 
-## Recommended First Supabase Update Batch
+## Completed First Supabase Update Batch
 
-After review, the first approved database update should target low-risk display and interpretation fields only:
+The first approved database update targeted low-risk display and interpretation fields only:
 
 - `habitat_typology`
 - `interface_tag`
