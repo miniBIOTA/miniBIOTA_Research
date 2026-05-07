@@ -25,8 +25,9 @@ What can the website safely display for each biome now, and what should remain i
   - `chronicles`
   - `content_pipeline`
 - After user approval, wrote the first low-risk biome profile batch to Supabase `biomes` records on May 7, 2026 and verified all six updated rows.
+- After user correction, updated Marine Shore from brackish framing to full saltwater framing in Supabase on May 7, 2026 and verified the row.
 
-## Database Write Status
+## Biome Profile Database Write Status
 
 Completed on May 7, 2026 after explicit user approval.
 
@@ -63,6 +64,44 @@ Not updated in this batch:
 - `last_observed`.
 - Species/biome relationship links.
 - Observation, story thread, open loop, chronicle, or content pipeline records.
+
+Marine Shore correction:
+
+- On May 7, 2026, after user correction, Marine Shore was updated from brackish framing to full saltwater framing.
+- Updated fields: `realm`, `interface_tag`, `biome_description`, `habitat_typology`, and `habitat_theme_goal`.
+- Verified live values: `realm = Saltwater`, `interface_tag = Marine / Shoreline`, `habitat_typology = Fully marine saltwater shoreline.`
+
+## Species/Biome Link Cleanup Status
+
+Completed on May 7, 2026 after user approval.
+
+Updated Supabase table: `species_to_biomes`
+
+Method:
+
+- Parsed exact `species.main_biome` values into biome IDs.
+- Avoided fuzzy substring matching, so `Lake` did not match `Lakeshore`.
+- Inserted missing junction rows only.
+- Did not delete any existing links.
+- Did not edit species records.
+
+Inserted links:
+
+| Biome | Inserted links | Total links after cleanup |
+|---|---:|---:|
+| Freshwater Lake | 27 | 33 |
+| Lakeshore | 13 | 23 |
+| Lowland Meadow | 28 | 35 |
+| Mangrove Forest | 12 | 17 |
+| Marine Shore | 12 | 28 |
+| Seagrass Meadow | 24 | 38 |
+| **Total** | **116** | **174** |
+
+Verification:
+
+- Supabase insert returned 116 inserted rows.
+- Read back all `species_to_biomes` rows after insert.
+- Verified zero intended links were missing after insert.
 
 ## Conflict Rule
 
@@ -142,9 +181,9 @@ These should wait for hardware specs, measurement workflow, or approved structur
 
 ## Structured Link Gaps
 
-The `species_to_biomes` table is currently incomplete compared with `species.main_biome` text and recent observations. Do not build the public species roster solely from `species_to_biomes` until cleanup.
+The `species_to_biomes` table was incomplete compared with `species.main_biome` text and recent observations. The first exact-parser cleanup was completed on May 7, 2026.
 
-Current live check:
+Pre-cleanup live check:
 
 | Biome | `species_to_biomes` links | `species.main_biome` candidates not linked |
 |---|---:|---:|
@@ -163,6 +202,13 @@ High-priority link cleanup examples:
 - Lowland Meadow: mole cricket, ridgeback grasshopper, armyworm, isopods, springtails, meadow plants.
 - Mangrove Forest: mangrove tree crab, black/white/red mangroves, coinvine, Brazilian pepper, ghost ant where still relevant.
 - Lakeshore: crypt ant, amber snail, freshwater amphipod, bladder snail, dollarweed, Ludwigia/shoreline plants if represented as species.
+
+Remaining caution:
+
+- This cleanup only added links that could be parsed from existing `species.main_biome` values.
+- Public species rosters should follow the existing Web rules: `display_status = 'active'` gates public visibility, biome detail species grids are sourced through `species_to_biomes`, and biome detail pages exclude species whose `population_status` is `Extirpated` or `Removed`.
+- Removed/extirpated species can still appear on the main species directory's removed/extirpated archive section, but they should not appear as current biome-detail species cards.
+- Species whose `main_biome` field is incomplete or biologically outdated still need species-record review.
 
 ## Content Pipeline Notes
 
@@ -354,10 +400,10 @@ Fill now:
 
 | Field | Draft value / direction | Confidence |
 |---|---|---|
-| `habitat_typology` | Brackish/marine shoreline transition. | Confirmed |
-| `interface_tag` | Existing value: Marine/Saltwater. Consider "Brackish / Shoreline" if Web wants more precision. | Confirmed |
+| `habitat_typology` | Fully marine saltwater shoreline. | Confirmed |
+| `interface_tag` | Marine / Shoreline. | Confirmed |
 | `hero_description` | Existing value is usable. Could revise later to include active crab/snail shoreline function. | Confirmed |
-| `habitat_theme_goal` | Shoreline grazing, burrow-mediated sediment mixing, detritus processing, nutrient movement across the waterline, and freshwater/marine edge dynamics. | Likely |
+| `habitat_theme_goal` | Shoreline grazing, burrow-mediated sediment mixing, detritus processing, nutrient movement across the saltwater edge, and exchange with the seagrass meadow. | Likely |
 | `substrate_profile` | Quartz beach sand, crushed shell/limestone, sloped shoreline, and erosion-prone edge. | Likely |
 | `primary_producers` | Beach grasses, silverhead, red mangrove, shoal grass overlap, algae/biofilm, and shoreline plants. | Possible |
 | `nutrient_export_system` | Herbivory, detritus processing, shoreline grazing, crab burrowing, Melampus-style waterline nutrient transport where confirmed, and exchange with the seagrass meadow. | Likely |
@@ -437,14 +483,19 @@ The first approved database update targeted low-risk display and interpretation 
 
 Do not update measurement fields in this batch.
 
-## Recommended Second Batch
+## Completed Second Batch
 
-Clean up structured relationships before the website leans on species rosters:
+The second batch cleaned up structured relationships before the website leans on species rosters:
 
 - Audit `species_to_biomes` against `species.main_biome`.
 - Decide whether `species.main_biome` remains a display/search field or becomes secondary to the junction table.
 - Link recently introduced and currently tracked organisms to the correct biome records.
-- Keep extirpated/removed species visible only when the website intentionally shows historical membership.
+- Preserve the existing Web display rule: removed/extirpated species are not current biome-detail species cards.
+
+Status:
+
+- Exact-parser link insert is complete.
+- Display policy is already defined in Web rules: public biome species grids should show active, non-removed species only.
 
 ## Recommended Third Batch
 
@@ -471,6 +522,5 @@ For the first website pass:
 
 - Should public biome pages show internal story threads, or should those remain App/Content-only until they become public open loops?
 - Should `last_observed` be updated directly from latest observation date, or should it remain editorial/manual?
-- Should extirpated and removed species appear on biome pages as historical inhabitants, or only in chronicles/species pages?
 - Does Web want public labels to differ from record names, especially `Lowland Meadow` versus legacy `Grassland`?
 - Should measurement gaps be shown on the public page, the admin surface, or both?

@@ -155,6 +155,8 @@ The biome profile is a hub record. Its relationships should be derived from stru
 
 Chronicle routing rule: `scope_type` controls the public route. A biome page should query biome-scope chronicles by `scope_type='biome'` and `biome_id`. A species-scope chronicle with a `biome_id` is still a species chronicle unless deliberately linked or duplicated under approved rules.
 
+Public biome species-grid rule: Web's existing contract controls display. Use `species_to_biomes` for membership, then filter public biome-detail species cards to `species.display_status = 'active'` and exclude `species.population_status` values of `Extirpated` or `Removed`. Removed/extirpated species may be retained in the main species directory archive, but Research should not treat them as current biome-detail inhabitants.
+
 ## Measurement Gaps
 
 Measurement gaps should be explicit because they control what the website can safely claim.

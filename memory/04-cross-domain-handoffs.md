@@ -54,6 +54,8 @@ Before sending research to Content, confirm:
 
 Website pages depend on accurate structured records and conservative public claims. Research may provide wording guidance and evidence boundaries, but structured website-facing changes must coordinate with Website and Content rules.
 
+For public biome species grids, do not reopen the visibility rule unless the user explicitly scopes a Web policy change. Web owns the public display contract: species must have `display_status = 'active'`, biome detail species grids are sourced through `species_to_biomes`, and `Extirpated` or `Removed` species are excluded from current biome-detail species cards. Removed/extirpated species belong in the main species directory's archive section, not as current biome inhabitants.
+
 ## App
 
 App workflows must preserve species, observation, thread, loop, chronicle, and media link integrity. Research should flag data-integrity requirements when a requested workflow touches structured ecology.
