@@ -53,6 +53,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 | `skills/ecological-mechanism-brief/reference/ecological-mechanism-template.md` | Exact ecological mechanism template |
 | `skills/content-handoff-brief/reference/research-brief-template.md` | Exact research handoff brief template |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
+| `skills/species-research/reference/biome-profile-data-model.md` | Canonical biome profile data contract for website display, Supabase tracking, Markdown interpretation, uncertainty labels, relationships, and measurement gaps |
 | `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context; verify Supabase before reusing current-state claims |
 | `skills/species-research/reference/biome-profiles.md` | Dated biome descriptions and species/biome context; verify Supabase before reusing current-state claims |
 | `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` | Biogeochemical process reference; preserve observed/inferred/planned/unmeasured boundaries |

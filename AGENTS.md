@@ -90,7 +90,7 @@ If working manually:
 7. Use `research/` and matching `skills/*/reference/` files when exact reference material is needed.
 8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
-For biome composition, use `skills/species-research/reference/biome-profiles.md`. For system processes, use `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md`. For unresolved ecological risks, use `skills/experiment-background/reference/instabilities-and-risks.md`.
+For canonical biome profile fields, website display data, Supabase/Markdown ownership, relationships, uncertainty labels, and measurement gaps, use `skills/species-research/reference/biome-profile-data-model.md`. For biome composition, use `skills/species-research/reference/biome-profiles.md`. For system processes, use `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md`. For unresolved ecological risks, use `skills/experiment-background/reference/instabilities-and-risks.md`.
 
 Use active `memory/`, `skills/`, and `skills/*/reference/` files for operating protocol. Archived protocol docs are historical only.
 
@@ -231,6 +231,7 @@ Do not push every observation detail into the Brain brief. Keep detailed researc
 |---|---|
 | `skills/claim-check/reference/uncertainty-labels.md` | Standard uncertainty labels and public-claim rules |
 | `skills/content-handoff-brief/reference/content-handoff-rules.md` | Exact Research-to-Content handoff rules |
+| `skills/species-research/reference/biome-profile-data-model.md` | Canonical biome profile data contract for website display, Supabase tracking, Markdown interpretation, relationships, uncertainty labels, and measurement gaps |
 | `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` | Dated ecosystem/data overview preserved as historical context |
 | `skills/species-research/reference/biome-profiles.md` | Dated biome descriptions and species/biome context |
 | `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md` | Biogeochemical process reference with observed/inferred boundaries |

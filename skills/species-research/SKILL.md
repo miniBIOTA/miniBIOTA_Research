@@ -25,6 +25,7 @@ description: Use when researching a species, organism role, range, taxonomy, lif
 
 - `skills/claim-check/reference/uncertainty-labels.md`
 - `skills/species-research/reference/species-research-template.md`
+- `skills/species-research/reference/biome-profile-data-model.md` when defining or updating canonical biome profile fields, website biome display data, Supabase/Markdown field ownership, or biome tracking relationships
 - `skills/species-research/reference/biome-profiles.md` when biome or species/biome context is relevant
 - Existing files under `research/species/`, if present and relevant
 
