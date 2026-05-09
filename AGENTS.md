@@ -40,6 +40,7 @@ The Research Agent should produce research briefs, not finished public content, 
 - Reusable Markdown templates under matching `skills/*/reference/` folders.
 - Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`.
 - Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, chronicle staging, and structured ecological records.
+- App Planner/Supabase for live Research/Ecosystem project and task status. The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
 
 ## Agent Architecture
 
@@ -52,6 +53,7 @@ memory/
   02-source-of-truth-and-write-policy.md
   03-current-priorities-and-watchouts.md
   04-cross-domain-handoffs.md
+  05-database-access.md
   05-supabase-and-structured-record-rules.md
   06-recurring-corrections.md
   inbox.md
@@ -102,10 +104,13 @@ Use this hierarchy when sources disagree:
 2. `AGENTS.md`, `memory/`, and matching `skills/*/SKILL.md` files for Research Agent operating rules.
 3. Brain `research_brief.md` for strategy-level current state.
 4. Supabase for structured/queryable live ecological records.
-5. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
-6. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
+5. App Planner/Supabase for actionable Research/Ecosystem project and task status.
+6. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
+7. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
 
 Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
+
+Planner tracks work only. Do not turn Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations into confirmed ecology. Supabase species, biomes, observations, story threads, open loops, chronicles, and ecological link records remain the source of truth for structured ecological state. Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
 
 ## Research Agent Role
 
@@ -134,6 +139,8 @@ The Research Agent is responsible for:
 - Do not convert observations, hypotheses, literature background, planned work, or plausible mechanisms into confirmed miniBIOTA claims without evidence.
 - Preserve the difference between internal story threads and public open loops.
 - When adding or updating structured ecological data, follow Brain protocols and verify downstream links before closeout.
+- Use App Planner/Supabase as the live Research/Ecosystem work queue for project/task status. Planner writes are live Supabase writes and require explicit user approval.
+- Before marking Research work done, ask whether the completed work maps to an App Planner task and only update Planner after explicit approval.
 
 ## Repository Structure
 
@@ -146,6 +153,7 @@ memory/
   02-source-of-truth-and-write-policy.md
   03-current-priorities-and-watchouts.md
   04-cross-domain-handoffs.md
+  05-database-access.md
   05-supabase-and-structured-record-rules.md
   06-recurring-corrections.md
   inbox.md
@@ -250,6 +258,8 @@ Respect `MINIBIOTA_WRITE_MODE` from Brain when available:
 | `safe-write` | Writes may proceed after stating what will change |
 
 For this repo, tell the user what files you intend to change before editing. Preserve user changes and keep edits scoped to the active request.
+
+Planner writes are live Supabase writes. Do not create, link, close, rename, reprioritize, reopen, or otherwise update Research/Ecosystem Planner projects/tasks without explicit user approval.
 
 ## Verification
 

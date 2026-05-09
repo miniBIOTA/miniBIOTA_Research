@@ -2,6 +2,10 @@
 
 Supabase is the source of truth for current structured ecological records.
 
+App Planner/Supabase is the source of truth for live Research/Ecosystem project and task status. The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
+
+Planner owns actionable work status only. Supabase species, biomes, observations, story threads, open loops, chronicles, and ecological link records remain the source of truth for structured ecological state. Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
+
 ## Use Supabase When Current Records Matter
 
 Use read-only checks before answering in depth about:
@@ -26,10 +30,13 @@ Research sessions default to read-only structured checks unless the user explici
 Do not:
 
 - Write to Supabase during documentation-only work.
+- Create, link, close, rename, reprioritize, reopen, or otherwise update App Planner projects/tasks without explicit user approval.
 - Create test data.
 - Use dummy writes to inspect return values.
 - Change species, biome, chronicle, observation, risk, food-web, or research-note records without explicit approval.
 - Change structured records that affect public-facing website behavior or content pipeline state without coordinating the relevant Website and Content rules.
+
+Do not turn Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations into confirmed ecology.
 
 ## Story Threads And Open Loops
 

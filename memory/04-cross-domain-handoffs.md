@@ -60,6 +60,8 @@ For public biome species grids, do not reopen the visibility rule unless the use
 
 App workflows must preserve species, observation, thread, loop, chronicle, and media link integrity. Research should flag data-integrity requirements when a requested workflow touches structured ecology.
 
+App Planner/Supabase is the live Research/Ecosystem work queue for project and task status. Planner owns actionable work status only; it does not confirm ecological state. Before closing or updating a Planner task, ask whether completed Research work maps to that task and get explicit approval for the live Planner write.
+
 ## Hardware
 
 Hardware priorities may depend on measurement gaps and ecological risk tracking, especially temperature, humidity, pH, salinity, dissolved oxygen, CO2, O2, and methane.

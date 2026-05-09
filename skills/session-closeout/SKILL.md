@@ -17,6 +17,7 @@ description: Use to close Research sessions with changed files, verification, no
 - `memory/00-index.md`
 - `memory/02-source-of-truth-and-write-policy.md`
 - `memory/04-cross-domain-handoffs.md`
+- `memory/05-database-access.md`
 - `memory/05-supabase-and-structured-record-rules.md`
 
 ## Required References / Context
@@ -27,25 +28,28 @@ description: Use to close Research sessions with changed files, verification, no
 ## Workflow
 
 1. Identify changed files.
-2. Read every new or changed documentation file end to end.
-3. Confirm source notes, open questions, evidence gaps, and current-state verification were preserved where the session created or migrated research workflow material.
-4. Run `git diff --name-only`.
-5. Run `git status --short --branch`.
-6. Confirm whether Supabase records changed.
-7. Confirm whether structured records changed.
-8. Confirm whether app behavior or public site behavior changed.
-9. Confirm whether retired Brain docs mirrors, compiled Brain exports, or Brain research brief changed.
-10. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
-11. Confirm whether uncertain observations were rewritten as confirmed ecology.
-12. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
-13. Confirm whether test data was created.
-14. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
-15. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
-16. Confirm whether any suggested handoff wording was kept separate from final public copy, scripts, captions, titles, thumbnails, platform metadata, and publishing language.
-17. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
-18. State unresolved questions.
-19. State whether Brain research brief or other domain follow-up is needed.
-20. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report the Brain brief or domain follow-up needed. Do not run sync scripts for retired docs mirrors.
+2. Ask whether completed work maps to an App Planner/Supabase Research task before marking anything done. Planner writes are live Supabase writes and require explicit user approval.
+3. Read every new or changed documentation file end to end.
+4. Confirm source notes, open questions, evidence gaps, and current-state verification were preserved where the session created or migrated research workflow material.
+5. Run `git diff --name-only`.
+6. Run `git status --short --branch`.
+7. Confirm whether Supabase records changed.
+8. Confirm whether App Planner projects/tasks changed.
+9. Confirm whether structured ecological records changed.
+10. Confirm whether app behavior or public site behavior changed.
+11. Confirm whether retired Brain docs mirrors, compiled Brain exports, or Brain research brief changed.
+12. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
+13. Confirm whether uncertain observations were rewritten as confirmed ecology.
+14. Confirm whether Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations were treated as confirmed ecology.
+15. Confirm whether organism introductions, husbandry actions, control interventions, or ecosystem recommendations were approved.
+16. Confirm whether test data was created.
+17. Confirm whether `Likely`, `Possible`, `Speculative`, `Unknown`, `Needs microscopy`, or `Needs expert confirmation` material was presented as stronger than its evidence.
+18. Confirm whether `Do not claim publicly yet` material was kept out of public-safe wording.
+19. Confirm whether any suggested handoff wording was kept separate from final public copy, scripts, captions, titles, thumbnails, platform metadata, and publishing language.
+20. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
+21. State unresolved questions.
+22. State whether Brain research brief or other domain follow-up is needed.
+23. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report the Brain brief or domain follow-up needed. Do not run sync scripts for retired docs mirrors.
 
 ## Expected Output
 
@@ -68,6 +72,7 @@ Unresolved questions:
 ## Write/Approval Rules
 
 - Do not perform closeout writes unless explicitly requested.
+- Do not mark App Planner tasks done, create Planner follow-up tasks, or change Planner project links without explicit approval.
 - Do not update Brain during restricted phases.
 - Do not run sync scripts for retired docs mirrors.
 - Do not commit, push, or sync unless explicitly requested and in scope.

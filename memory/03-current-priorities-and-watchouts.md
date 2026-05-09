@@ -6,6 +6,7 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 
 - Keep observed, inferred, planned, and speculative ecology clearly separated.
 - Keep current species counts, observation totals, thread state, loop state, and population state synchronized with Supabase.
+- Keep Research/Ecosystem project and task status synchronized with App Planner/Supabase, not Markdown task lists.
 - Maintain biome profiles and ecological risk notes as interpretation layers over structured records.
 - Preserve identification gaps instead of forcing species-level certainty.
 - Preserve the distinction between internal story threads and public open loops.
@@ -26,6 +27,15 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 - Several organism identifications are unresolved or pending.
 - Measurement gaps remain for CO2, O2, methane, salinity drift, pH, and dissolved oxygen.
 - Macroalgae dominance, Mesostoma predation, ostracod population decline, ghost shrimp juvenile recruitment, and sea urchin establishment are active uncertainty areas unless live records say otherwise.
+
+## Planner Watchouts
+
+- App Planner/Supabase is the live Research/Ecosystem task queue for project and task status.
+- The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
+- Planner writes are live Supabase writes and require explicit user approval.
+- Before marking completed Research work done, ask whether it maps to a Planner task.
+- Do not treat Planner task wording, project names, task IDs, dated Markdown references, hardware telemetry, or casual observations as confirmed ecological records.
+- Planner owns actionable work status; Supabase owns structured ecological truth; Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
 
 ## Public-Claim Caution
 

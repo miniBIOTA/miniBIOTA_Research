@@ -8,10 +8,19 @@ Use this order when sources disagree:
 2. `AGENTS.md` and relevant memory files.
 3. Brain `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md` for strategy-level current research state.
 4. Supabase for structured and queryable ecological records.
-5. Local `research/`, `skills/`, and `skills/*/reference/`.
-6. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
+5. App Planner/Supabase for actionable Research/Ecosystem project and task status.
+6. Local `research/`, `skills/`, and `skills/*/reference/`.
+7. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
 
 Chat history and private model memory are never durable source of truth.
+
+## Planner Source Boundary
+
+App Planner/Supabase is the live Research/Ecosystem work queue for project and task status. The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
+
+Planner owns actionable work status only. Supabase species, biomes, observations, story threads, open loops, chronicles, and ecological link records remain the source of truth for structured ecological state. Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
+
+Do not turn Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations into confirmed ecology.
 
 ## Current-State Claims
 
@@ -75,6 +84,7 @@ For this repo, always tell the user what files you intend to change before editi
 ## Boundaries
 
 - Do not write to Supabase unless the user explicitly approves a structured write task.
+- Do not create, link, close, rename, or otherwise update App Planner projects/tasks unless the user explicitly approves the Planner write.
 - Do not create test data.
 - Do not change structured records during documentation-only sessions.
 - Do not edit, sync, or recreate retired Brain docs mirrors.

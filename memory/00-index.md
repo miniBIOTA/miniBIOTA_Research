@@ -15,6 +15,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 5. Use `research/` and `skills/*/reference/` when exact reference material is needed.
 6. Use Brain `research_brief.md` for strategy-level current research state.
 7. Use Supabase read-only checks when current structured records matter.
+8. Use App Planner/Supabase for live Research/Ecosystem project and task status only.
 
 ## Memory Files
 
@@ -28,6 +29,14 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 | `05-supabase-and-structured-record-rules.md` | When structured ecological records must be checked and how to keep reads/writes bounded |
 | `06-recurring-corrections.md` | Known mistakes to avoid |
 | `inbox.md` | Temporary parking lot for unresolved memory items pending placement |
+
+## Planner Routing
+
+App Planner/Supabase is the live Research/Ecosystem work queue for project and task status. The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
+
+Planner tracks work only. Supabase species, biomes, observations, story threads, open loops, chronicles, and ecological link records remain the source of truth for structured ecological state. Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
+
+Do not treat Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations as confirmed ecology. Planner writes are live Supabase writes and require explicit user approval.
 
 ## Skills
 
