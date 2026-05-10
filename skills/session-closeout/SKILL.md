@@ -1,6 +1,6 @@
 ---
 name: session-closeout
-description: Use to close Research sessions with changed files, verification, non-changes, unresolved questions, and whether Brain or domain follow-up is needed.
+description: Use to close Research sessions with changed files, verification, non-changes, unresolved questions, and whether Company report or domain follow-up is needed.
 ---
 # Session Closeout Skill
 
@@ -37,7 +37,7 @@ description: Use to close Research sessions with changed files, verification, no
 8. Confirm whether App Planner projects/tasks changed.
 9. Confirm whether structured ecological records changed.
 10. Confirm whether app behavior or public site behavior changed.
-11. Confirm whether retired Brain docs mirrors, compiled Brain exports, or Brain research brief changed.
+11. Confirm whether retired Brain docs mirrors, compiled Brain exports, Company reports, changed.
 12. Confirm whether species, biome, observation, chronicle, risk, food-web, or research-note records changed.
 13. Confirm whether uncertain observations were rewritten as confirmed ecology.
 14. Confirm whether Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations were treated as confirmed ecology.
@@ -48,8 +48,8 @@ description: Use to close Research sessions with changed files, verification, no
 19. Confirm whether any suggested handoff wording was kept separate from final public copy, scripts, captions, titles, thumbnails, platform metadata, and publishing language.
 20. If structured ecological records changed in an approved task, verify affected species, observation, thread, loop, chronicle, biome, system, and media links.
 21. State unresolved questions.
-22. State whether Brain research brief or other domain follow-up is needed.
-23. If local source, reference, memory, skill, archive, or research files changed in a way that requires Brain follow-up, report the Brain brief or domain follow-up needed. Do not run sync scripts for retired docs mirrors.
+22. State whether Company report or other domain follow-up is needed.
+23. If local source, reference, memory, skill, archive, or research files changed in a way that requires manager-facing follow-up, report the Company report or domain follow-up needed. Do not run sync scripts for retired docs mirrors.
 
 ## Expected Output
 
@@ -73,7 +73,7 @@ Unresolved questions:
 
 - Do not perform closeout writes unless explicitly requested.
 - Do not mark App Planner tasks done, create Planner follow-up tasks, or change Planner project links without explicit approval.
-- Do not update Brain during restricted phases.
+- Do not update Company reports during restricted phases. Brain reports are historical/archive lookup only.
 - Do not run sync scripts for retired docs mirrors.
 - Do not commit, push, or sync unless explicitly requested and in scope.
 

@@ -4,11 +4,11 @@
 
 `miniBIOTA_Research` is the upstream scientific knowledge system for miniBIOTA. It exists to turn miniBIOTA observations into scientifically grounded knowledge: source-backed species research, organism identification support, ecological mechanism explanations, claim checks, uncertainty tracking, experiment background, citation notes, and research briefs for downstream agents.
 
-This repo is the evidence layer behind `miniBIOTA_Content`, `miniBIOTA_Brain`, the website, species cards, scripts, field notes, and future experiments.
+This repo is the evidence layer behind `miniBIOTA_Content`, Company reporting, the website, species cards, scripts, field notes, and future experiments.
 
 Filesystem note: this repo currently lives at `M:\miniBIOTA\miniBIOTA_Research\`.
 
-Codex is the primary operating interface for this repo. Durable operating rules and research memory belong in Markdown in this repo, in the Brain research brief, or in Supabase when the record is structured.
+Codex is the primary operating interface for this repo. Durable operating rules and research memory belong in Markdown in this repo, in Company reporting paths for manager-facing Company reporting, with Brain research brief as historical/archive lookup only, or in Supabase when the record is structured.
 
 ## Core Boundary With Content
 
@@ -25,7 +25,7 @@ Codex is the primary operating interface for this repo. Durable operating rules 
 - Claim verification and source/citation tracking.
 - Uncertainty labels, evidence gaps, and open research questions.
 - Experiment background research.
-- Research briefs for Content, Brain, Website, species cards, scripts, field notes, and future experiments.
+- Research briefs for Content, Company reporting, Website, species cards, scripts, field notes, and future experiments.
 
 The Research Agent should produce research briefs, not finished public content, unless the user explicitly requests final public-facing language.
 
@@ -38,8 +38,9 @@ The Research Agent should produce research briefs, not finished public content, 
 - Absorbed research reference docs under matching `skills/*/reference/` folders.
 - Working research notes under `research/`.
 - Reusable Markdown templates under matching `skills/*/reference/` folders.
-- Brain strategy brief at `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`.
-- Supabase, via `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py`, for species, observations, story threads, open loops, chronicles, chronicle staging, and structured ecological records.
+- Company reporting paths at `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_overview.md` and `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`.
+- Company reporting path: `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`.
+- Supabase via MCP/read-only awareness first and repo-local ecology playbooks; Brain `_system/minibiota_tools.py` is retired from normal workflows; use MCP/read-only awareness and Company/domain-owned helpers instead.
 - App Planner/Supabase for live Research/Ecosystem project and task status. The Research Planner domain is `work_domains.key = ecosystem`, currently `domain_id = 3`.
 
 ## Agent Architecture
@@ -85,12 +86,14 @@ If working manually:
 
 1. Read `AGENTS.md`.
 2. Read `memory/00-index.md`.
-3. Load the relevant memory file(s) for the request.
-4. Use the matching `skills/*/SKILL.md` playbook.
-5. Read `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md` when shared Brain operating memory is needed.
-6. Read `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md` for strategy-level current research state.
-7. Use `research/` and matching `skills/*/reference/` files when exact reference material is needed.
-8. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
+3. Read Company `_system/agent_repo_registry.md` when top-level routing, reporting paths, Brain retirement migration, or cross-domain ownership matters.
+4. Read Company `_system/database_awareness.md` and `memory/11-helper-and-database-awareness-migration.md` when Supabase helper paths or database-awareness routing matter.
+5. Read Company `memory/13-domain-agent-migration.md` when Phase 7 routing or reporting activation matters.
+6. Load the relevant memory file(s) for the request.
+7. Use the matching `skills/*/SKILL.md` playbook.
+8. Read the Company report when manager-facing Research state matters.
+9. Use `research/` and matching `skills/*/reference/` files when exact reference material is needed.
+10. For current ecology, species counts, observations, threads, loops, chronicles, population claims, biome records, or risk records, use read-only Supabase verification before answering in depth.
 
 For canonical biome profile fields, website display data, Supabase/Markdown ownership, relationships, uncertainty labels, and measurement gaps, use `skills/species-research/reference/biome-profile-data-model.md`. For biome composition, use `skills/species-research/reference/biome-profiles.md`. For system processes, use `skills/ecological-mechanism-brief/reference/biogeochemical-cycles.md`. For unresolved ecological risks, use `skills/experiment-background/reference/instabilities-and-risks.md`.
 
@@ -102,13 +105,14 @@ Use this hierarchy when sources disagree:
 
 1. User direction in the current session.
 2. `AGENTS.md`, `memory/`, and matching `skills/*/SKILL.md` files for Research Agent operating rules.
-3. Brain `research_brief.md` for strategy-level current state.
-4. Supabase for structured/queryable live ecological records.
-5. App Planner/Supabase for actionable Research/Ecosystem project and task status.
-6. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
-7. Compiled Brain exports and any archived/mirrored docs as reference artifacts only.
+3. Company `_system/agent_repo_registry.md` for top-level routing, active reporting paths, risk levels, and cross-domain ownership.
+4. Company Research reporting paths.
+5. Supabase for structured/queryable live ecological records.
+6. App Planner/Supabase for actionable Research/Ecosystem project and task status.
+7. Local `research/`, `skills/*/reference/`, and migration notes for detailed research and ecosystem interpretation.
+8. Compiled Brain exports and any archived/mirrored docs as historical/archive reference artifacts only.
 
-Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Brain, or in Supabase when it is structured data.
+Chat history and private model memory are never source of truth. Durable project memory belongs in Markdown in this repo/vault, in Company reporting paths for manager-facing Company reporting, in Brain archive lookup only when historical/provenance context is needed, or in Supabase when it is structured data.
 
 Planner tracks work only. Do not turn Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations into confirmed ecology. Supabase species, biomes, observations, story threads, open loops, chronicles, and ecological link records remain the source of truth for structured ecological state. Markdown owns evidence, uncertainty, interpretation, source context, and handoff context.
 
@@ -138,7 +142,7 @@ The Research Agent is responsible for:
 - Use `Do not claim publicly yet` when a claim is too weak, unresolved, or risky for public use.
 - Do not convert observations, hypotheses, literature background, planned work, or plausible mechanisms into confirmed miniBIOTA claims without evidence.
 - Preserve the difference between internal story threads and public open loops.
-- When adding or updating structured ecological data, follow Brain protocols and verify downstream links before closeout.
+- When adding or updating structured ecological data, follow Research structured-record rules and verify downstream links before closeout.
 - Use App Planner/Supabase as the live Research/Ecosystem work queue for project/task status. Planner writes are live Supabase writes and require explicit user approval.
 - Before marking Research work done, ask whether the completed work maps to an App Planner task and only update Planner after explicit approval.
 
@@ -216,22 +220,25 @@ Every Content handoff brief should include:
 
 Do not hand Content a stronger claim than the evidence supports. When the public-safe version is weaker, say so plainly.
 
-## Brain Relationship
+## Company Transition Relationship
 
-This repo reports to the Strategy Agent through:
+Company is the active top-level operating coordination repo. Research manager-facing reporting is active at:
 
-`M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_overview.md`
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`
 
-Update that brief at session end when any of these changed:
+The Brain research brief is historical/archive lookup only.
+
+Update or flag manager-facing Research reporting at session end when any of these changed:
 
 - Current ecosystem state, species/database counts, or biome summaries.
 - Active ecological priorities, risks, or unresolved research questions.
 - Recent species, observation, thread, loop, or chronicle milestones.
 - Known data-quality issues, identification gaps, or measurement gaps.
 - Cross-domain dependencies for Content, Website, Hardware, App, Brand, Growth, Financials, or Company Operations.
-- Research operating structure or handoff rules that the Strategy Agent needs to know.
+- Research operating structure or handoff rules that Company coordination needs to know.
 
-Do not push every observation detail into the Brain brief. Keep detailed research work in this repo and structured records in Supabase.
+Do not push every observation detail into manager-facing reports. Keep detailed research work in this repo and structured records in Supabase.
 
 ## Docs
 
@@ -293,4 +300,4 @@ Unresolved questions:
 - item or "None"
 ```
 
-If local source or reference files changed in a way the Strategy Agent needs, update the Brain research brief before closing unless the user explicitly defers it.
+If local source or reference files changed in a way manager-facing Company reporting needs, update or flag the Company Research report before closing unless the user explicitly defers it.

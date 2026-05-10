@@ -13,7 +13,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 3. Load only the memory files needed for the active request.
 4. Use the matching `skills/*/SKILL.md` playbook.
 5. Use `research/` and `skills/*/reference/` when exact reference material is needed.
-6. Use Brain `research_brief.md` for strategy-level current research state.
+6. Use Company Research reports for strategy-level current research state.
 7. Use Supabase read-only checks when current structured records matter.
 8. Use App Planner/Supabase for live Research/Ecosystem project and task status only.
 
@@ -25,7 +25,7 @@ Phase 2 status: the uncertainty-label, research-workflow, content-handoff, agent
 | `02-source-of-truth-and-write-policy.md` | Source hierarchy, write policy, and evidence boundaries |
 | `03-current-priorities-and-watchouts.md` | Current research priorities and known caution zones |
 | `04-cross-domain-handoffs.md` | How Research supports Content, Website, App, Hardware, Brand, Growth, Financials, and Brain |
-| `05-database-access.md` | Research database access boundaries, owned/read/write tables, and Brain reporting expectations |
+| `05-database-access.md` | Research database access boundaries, owned/read/write tables, and Company reporting expectations |
 | `05-supabase-and-structured-record-rules.md` | When structured ecological records must be checked and how to keep reads/writes bounded |
 | `06-recurring-corrections.md` | Known mistakes to avoid |
 | `inbox.md` | Temporary parking lot for unresolved memory items pending placement |

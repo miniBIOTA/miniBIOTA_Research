@@ -1,27 +1,31 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Continue"
 
-$repoRoot = Split-Path -Parent $PSScriptRoot
-$brainRoot = "M:\miniBIOTA\miniBIOTA_Brain"
+$scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+$repoRoot = Split-Path -Parent $scriptRoot
+$companyRoot = "M:\miniBIOTA\miniBIOTA_Company"
+$companyOverview = Join-Path $companyRoot "domains\research\research_overview.md"
+$companyBrief = Join-Path $companyRoot "domains\research\research_brief.md"
 
-Write-Host "miniBIOTA Research Codex closeout"
-Write-Host "Repo: $repoRoot"
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-Push-Location $repoRoot
+Write-Host "== miniBIOTA Research Codex Session Close =="
+Write-Host "Repo:   $repoRoot"
+Write-Host "Report: $companyBrief"
 Write-Host ""
-Write-Host "Research repo status:"
-git status --short --branch
-Pop-Location
 
-if (Test-Path "$brainRoot\3. miniBIOTA_Research\research_brief.md") {
-    Write-Host "Research brief exists: $brainRoot\3. miniBIOTA_Research\research_brief.md"
+Set-Location $repoRoot
+Write-Host "Git status:"
+if (Test-Path (Join-Path $repoRoot ".git")) {
+    git status --short --branch
 } else {
-    Write-Host "Research brief missing at expected path."
+    Write-Host "Git repository not initialized in this folder."
 }
-
 Write-Host ""
-Write-Host "Closeout reminder:"
-Write-Host "- Read changed files end to end, including memory, skills, references, archive notes, and research files."
-Write-Host "- Update Brain research_brief.md only when manager-facing research state changed and the user has not forbidden it."
-Write-Host "- Confirm no Supabase records, structured records, ecological claims, or ecosystem actions changed unless explicitly approved."
-Write-Host "- Verify Supabase only when current ecology or structured record state matters."
-Write-Host "- Commit and push completed work."
+
+Write-Host "Closeout reminders:"
+Write-Host "- Promote durable rules, decisions, corrections, and recurring hazards into local memory/playbooks."
+Write-Host "- Update or flag Company reporting when manager-facing Research state changed: $companyBrief"
+Write-Host "- Keep detailed implementation context in this repo's memory, skills, references, code, and structured records."
+Write-Host "- Brain is historical/archive lookup only unless a transition plan explicitly asks for it."
+Write-Host "- Do not invent ecological facts or write species, biome, observation, or chronicle records without explicit approval and current source checks."
+Write-Host "- Run the smallest meaningful verification and report changed files."

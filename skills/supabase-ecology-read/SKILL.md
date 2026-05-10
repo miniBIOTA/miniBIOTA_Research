@@ -25,13 +25,14 @@ description: Use when current structured records matter, including species count
 
 ## Required References / Context
 
-- Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\agent_memory.md`
-- Brain `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
-- Brain `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py` when using local Python helpers
-- `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` as dated historical ecosystem/data context when useful
-- `skills/species-research/reference/biome-profiles.md` as dated biome and species/biome context when useful
-- `skills/experiment-background/reference/instabilities-and-risks.md` as dated risk context when useful
-- Relevant local reference files only as interpretation references, not live totals
+- Company `_system/agent_repo_registry.md` when cross-domain ownership or routing matters.
+- Company `_system/database_awareness.md` and `memory/11-helper-and-database-awareness-migration.md` when helper path ownership matters.
+- Brain archive lookup only when manager-facing Research state matters.
+- Brain  only as historical/archive lookup when using local Python helpers.
+- `skills/supabase-ecology-read/reference/ecosystem-and-data-overview.md` as dated historical ecosystem/data context when useful.
+- `skills/species-research/reference/biome-profiles.md` as dated biome and species/biome context when useful.
+- `skills/experiment-background/reference/instabilities-and-risks.md` as dated risk context when useful.
+- Relevant local reference files only as interpretation references, not live totals.
 
 ## Workflow
 
@@ -43,7 +44,7 @@ description: Use when current structured records matter, including species count
 6. Compare live records against local references only when needed.
 7. Record what was checked and any evidence gaps or unresolved current-state questions.
 8. Use `skills/claim-check/SKILL.md` before turning current-state findings into public-facing claims.
-9. Use `skills/content-handoff-brief/SKILL.md` when verified state is being handed to Content, Brand, Website, Brain, Hardware, App, Growth, or Financials.
+9. Use `skills/content-handoff-brief/SKILL.md` when verified state is being handed to Content, Brand, Website, Company/Brain Company reporting, Hardware, App, Growth, or Financials.
 10. Use `skills/organism-identification/SKILL.md` before treating uncertain IDs as species facts.
 11. Use `skills/experiment-background/SKILL.md` before introductions, husbandry changes, interventions, system changes, or action recommendations.
 12. Report what was verified and what could not be verified.

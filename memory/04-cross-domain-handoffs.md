@@ -2,7 +2,7 @@
 
 Research supports other miniBIOTA agents by providing evidence, uncertainty, and safe wording.
 
-Use `skills/content-handoff-brief/SKILL.md` or the matching domain skill when research feeds Content, Brand, Website, Brain, Hardware, App, Growth, or Financials. Handoffs should include a plain-language summary, strongest verified points, uncertainty notes, source-backed claims, suggested safe wording, phrases to avoid, and open questions.
+Use `skills/content-handoff-brief/SKILL.md` or the matching domain skill when research feeds Content, Brand, Website, Company reporting, Hardware, App, Growth, or Financials. Handoffs should include a plain-language summary, strongest verified points, uncertainty notes, source-backed claims, suggested safe wording, phrases to avoid, and open questions.
 
 Do not pass public-facing language forward without claim-checking claims that depend on science, current miniBIOTA state, sponsor/support language, campaign language, or ecological outcomes.
 
@@ -10,19 +10,26 @@ Research may include short suggested content-safe wording inside a brief, but th
 
 When handoff context comes from migrated ecosystem overview, biome profile, or instability/risk material, mark it as dated context unless live Supabase verification has confirmed the current state.
 
-Biogeochemical cycle reference can support mechanism explanation, but preserve observed, inferred, planned, and unmeasured boundaries in any Content, Website, Brand, Growth, Brain, Hardware, App, or Financials handoff.
+Biogeochemical cycle reference can support mechanism explanation, but preserve observed, inferred, planned, and unmeasured boundaries in any Content, Website, Brand, Growth, Company reporting, Hardware, App, or Financials handoff.
 
-## Brain
+## Company And Brain Relationship
 
-Brain receives manager-facing research state through:
+Company is the active top-level operating coordination repo and owns active repo/domain routing through:
 
-`M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
+`M:\miniBIOTA\miniBIOTA_Company\_system\agent_repo_registry.md`
 
-Update that brief only when manager-facing state changes and the user has not explicitly deferred it.
+Research manager-facing reporting is active at:
+
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_overview.md`
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`
+
+The Brain research brief is historical/archive lookup only.
+
+Update or flag manager-facing reporting only when manager-facing state changes and the user has not explicitly deferred it.
 
 Manager-facing state includes current ecosystem state or species/observation counts, materially changed biome summaries, risks, priorities, unresolved research questions, confirmed ecological milestones, research operating structure, handoff rules, and cross-domain dependencies.
 
-Do not mirror every observation into the brief. Keep detailed research in this repo and structured records in Supabase.
+Do not mirror every observation into manager-facing reports. Keep detailed research in this repo and structured records in Supabase.
 
 ## Content
 

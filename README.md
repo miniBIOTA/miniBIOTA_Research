@@ -13,7 +13,7 @@ Filesystem note: this repo currently lives at `M:\miniBIOTA\miniBIOTA_Research\`
 - Claim verification before public content, website copy, species cards, or scripts use a biological claim.
 - Identification notes that preserve uncertainty instead of forcing certainty.
 - Experiment background research, closed-system risk analysis, and open research questions.
-- Research briefs for `miniBIOTA_Content`, `miniBIOTA_Brain`, the website, species cards, scripts, field notes, and future experiments.
+- Research briefs for `miniBIOTA_Content`, Company reporting, the website, species cards, scripts, field notes, and future experiments.
 
 ## What This Repo Is Not For
 
@@ -48,7 +48,7 @@ Use the lightest folder that fits the work:
 | `research/claim-checks/` | Claim verification before public use |
 | `research/source-library/` | Source notes, citations, and useful references |
 | `research/open-questions/` | Unresolved research questions and evidence gaps |
-| `research/research-briefs/` | Handoff briefs for Content, Brain, Website, and other agents |
+| `research/research-briefs/` | Handoff briefs for Content, Company/Brain Company reporting, Website, and other agents |
 
 If an existing file already fits the work, use it instead of creating duplicates.
 
@@ -102,17 +102,21 @@ Then route the session:
 
 1. `AGENTS.md`
 2. `memory/00-index.md`
-3. Relevant `memory/*.md` files for the request
-4. Matching `skills/*/SKILL.md` playbook
-5. `research/` and `skills/*/reference/` when exact reference material is needed
-6. `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md` for strategy-level current research state
-7. Supabase only when current structured records matter
+3. Company `_system/agent_repo_registry.md` when routing/reporting paths matter
+4. Relevant `memory/*.md` files for the request
+5. Matching `skills/*/SKILL.md` playbook
+6. `research/` and `skills/*/reference/` when exact reference material is needed
+7. Brain archive lookup only when historical/provenance context matters
+8. Supabase only when current structured records matter
 
-## Brain Relationship
+## Company Transition Link
 
-This repo reports to the Strategy Agent through:
+Company is the active top-level coordination repo. Research reporting is active at:
 
-`M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_overview.md`
+- `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`
+
+The Brain research brief is historical/archive lookup only.
 
 Detailed research and active references live here. Any Brain-side mirrors are read-only reference artifacts, not active Research sources.
 

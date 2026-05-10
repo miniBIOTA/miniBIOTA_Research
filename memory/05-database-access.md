@@ -6,8 +6,8 @@ The Research Agent uses Supabase to verify current ecological state and App Plan
 
 - Database access needed: Yes.
 - Default mode: Read-only.
-- MCP: Brain has broad Supabase MCP read awareness. This domain may use MCP read access for relevant research/ecology context, but should escalate cross-domain interpretation to Brain.
-- Preferred path: Brain helper functions in `M:\miniBIOTA\miniBIOTA_Brain\_system\minibiota_tools.py` and repo-local read-only ecology skills.
+- MCP/read-only awareness is preferred for relevant research/ecology context. Use Company `_system/agent_repo_registry.md` for cross-domain interpretation and ownership routing.
+- Preferred path: MCP/read-only awareness first plus repo-local read-only ecology skills. Use MCP/read-only awareness and Company/domain-owned helpers; Brain helper functions are retired from normal workflows.
 - Secrets: Local environment variables or ignored local config only.
 - Research Planner domain: `work_domains.key = ecosystem`, currently `domain_id = 3`.
 
@@ -26,11 +26,11 @@ Explicit user approval is required for raw SQL, migrations, destructive writes, 
 
 Planner tracks work only. Do not use Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations as evidence for confirmed ecological state.
 
-## Brain Reporting
+## Transition Reporting
 
-At session close, update Brain when ecological state changes:
+At session close, update or flag manager-facing Research reports only when ecological state changes:
 
-- `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_overview.md`
-- `M:\miniBIOTA\miniBIOTA_Brain\3. miniBIOTA_Research\research_brief.md`
+- Company candidate: `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`
+- Company reporting path: `M:\miniBIOTA\miniBIOTA_Company\domains\research\research_brief.md`
 
-Report species count changes, new organisms, observation patterns, ecological risks, claim boundaries, and cross-domain handoffs back to Brain.
+Report species count changes, new organisms, observation patterns, ecological risks, claim boundaries, and cross-domain handoffs only when manager-facing state changed and the user has not deferred reporting updates.

@@ -60,7 +60,7 @@ description: Use to prepare source-aware research context for Content without wr
 
 - Tell the user what files will change before editing.
 - Use `skills/content-handoff-brief/reference/research-brief-template.md` for durable briefs during migration.
-- Do not update Brain or Content repos unless explicitly requested and approved.
+- Do not update Company reports or Content repos unless explicitly requested and approved. Brain reports are historical/archive lookup only.
 
 ## Do Not Do
 
