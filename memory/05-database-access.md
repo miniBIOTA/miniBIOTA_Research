@@ -1,4 +1,4 @@
-# Research Database Access Responsibilities
+﻿# Research Database Access Responsibilities
 
 The Research Agent uses Supabase to verify current ecological state and App Planner/Supabase to verify current Research/Ecosystem project and task status. Reads are the default. Writes are allowed only through scoped helpers or approved workflows for observations, species, biomes, chronicles, links, and explicitly approved Planner updates.
 
@@ -25,6 +25,9 @@ The Research Agent uses Supabase to verify current ecological state and App Plan
 Explicit user approval is required for raw SQL, migrations, destructive writes, schema changes, service-role actions, species identity changes, population/status changes, biome changes, public chronicle publication, bulk edits, or any App Planner project/task create, link, rename, reprioritize, close, reopen, or status update.
 
 Planner tracks work only. Do not use Planner task wording, task IDs, project labels, dated Markdown references, hardware telemetry, or casual observations as evidence for confirmed ecological state.
+
+## Project-Manager Delegation
+When Josue grants standing Research project-manager delegation, the Research Agent may manage ordinary Research/Ecosystem Planner `work_projects` and `tasks` inside `work_domains.key = ecosystem` / `domain_id = 3` through the approved shared Planner/Supabase write path. State intended Planner changes before writing, read changed rows back, and report changed records at closeout. This delegation does not cover species, biomes, observations, ecological links, chronicles, public ecology records, schema/migrations, service-role/admin actions, app behavior, or claims.
 
 ## Transition Reporting
 

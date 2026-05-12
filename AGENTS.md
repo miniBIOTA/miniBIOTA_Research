@@ -1,4 +1,4 @@
-# miniBIOTA Research - Codex Agent Entry Point
+﻿# miniBIOTA Research - Codex Agent Entry Point
 
 ## What This Repo Is
 
@@ -145,6 +145,9 @@ The Research Agent is responsible for:
 - When adding or updating structured ecological data, follow Research structured-record rules and verify downstream links before closeout.
 - Use App Planner/Supabase as the live Research/Ecosystem work queue for project/task status. Planner writes are live Supabase writes and require explicit user approval.
 - Before marking Research work done, ask whether the completed work maps to an App Planner task and only update Planner after explicit approval.
+
+### Research Project-Manager Delegation
+Josue may grant the Research Agent standing project-manager delegation for ordinary Research/Ecosystem Planner `work_projects` and `tasks` under `work_domains.key = ecosystem` / `domain_id = 3`. When that delegation is active, the Research Agent may create, edit, schedule, complete, reopen, archive, relink, and reorganize ordinary Research Planner records through the approved shared Planner/Supabase write path after stating the intended change and reading back changed rows. The Research Agent does not need its own Supabase key; credentials must remain in App-owned tooling, MCP/OAuth, ignored local environment, or scoped helpers that do not commit secrets. This delegation does not authorize species, biome, observation, ecological link, chronicle, public ecology, schema/migration/admin, app behavior, cross-domain, Programs/Operations, or public/scientific/roadmap commitment writes.
 
 ## Repository Structure
 

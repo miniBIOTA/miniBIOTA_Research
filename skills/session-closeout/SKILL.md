@@ -1,4 +1,4 @@
----
+﻿---
 name: session-closeout
 description: Use to close Research sessions with changed files, verification, non-changes, unresolved questions, and whether Company report or domain follow-up is needed.
 ---
@@ -28,7 +28,7 @@ description: Use to close Research sessions with changed files, verification, no
 ## Workflow
 
 1. Identify changed files.
-2. Ask whether completed work maps to an App Planner/Supabase Research task before marking anything done. Planner writes are live Supabase writes and require explicit user approval.
+2. Check whether completed work maps to an App Planner/Supabase Research task before marking anything done. Planner writes are live Supabase writes and require explicit user approval unless standing Research project-manager delegation is active.
 3. Read every new or changed documentation file end to end.
 4. Confirm source notes, open questions, evidence gaps, and current-state verification were preserved where the session created or migrated research workflow material.
 5. Run `git diff --name-only`.
@@ -72,7 +72,7 @@ Unresolved questions:
 ## Write/Approval Rules
 
 - Do not perform closeout writes unless explicitly requested.
-- Do not mark App Planner tasks done, create Planner follow-up tasks, or change Planner project links without explicit approval.
+- Do not mark App Planner tasks done, create Planner follow-up tasks, or change Planner project links without explicit approval or standing Research project-manager delegation; always read back changed Planner rows.
 - Do not update Company reports during restricted phases. Brain reports are historical/archive lookup only.
 - Do not run sync scripts for retired docs mirrors.
 - Do not commit, push, or sync unless explicitly requested and in scope.
