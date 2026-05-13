@@ -97,3 +97,19 @@ Mistake: writing Supabase species fields as if they are commentary about separat
 Correct behavior: write database fields as the durable species record itself. Use direct language for miniBIOTA facts and clearly say "Published literature describes" or similar when outside sources fill gaps.
 
 Why it matters: species cards are the canonical database record, not a summary of another note layer. Routine species cards should stay in Supabase; Markdown species briefs are reserved for source-heavy research, unresolved IDs, experiment rationale, or complex claim audits.
+
+## Do Not Treat Living Atlas Packets As Applied Records
+
+Mistake: treating a Content-owned Living Atlas source packet, proposed-write layer, or media recommendation as though it has already created live Supabase links, public captions, public media records, or website-ready records.
+
+Correct behavior: verify the live structured records directly. Check whether observations have direct `pipeline_id` / `chronicle_id` fields, whether observation-thread and observation-loop links exist, whether chronicle subject links exist, and whether media candidates are indexed in `media_assets` or only exist as filesystem paths. Treat Markdown packet recommendations as review artifacts until a separate approved write applies them.
+
+Why it matters: a packet can accurately describe evidence without implying every downstream link or media record already exists. Confusing proposed source maps with applied records can create duplicate writes, public claim leaks, or broken media assumptions.
+
+## Do Not Treat Media Candidates As Public Proof
+
+Mistake: treating a candidate media filename, frame-review sheet, or timestamp note as proof-quality public evidence without checking path existence, indexing status, timestamp validity, and caption risk.
+
+Correct behavior: verify that the file exists, confirm whether it is indexed in `media_assets` or another live media table, check that timestamp ranges fit the actual file duration, and keep ID-sensitive footage gated until Research approves the organism ID and public wording.
+
+Why it matters: public media can overclaim faster than text. Daphnia-sensitive clips, Ghost Shrimp zoea footage, Mesostoma close-ups, and later water-clearing visuals must not imply species-level certainty, recruitment, predator outcomes, establishment, or food-web completion unless the evidence supports that exact claim.

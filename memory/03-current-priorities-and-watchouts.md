@@ -27,6 +27,7 @@ This file summarizes durable caution zones for Research sessions. It is not a su
 - Several organism identifications are unresolved or pending.
 - Measurement gaps remain for CO2, O2, methane, salinity drift, pH, and dissolved oxygen.
 - Macroalgae dominance, Mesostoma predation, ostracod population decline, ghost shrimp juvenile recruitment, and sea urchin establishment are active uncertainty areas unless live records say otherwise.
+- Operation Living Atlas pipeline `338` / chronicle `30` has Research validation and link/evidence verification notes in `research/research-briefs/`. Before Content task `214` or any later write/media approval, carry forward the caveats: direct observation-to-pipeline/chronicle links are absent, observations `193`, `194`, and `206` may need approved relationship cleanup, media timestamp `20260408_114418.mp4` should be corrected, still-image candidates exist on disk but were not verified as indexed `media_assets`, and Daphnia-sensitive clips, Ghost Shrimp zoea footage, and Mesostoma public use remain gated.
 
 ## Planner Watchouts
 
