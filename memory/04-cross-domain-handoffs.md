@@ -57,6 +57,18 @@ Before sending research to Content, confirm:
 - Unsafe or overstrong phrases are listed.
 - Open questions are preserved.
 
+### Operation Living Intelligence Retrieval Planning
+
+For OLI graph, vector retrieval, visual AI, or analytics planning, keep Content production context separate from Research ecological evidence. Content-owned materials such as source packets, final scripts, story spines, production notes, session logs, footage recommendations, and workstation assumptions may be retrievable as provenance and production context, but they are not canonical ecological records.
+
+When handing OLI material to Content, App, Raw Footage, or Company:
+
+- Preserve source paths, source IDs, owner domain, publicness tier, confidence/uncertainty label, observed-vs-inferred/proposed/approved status, and Research review status.
+- Keep final published scripts retrievable as what was published, not as current ecological truth.
+- Keep raw footage paths and timecodes as candidate media references unless Raw Footage/App/Content approve metadata or species-image writes.
+- Keep hardware and local compute assumptions as Content production context, not environmental telemetry or ecological evidence.
+- Do not let graph/vector readback cross from internal production notes or raw evidence into public-facing output unless the publicness and review gates are explicitly satisfied.
+
 ## Website
 
 Website pages depend on accurate structured records and conservative public claims. Research may provide wording guidance and evidence boundaries, but structured website-facing changes must coordinate with Website and Content rules.
